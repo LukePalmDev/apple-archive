@@ -257,4 +257,53 @@ table.cmp td { font-weight: 500; }
   .search input:focus { width: 160px; }
   .main { padding: 22px 16px 70px; }
   table.cmp tbody th { width: 120px; white-space: normal; }
+  .bar-row { grid-template-columns: 88px 1fr auto; }
+  .bar-label { font-size: 12px; }
+  .stat-controls { gap: 10px; }
 }
+
+/* ===========================================================
+   Statistiche
+   =========================================================== */
+.stat-controls { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; margin: 6px 0 24px; }
+.seg { display: inline-flex; gap: 2px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 12px; padding: 3px; flex-wrap: wrap; }
+.seg-item {
+  padding: 7px 15px; border-radius: 9px; font-size: 14px; color: var(--text-2); cursor: pointer;
+  border: none; background: transparent; font-weight: 500; white-space: nowrap; transition: color .15s;
+}
+.seg-item:hover { color: var(--text); }
+.seg-item.on { background: var(--surface); color: var(--text); box-shadow: var(--shadow); font-weight: 600; }
+.stat-spacer { flex: 1 1 auto; }
+
+.chart-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 26px; box-shadow: var(--shadow); margin-bottom: 20px; }
+.chart-title { font-size: 18px; font-weight: 650; letter-spacing: -.01em; margin: 0 0 4px; }
+.chart-sub { color: var(--text-2); font-size: 14px; margin: 0 0 20px; }
+
+/* Barre orizzontali */
+.bars { display: flex; flex-direction: column; gap: 8px; }
+.bar-row { display: grid; grid-template-columns: 160px 1fr auto; align-items: center; gap: 12px; }
+.bar-label { font-size: 13px; color: var(--text-2); text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bar-track { background: var(--surface-2); border-radius: 7px; height: 22px; overflow: hidden; }
+.bar-fill {
+  height: 100%; border-radius: 7px; min-width: 3px;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--accent) 60%, transparent), var(--accent));
+  transition: width .7s cubic-bezier(.2,.85,.25,1);
+}
+.bar-fill.live { background: linear-gradient(90deg, #ff9f0a, #ff375f); }
+.bar-fill.c-blue { background: linear-gradient(90deg, color-mix(in srgb,#0a84ff 60%,transparent), #0a84ff); }
+.bar-val { font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--text); }
+.bar-val small { color: var(--text-3); font-weight: 400; }
+
+/* Legenda + grafico a linee */
+.legend { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 0 0 18px; }
+.legend-item { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; color: var(--text-2); }
+.legend-dot { width: 11px; height: 11px; border-radius: 50%; flex: 0 0 auto; }
+.linechart { width: 100%; height: auto; display: block; overflow: visible; }
+.linechart .grid { stroke: var(--line); stroke-width: 1; }
+.linechart .axis-label { fill: var(--text-3); font-size: 11px; font-family: var(--sans); }
+.linechart .lc-line { fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.linechart .lc-dot { stroke: var(--surface); stroke-width: 1.5; }
+.linechart .lc-dot:hover { stroke-width: 2.5; }
+
+.stat-empty { text-align: center; padding: 50px 20px; color: var(--text-3); }
+.chart-note { font-size: 12px; color: var(--text-3); margin-top: 14px; }

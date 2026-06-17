@@ -205,13 +205,16 @@ function router() {
     case 'modello': return viewModel(parts[1], parts[2]);
     case 'confronto': return viewCompare();
     case 'ricerca': return viewSearch(parts.slice(1).join('/'));
+    case 'stat': return viewStat(parts[1], parts[2]);
     case 'home':
     default: return viewHome();
   }
 }
 function setActiveNav(parts) {
   document.querySelectorAll('#main-nav a').forEach(a => {
-    a.classList.toggle('active', parts[0] === 'cat' && a.dataset.slug === parts[1]);
+    const isCat = parts[0] === 'cat' && a.dataset.slug === parts[1];
+    const isStat = parts[0] === 'stat' && a.dataset.route === 'stat';
+    a.classList.toggle('active', isCat || isStat);
   });
 }
 
@@ -466,12 +469,91 @@ function viewSearch(q) {
   }).catch(errorBox);
 }
 
+/* ---- Statistiche ---- */
+function viewStat(slug, metric) {
+  slug = slug || 'iphone';
+  metric = metric || 'anni';
+  loader();
+  ensureAllActive().then(() => {
+    const activeCats = CATS.filter(c => /^s[iì]$/i.test(c.attiva || '') && DATA[c.slug]);
+    const cat = catBySlug(slug) || activeCats[0];
+    if (!cat) { errorBox({ message: 'Nessuna categoria attiva.' }); return; }
+    slug = cat.slug;
+
+    const metrics = {
+      anni: { label: 'Supporto software', unit: 'anni', value: rows => anniSupporto(rows[0]) },
+      vendita: { label: 'Anni di vendita', unit: 'anni', value: rows => anniVendita(rows[0].periodo_vendita) },
+      prezzo: { label: 'Prezzo minimo reale', unit: '€', value: rows => {
+        const vals = rows.map(r => num(r.prezzo_reale_eur)).filter(v => v != null);
+        return vals.length ? Math.min(...vals) : null;
+      } },
+      aumento: { label: 'Aumento medio sul teorico', unit: '%', value: rows => {
+        const vals = rows.map(aumento).filter(v => v != null);
+        return vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null;
+      } }
+    };
+    const m = metrics[metric] ? metric : 'anni';
+    const meta = metrics[m];
+
+    const grouped = new Map();
+    DATA[slug].forEach(r => {
+      if (!grouped.has(r.modello)) grouped.set(r.modello, []);
+      grouped.get(r.modello).push(r);
+    });
+    const rows = [...grouped.entries()].map(([modello, modelRows]) => ({
+      modello,
+      value: meta.value(modelRows),
+      date: parseMese(modelRows[0].data_commercializzazione)
+    })).filter(r => r.value != null);
+    rows.sort((a, b) => b.value - a.value || (a.date ? a.date.y * 12 + a.date.m : 0) - (b.date ? b.date.y * 12 + b.date.m : 0));
+
+    const top = rows.slice(0, 18);
+    const max = top.length ? Math.max(...top.map(r => Math.abs(r.value))) : 0;
+    const fmtVal = v => {
+      if (m === 'prezzo') return fmtEur(v);
+      if (m === 'aumento') return fmtPct(v);
+      return Math.round(v) + ' ' + (Math.round(v) === 1 ? 'anno' : 'anni');
+    };
+    const bars = top.length ? top.map(r => {
+      const pct = max ? Math.max(2, Math.abs(r.value) / max * 100) : 0;
+      return `<div class="bar-row">
+        <div class="bar-label" title="${esc(r.modello)}">${esc(r.modello)}</div>
+        <div class="bar-track"><div class="bar-fill ${m === 'prezzo' ? 'c-blue' : ''}" style="width:${pct.toFixed(2)}%"></div></div>
+        <div class="bar-val">${esc(fmtVal(r.value))}</div>
+      </div>`;
+    }).join('') : '<div class="stat-empty">Nessun dato disponibile.</div>';
+
+    const catControls = activeCats.map(c =>
+      `<a class="seg-item ${c.slug === slug ? 'on' : ''}" href="#/stat/${encodeURIComponent(c.slug)}/${encodeURIComponent(m)}">${esc(c.nome)}</a>`).join('');
+    const metricControls = Object.keys(metrics).map(k =>
+      `<a class="seg-item ${k === m ? 'on' : ''}" href="#/stat/${encodeURIComponent(slug)}/${encodeURIComponent(k)}">${esc(metrics[k].label)}</a>`).join('');
+
+    app().innerHTML = `
+      <div class="section-head">
+        <div class="eyebrow">Statistiche</div>
+        <h1>${esc(cat.nome)}</h1>
+      </div>
+      <div class="stat-controls">
+        <div class="seg">${catControls}</div>
+        <span class="stat-spacer"></span>
+        <div class="seg">${metricControls}</div>
+      </div>
+      <section class="chart-card">
+        <h2 class="chart-title">${esc(meta.label)}</h2>
+        <p class="chart-sub">Classifica per modello, usando i dati aggregati dalle configurazioni disponibili.</p>
+        <div class="bars">${bars}</div>
+        <div class="chart-note">I modelli senza valore numerico per questa metrica sono esclusi dal grafico.</div>
+      </section>`;
+  }).catch(errorBox);
+}
+
 /* ============================================================
    Navbar, tema, init
    ============================================================ */
 function buildNav() {
-  $('#main-nav').innerHTML = CATS.filter(c => /^s[iì]$/i.test(c.attiva || ''))
+  const cats = CATS.filter(c => /^s[iì]$/i.test(c.attiva || ''))
     .map(c => `<a href="#/cat/${encodeURIComponent(c.slug)}" data-slug="${esc(c.slug)}">${esc(c.nome)}</a>`).join('');
+  $('#main-nav').innerHTML = cats + `<a href="#/stat/iphone/anni" data-route="stat">Statistiche</a>`;
 }
 function initTheme() {
   const saved = localStorage.getItem('theme');
