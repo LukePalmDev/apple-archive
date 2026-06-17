@@ -39,12 +39,13 @@ oggetto,modello,data_presentazione,data_commercializzazione,prezzo_lancio_usd,ca
 - **`software`**: intervallo di versioni *major*, con trattino lungo `–` (es. `iOS 5–9`,
   `iPadOS 13–18`, `watchOS 1–10`). Per i prodotti ancora supportati usare l'ultima major nota.
 - **Dato non noto / da verificare**: scrivere `?`. Così è immediatamente cercabile e correggibile.
+- **Dato non applicabile**: scrivere `n.d.` (es. prodotto non commercializzato ufficialmente in Italia).
 - Se un valore contiene una virgola, racchiuderlo tra virgolette doppie: `"1,5 GB"`.
 
 ## Valori calcolati dal sito (NON vanno nel CSV)
 Il sito calcola e mostra automaticamente queste colonne aggiuntive, partendo dai dati grezzi qui sopra:
 
-- **Prezzo teorico €** = `prezzo_lancio_usd × cambio_usd_eur`
+- **Prezzo teorico €** = `prezzo_lancio_usd × cambio_usd_eur × 1.22` (IVA italiana al 22%)
 - **Aumento %** = `(prezzo_reale_eur − prezzo_teorico_eur) / prezzo_teorico_eur × 100`
 - **Anni di vendita** = durata di `periodo_vendita` in mesi, arrotondata all'anno
 - **Anni di supporto software** = anno dell'ultima major in `software` − anno di `data_commercializzazione`

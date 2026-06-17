@@ -39,7 +39,7 @@ function esc(s) {
 function titlecase(k) {
   return k.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 }
-function isNA(v) { return v == null || v === '' || v === '?'; }
+function isNA(v) { return v == null || v === '' || v === '?' || /^n\.d\.$/i.test(String(v).trim()); }
 function num(v) { if (isNA(v)) return null; const n = Number(String(v).replace(',', '.')); return Number.isFinite(n) ? n : null; }
 
 function fmtEur(n) { return n == null ? '—' : '€' + Math.round(n).toLocaleString('it-IT'); }
@@ -47,7 +47,7 @@ function fmtUsd(n) { return n == null ? '—' : '$' + Math.round(n).toLocaleStri
 function fmtPct(n) { return n == null ? '—' : (n >= 0 ? '+' : '') + n.toFixed(0) + '%'; }
 
 /* ---------- Valori derivati ---------- */
-function teorico(row) { const u = num(row.prezzo_lancio_usd), c = num(row.cambio_usd_eur); return (u != null && c != null) ? u * c : null; }
+function teorico(row) { const u = num(row.prezzo_lancio_usd), c = num(row.cambio_usd_eur); return (u != null && c != null) ? u * c * 1.22 : null; }
 function aumento(row) { const t = teorico(row), r = num(row.prezzo_reale_eur); return (t != null && r != null && t > 0) ? (r - t) / t * 100 : null; }
 
 function parseMese(s) { const m = /(\d{1,2})\/(\d{4})/.exec(s || ''); return m ? { m: +m[1], y: +m[2] } : null; }
