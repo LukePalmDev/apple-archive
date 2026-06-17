@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Archivio Apple — specifiche e confronto prodotti</title>
+  <meta name="description" content="Archivio aperto dei prodotti Apple: specifiche tecniche, prezzi e confronto rapido tra iPhone, iPad e Apple Watch." />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/home">
+        <span class="brand-logo" aria-hidden="true"></span>
+        <span class="brand-name">Archivio<strong>Apple</strong></span>
+      </a>
+
+      <nav class="nav" id="main-nav" aria-label="Categorie"></nav>
+
+      <div class="topbar-tools">
+        <form class="search" id="search-form" role="search">
+          <input type="search" id="search-input" placeholder="Cerca modello, chip…" aria-label="Cerca" autocomplete="off" />
+        </form>
+        <a class="compare-pill" id="compare-pill" href="#/confronto" hidden>
+          Confronto <span class="compare-count" id="compare-count">0</span>
+        </a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Cambia tema">
+          <span class="theme-ico" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" class="main" aria-live="polite"></main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-title">Archivio Apple</div>
+        <p class="footer-text">Archivio aperto e indipendente. Dati in semplici file CSV, modificabili da chiunque su GitHub.</p>
+      </div>
+      <div class="footer-meta">
+        <span>Progetto indipendente, non affiliato ad Apple.</span>
+        <span>Tutti i marchi appartengono ai rispettivi proprietari.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
