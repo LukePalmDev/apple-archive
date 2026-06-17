@@ -469,81 +469,204 @@ function viewSearch(q) {
   }).catch(errorBox);
 }
 
-/* ---- Statistiche ---- */
-function viewStat(slug, metric) {
-  slug = slug || 'iphone';
-  metric = metric || 'anni';
-  loader();
-  ensureAllActive().then(() => {
-    const activeCats = CATS.filter(c => /^s[iì]$/i.test(c.attiva || '') && DATA[c.slug]);
-    const cat = catBySlug(slug) || activeCats[0];
-    if (!cat) { errorBox({ message: 'Nessuna categoria attiva.' }); return; }
-    slug = cat.slug;
+/* ============================================================
+   Statistiche
+   ============================================================ */
+const SEGMENTS = [
+  { key: 'Base',        name: 'Base',            color: '#0a84ff' },
+  { key: 'Plus / Air',  name: 'Plus / Air',      color: '#30c8c0' },
+  { key: 'mini',        name: 'mini',            color: '#34c759' },
+  { key: 'Pro',         name: 'Pro',             color: '#bf5af2' },
+  { key: 'Pro Max',     name: 'Pro Max',         color: '#ff375f' },
+  { key: 'Budget',      name: 'Budget (SE / e)', color: '#ff9f0a' }
+];
+function iphoneSegment(m) {
+  const s = String(m).toLowerCase().trim();
+  if (/pro\s*max/.test(s) || /xs\s*max/.test(s)) return 'Pro Max';
+  if (/pro/.test(s) || s === 'xs' || s === 'x') return 'Pro';
+  if (/plus/.test(s) || /\bair\b/.test(s) || s === 'air') return 'Plus / Air';
+  if (/mini/.test(s)) return 'mini';
+  if (/\bse\b/.test(s) || /\d+e$/.test(s) || s === '5c') return 'Budget';
+  return 'Base'; // numerati base + XR
+}
+function uniqueModels(rows) {
+  const map = new Map();
+  rows.forEach(r => { if (!map.has(r.modello)) map.set(r.modello, []); map.get(r.modello).push(r); });
+  return [...map.entries()].map(([modello, rs]) => ({ modello, rows: rs, r0: rs[0] }));
+}
+function commKey(r) { const m = parseMese(r.data_commercializzazione); return m ? m.y * 12 + m.m : 0; }
+function capGB(s) { const m = /([\d.]+)\s*(GB|TB)/i.exec(s || ''); if (!m) return null; let v = parseFloat(m[1]); if (/tb/i.test(m[2])) v *= 1024; return v; }
+function capLabel(gb) { return gb >= 1024 ? (gb % 1024 === 0 ? gb / 1024 : (gb / 1024).toFixed(1)) + ' TB' : gb + ' GB'; }
 
-    const metrics = {
-      anni: { label: 'Supporto software', unit: 'anni', value: rows => anniSupporto(rows[0]) },
-      vendita: { label: 'Anni di vendita', unit: 'anni', value: rows => anniVendita(rows[0].periodo_vendita) },
-      prezzo: { label: 'Prezzo minimo reale', unit: '€', value: rows => {
-        const vals = rows.map(r => num(r.prezzo_reale_eur)).filter(v => v != null);
-        return vals.length ? Math.min(...vals) : null;
-      } },
-      aumento: { label: 'Aumento medio sul teorico', unit: '%', value: rows => {
-        const vals = rows.map(aumento).filter(v => v != null);
-        return vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null;
-      } }
-    };
-    const m = metrics[metric] ? metric : 'anni';
-    const meta = metrics[m];
+/* ---- componenti grafici (HTML/SVG, theme-aware) ---- */
+function barsHTML(items) {
+  if (!items.length) return '<div class="stat-empty">Dati non disponibili.</div>';
+  return '<div class="bars">' + items.map(it => `
+    <div class="bar-row">
+      <div class="bar-label" title="${esc(it.label)}">${esc(it.label)}</div>
+      <div class="bar-track"><div class="bar-fill ${it.live ? 'live' : ''}" style="width:${(Math.max(it.frac, 0) * 100).toFixed(1)}%"></div></div>
+      <div class="bar-val">${it.valHtml}</div>
+    </div>`).join('') + '</div>';
+}
+function legendHTML(series) {
+  return '<div class="legend">' + series.filter(s => s.points.length).map(s =>
+    `<span class="legend-item"><span class="legend-dot" style="background:${s.color}"></span>${esc(s.name)}</span>`).join('') + '</div>';
+}
+function lineChartSVG(series, prefix) {
+  prefix = prefix || '$';
+  const pts = series.flatMap(s => s.points);
+  if (!pts.length) return '<div class="stat-empty">Dati non disponibili.</div>';
+  const years = [...new Set(pts.map(p => p.x))].sort((a, b) => a - b);
+  const minX = years[0], maxX = years[years.length - 1];
+  const maxVal = Math.max(...pts.map(p => p.y));
+  const niceMax = Math.max(200, Math.ceil(maxVal / 200) * 200);
+  const W = 820, H = 380, P = { l: 56, r: 20, t: 16, b: 36 };
+  const innerW = W - P.l - P.r, innerH = H - P.t - P.b;
+  const X = x => P.l + (maxX === minX ? 0.5 : (x - minX) / (maxX - minX)) * innerW;
+  const Y = v => P.t + innerH - (v / niceMax) * innerH;
+  let grid = '';
+  const steps = 4;
+  for (let i = 0; i <= steps; i++) {
+    const v = niceMax / steps * i, y = Y(v);
+    grid += `<line class="grid" x1="${P.l}" y1="${y.toFixed(1)}" x2="${W - P.r}" y2="${y.toFixed(1)}"/>` +
+      `<text class="axis-label" x="${P.l - 8}" y="${(y + 3).toFixed(1)}" text-anchor="end">${prefix}${Math.round(v)}</text>`;
+  }
+  let xlab = '';
+  const skip = years.length > 12 ? 2 : 1;
+  years.forEach((yr, i) => {
+    if (i % skip !== 0 && i !== years.length - 1) return;
+    xlab += `<text class="axis-label" x="${X(yr).toFixed(1)}" y="${H - 12}" text-anchor="middle">${yr}</text>`;
+  });
+  let lines = '';
+  series.forEach(s => {
+    const ord = s.points.slice().sort((a, b) => a.x - b.x);
+    if (ord.length > 1) lines += `<polyline class="lc-line" points="${ord.map(p => `${X(p.x).toFixed(1)},${Y(p.y).toFixed(1)}`).join(' ')}" stroke="${s.color}"/>`;
+    lines += ord.map(p => `<circle class="lc-dot" cx="${X(p.x).toFixed(1)}" cy="${Y(p.y).toFixed(1)}" r="${ord.length > 1 ? 3.2 : 4.5}" fill="${s.color}"><title>${esc(s.name)} · ${p.x}: ${prefix}${p.y}</title></circle>`).join('');
+  });
+  return `<svg class="linechart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Grafico a linee">${grid}${xlab}${lines}</svg>`;
+}
 
-    const grouped = new Map();
-    DATA[slug].forEach(r => {
-      if (!grouped.has(r.modello)) grouped.set(r.modello, []);
-      grouped.get(r.modello).push(r);
+/* ---- aggregatori (tutto calcolato live dai CSV) ---- */
+function statAnni(rows) {
+  const m = uniqueModels(rows).map(u => ({ modello: u.modello, r0: u.r0, anni: anniVendita(u.r0.periodo_vendita), present: /presente|oggi|in vendita/i.test(u.r0.periodo_vendita || '') }))
+    .filter(u => u.anni != null).sort((a, b) => commKey(a.r0) - commKey(b.r0));
+  if (!m.length) return [];
+  const max = Math.max(...m.map(x => x.anni));
+  return m.map(x => ({ label: x.modello, frac: x.anni / max, live: x.present, valHtml: `${x.anni} ${x.anni === 1 ? 'anno' : 'anni'}${x.present ? ' <small>· in vendita</small>' : ''}` }));
+}
+function statSoftware(rows) {
+  const m = uniqueModels(rows).map(u => ({ modello: u.modello, r0: u.r0, anni: anniSupporto(u.r0) }))
+    .filter(u => u.anni != null).sort((a, b) => commKey(a.r0) - commKey(b.r0));
+  if (!m.length) return [];
+  const max = Math.max(...m.map(x => x.anni), 1);
+  return m.map(x => ({ label: x.modello, frac: x.anni / max, valHtml: `${x.anni} ${x.anni === 1 ? 'anno' : 'anni'} <small>· ${esc(x.r0.software || '')}</small>` }));
+}
+function statPrezzi(rows, cur) {
+  const field = cur === 'eur' ? 'prezzo_reale_eur' : 'prezzo_lancio_usd';
+  const g = new Map();
+  rows.forEach(r => { const gb = capGB(r.archiviazione), v = num(r[field]); if (gb != null && v != null) { const o = g.get(gb) || { s: 0, n: 0 }; o.s += v; o.n++; g.set(gb, o); } });
+  const arr = [...g.entries()].map(([gb, o]) => ({ gb, avg: o.s / o.n })).sort((a, b) => a.gb - b.gb);
+  if (!arr.length) return [];
+  const max = Math.max(...arr.map(a => a.avg)), fmt = cur === 'eur' ? fmtEur : fmtUsd;
+  return arr.map(a => ({ label: capLabel(a.gb), frac: a.avg / max, valHtml: fmt(a.avg) }));
+}
+function statGrafici(rows) {
+  const models = uniqueModels(rows).map(u => {
+    const mm = parseMese(u.r0.data_commercializzazione);
+    const prices = u.rows.map(r => num(r.prezzo_lancio_usd)).filter(v => v != null);
+    return { modello: u.modello, year: mm ? mm.y : null, seg: iphoneSegment(u.modello), minUsd: prices.length ? Math.min(...prices) : null };
+  }).filter(u => u.year != null && u.minUsd != null);
+  const primePts = models.filter(u => u.seg === 'Base' && u.year <= 2016).map(u => ({ x: u.year, y: u.minUsd })).sort((a, b) => a.x - b.x);
+  const prime = [{ name: 'iPhone (modello base)', color: '#0a84ff', points: primePts }];
+  const seconde = SEGMENTS.map(s => {
+    const byYear = new Map();
+    models.filter(u => u.seg === s.key && u.year >= 2017).forEach(u => {
+      const c = byYear.get(u.year); if (c == null || u.minUsd < c) byYear.set(u.year, u.minUsd);
     });
-    const rows = [...grouped.entries()].map(([modello, modelRows]) => ({
-      modello,
-      value: meta.value(modelRows),
-      date: parseMese(modelRows[0].data_commercializzazione)
-    })).filter(r => r.value != null);
-    rows.sort((a, b) => b.value - a.value || (a.date ? a.date.y * 12 + a.date.m : 0) - (b.date ? b.date.y * 12 + b.date.m : 0));
+    return { name: s.name, color: s.color, points: [...byYear.entries()].sort((a, b) => a[0] - b[0]).map(([x, y]) => ({ x, y })) };
+  }).filter(s => s.points.length);
+  return { prime, seconde };
+}
 
-    const top = rows.slice(0, 18);
-    const max = top.length ? Math.max(...top.map(r => Math.abs(r.value))) : 0;
-    const fmtVal = v => {
-      if (m === 'prezzo') return fmtEur(v);
-      if (m === 'aumento') return fmtPct(v);
-      return Math.round(v) + ' ' + (Math.round(v) === 1 ? 'anno' : 'anni');
-    };
-    const bars = top.length ? top.map(r => {
-      const pct = max ? Math.max(2, Math.abs(r.value) / max * 100) : 0;
-      return `<div class="bar-row">
-        <div class="bar-label" title="${esc(r.modello)}">${esc(r.modello)}</div>
-        <div class="bar-track"><div class="bar-fill ${m === 'prezzo' ? 'c-blue' : ''}" style="width:${pct.toFixed(2)}%"></div></div>
-        <div class="bar-val">${esc(fmtVal(r.value))}</div>
-      </div>`;
-    }).join('') : '<div class="stat-empty">Nessun dato disponibile.</div>';
-
-    const catControls = activeCats.map(c =>
-      `<a class="seg-item ${c.slug === slug ? 'on' : ''}" href="#/stat/${encodeURIComponent(c.slug)}/${encodeURIComponent(m)}">${esc(c.nome)}</a>`).join('');
-    const metricControls = Object.keys(metrics).map(k =>
-      `<a class="seg-item ${k === m ? 'on' : ''}" href="#/stat/${encodeURIComponent(slug)}/${encodeURIComponent(k)}">${esc(metrics[k].label)}</a>`).join('');
-
-    app().innerHTML = `
-      <div class="section-head">
-        <div class="eyebrow">Statistiche</div>
-        <h1>${esc(cat.nome)}</h1>
+/* ---- vista ---- */
+function statCard(title, sub, inner) {
+  return `<div class="chart-card"><h2 class="chart-title">${esc(title)}</h2><p class="chart-sub">${esc(sub)}</p>${inner}</div>`;
+}
+function renderStatBody(slug, tab, rows) {
+  const body = $('#stat-body');
+  if (tab === 'anni') {
+    body.innerHTML = statCard('Anni di commercializzazione',
+      'Per quanti anni Apple ha tenuto a listino ogni modello (dal campo “periodo di vendita”). In rosso i modelli ancora in vendita.',
+      barsHTML(statAnni(rows)));
+  } else if (tab === 'software') {
+    body.innerHTML = statCard('Anni di supporto software',
+      'Anni tra l’uscita e l’ultima versione major del sistema operativo supportata.',
+      barsHTML(statSoftware(rows)));
+  } else if (tab === 'prezzi') {
+    renderPrezzi(rows);
+  } else if (tab === 'grafici') {
+    const { prime, seconde } = statGrafici(rows);
+    body.innerHTML =
+      statCard('Prime generazioni · 2007–2016',
+        'Prezzo di lancio in USD del taglio minimo del modello base, anno per anno: un solo iPhone “principale” all’anno.',
+        lineChartSVG(prime, '$')) +
+      statCard('Seconde generazioni · 2017–oggi',
+        'Dal 2017 la gamma si divide in più segmenti. Prezzo USD del taglio minimo per ciascun segmento, anno per anno.',
+        legendHTML(seconde) + lineChartSVG(seconde, '$'));
+  }
+}
+function renderPrezzi(rows) {
+  const body = $('#stat-body');
+  let cur = 'usd';
+  function draw() {
+    const items = statPrezzi(rows, cur);
+    body.innerHTML = `<div class="chart-card">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap">
+        <div><h2 class="chart-title">Prezzo medio per taglio</h2>
+        <p class="chart-sub">Prezzo medio di lancio per ogni capacità di archiviazione nella categoria.</p></div>
+        <div class="seg" id="prezzi-cur">
+          <button class="seg-item ${cur === 'usd' ? 'on' : ''}" data-cur="usd">USD $</button>
+          <button class="seg-item ${cur === 'eur' ? 'on' : ''}" data-cur="eur">EUR €</button>
+        </div>
       </div>
-      <div class="stat-controls">
-        <div class="seg">${catControls}</div>
-        <span class="stat-spacer"></span>
-        <div class="seg">${metricControls}</div>
-      </div>
-      <section class="chart-card">
-        <h2 class="chart-title">${esc(meta.label)}</h2>
-        <p class="chart-sub">Classifica per modello, usando i dati aggregati dalle configurazioni disponibili.</p>
-        <div class="bars">${bars}</div>
-        <div class="chart-note">I modelli senza valore numerico per questa metrica sono esclusi dal grafico.</div>
-      </section>`;
+      ${barsHTML(items)}
+    </div>`;
+    $('#prezzi-cur').addEventListener('click', e => { const b = e.target.closest('[data-cur]'); if (!b) return; cur = b.dataset.cur; draw(); });
+  }
+  draw();
+}
+function viewStat(slug, tab) {
+  slug = slug || 'iphone';
+  loader();
+  ensureCats().then(() => {
+    let cat = catBySlug(slug);
+    if (!cat || !/^s[iì]$/i.test(cat.attiva || '')) { slug = 'iphone'; cat = catBySlug('iphone'); }
+    return ensureCategory(slug).then(rows => {
+      const tabs = [{ k: 'anni', n: 'Anni' }, { k: 'software', n: 'Software' }, { k: 'prezzi', n: 'Prezzi' }];
+      if (slug === 'iphone') tabs.push({ k: 'grafici', n: 'Grafici' });
+      if (!tabs.some(t => t.k === tab)) tab = 'anni';
+      const activeCats = CATS.filter(c => /^s[iì]$/i.test(c.attiva || ''));
+      const catSeg = activeCats.map(c => `<button class="seg-item ${c.slug === slug ? 'on' : ''}" data-slug="${esc(c.slug)}">${CAT_EMOJI[c.slug] || ''} ${esc(c.nome)}</button>`).join('');
+      const tabSeg = tabs.map(t => `<button class="seg-item ${t.k === tab ? 'on' : ''}" data-tab="${t.k}">${esc(t.n)}</button>`).join('');
+      app().innerHTML = `
+        <div class="section-head"><div class="eyebrow">📊 Statistiche</div><h1>${esc(cat.nome)}</h1></div>
+        <div class="stat-controls">
+          <div class="seg" id="stat-cat">${catSeg}</div>
+          <span class="stat-spacer"></span>
+          <div class="seg" id="stat-tab">${tabSeg}</div>
+        </div>
+        <div id="stat-body"></div>`;
+      renderStatBody(slug, tab, rows);
+      $('#stat-cat').addEventListener('click', e => {
+        const b = e.target.closest('[data-slug]'); if (!b) return;
+        let nt = tab; if (b.dataset.slug !== 'iphone' && tab === 'grafici') nt = 'anni';
+        location.hash = `#/stat/${encodeURIComponent(b.dataset.slug)}/${nt}`;
+      });
+      $('#stat-tab').addEventListener('click', e => {
+        const b = e.target.closest('[data-tab]'); if (!b) return;
+        location.hash = `#/stat/${encodeURIComponent(slug)}/${b.dataset.tab}`;
+      });
+    });
   }).catch(errorBox);
 }
 
