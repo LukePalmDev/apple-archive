@@ -561,14 +561,28 @@ function statSoftware(rows) {
   const max = Math.max(...m.map(x => x.anni), 1);
   return m.map(x => ({ label: x.modello, frac: x.anni / max, valHtml: `${x.anni} ${x.anni === 1 ? 'anno' : 'anni'} <small>· ${esc(x.r0.software || '')}</small>` }));
 }
-function statPrezzi(rows, cur) {
+/* Matrice prezzi: una riga per modello, una colonna per capacità, banda colore per generazione */
+const GEN_PALETTE = [
+  'rgba(255,204,0,.22)', 'rgba(52,199,89,.18)', 'rgba(255,149,0,.20)',
+  'rgba(48,199,190,.20)', 'rgba(10,132,255,.16)', 'rgba(255,69,58,.16)'
+];
+const GEN_GREY = 'rgba(142,142,147,.16)';
+function rowTint(model, year) {
+  if (/\bse\b/i.test(model) || /\d+e$/i.test(model)) return GEN_GREY; // SE / modelli "e"
+  if (!year || year <= 2012) return GEN_GREY;
+  return GEN_PALETTE[(year - 2013) % GEN_PALETTE.length];
+}
+function fmtPlain(n) { return n == null ? '' : Math.round(n).toLocaleString('it-IT'); }
+function priceMatrix(rows, cur) {
   const field = cur === 'eur' ? 'prezzo_reale_eur' : 'prezzo_lancio_usd';
-  const g = new Map();
-  rows.forEach(r => { const gb = capGB(r.archiviazione), v = num(r[field]); if (gb != null && v != null) { const o = g.get(gb) || { s: 0, n: 0 }; o.s += v; o.n++; g.set(gb, o); } });
-  const arr = [...g.entries()].map(([gb, o]) => ({ gb, avg: o.s / o.n })).sort((a, b) => a.gb - b.gb);
-  if (!arr.length) return [];
-  const max = Math.max(...arr.map(a => a.avg)), fmt = cur === 'eur' ? fmtEur : fmtUsd;
-  return arr.map(a => ({ label: capLabel(a.gb), frac: a.avg / max, valHtml: fmt(a.avg) }));
+  const caps = new Set();
+  const models = uniqueModels(rows).map(u => {
+    const m = parseMese(u.r0.data_commercializzazione), year = m ? m.y : null;
+    const byCap = {};
+    u.rows.forEach(r => { const gb = capGB(r.archiviazione); if (gb != null) { caps.add(gb); const v = num(r[field]); if (v != null) byCap[gb] = v; } });
+    return { modello: u.modello, year, sortK: commKey(u.r0), byCap, tint: rowTint(u.modello, year) };
+  }).sort((a, b) => a.sortK - b.sortK);
+  return { caps: [...caps].sort((a, b) => a - b), models };
 }
 function statGrafici(rows) {
   const models = uniqueModels(rows).map(u => {
@@ -617,19 +631,25 @@ function renderStatBody(slug, tab, rows) {
 }
 function renderPrezzi(rows) {
   const body = $('#stat-body');
-  let cur = 'usd';
+  let cur = 'eur';
   function draw() {
-    const items = statPrezzi(rows, cur);
+    const { caps, models } = priceMatrix(rows, cur);
+    const sym = cur === 'eur' ? '€' : '$';
+    const head = `<tr><th class="sticky-col">Modello</th><th class="yr">Anno</th>` +
+      caps.map(c => `<th class="col-num">${esc(capLabel(c))}</th>`).join('') + `</tr>`;
+    const bodyRows = models.map(m =>
+      `<tr style="--rt:${m.tint}"><th class="sticky-col">${esc(m.modello)}</th><td class="yr">${m.year || ''}</td>` +
+      caps.map(c => `<td class="col-num">${m.byCap[c] != null ? fmtPlain(m.byCap[c]) : ''}</td>`).join('') + `</tr>`).join('');
     body.innerHTML = `<div class="chart-card">
       <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap">
-        <div><h2 class="chart-title">Prezzo medio per taglio</h2>
-        <p class="chart-sub">Prezzo medio di lancio per ogni capacità di archiviazione nella categoria.</p></div>
+        <div><h2 class="chart-title">Prezzi per taglio di archiviazione</h2>
+        <p class="chart-sub">Una riga per modello, una colonna per capacità. Valori in ${sym}; bande di colore per generazione. Celle vuote = taglio non offerto o prezzo non disponibile.</p></div>
         <div class="seg" id="prezzi-cur">
-          <button class="seg-item ${cur === 'usd' ? 'on' : ''}" data-cur="usd">USD $</button>
           <button class="seg-item ${cur === 'eur' ? 'on' : ''}" data-cur="eur">EUR €</button>
+          <button class="seg-item ${cur === 'usd' ? 'on' : ''}" data-cur="usd">USD $</button>
         </div>
       </div>
-      ${barsHTML(items)}
+      ${caps.length ? `<div class="table-wrap"><table class="matrix"><thead>${head}</thead><tbody>${bodyRows}</tbody></table></div>` : '<div class="stat-empty">Dati non disponibili.</div>'}
     </div>`;
     $('#prezzi-cur').addEventListener('click', e => { const b = e.target.closest('[data-cur]'); if (!b) return; cur = b.dataset.cur; draw(); });
   }

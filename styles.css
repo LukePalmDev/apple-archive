@@ -307,3 +307,14 @@ table.cmp td { font-weight: 500; }
 
 .stat-empty { text-align: center; padding: 50px 20px; color: var(--text-3); }
 .chart-note { font-size: 12px; color: var(--text-3); margin-top: 14px; }
+
+/* Matrice prezzi (modello × taglio) */
+.matrix { border-collapse: separate; border-spacing: 0; width: 100%; font-size: 13px; }
+.matrix th, .matrix td { padding: 7px 13px; border-bottom: 1px solid var(--line); white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; }
+.matrix thead th { position: sticky; top: 0; z-index: 2; background: var(--surface-2); color: var(--text-2); font-weight: 600; font-size: 12px; border-bottom: 1px solid var(--line-strong); }
+.matrix .sticky-col { position: sticky; left: 0; text-align: left; }
+.matrix thead .sticky-col { z-index: 3; }
+.matrix tbody tr { background: var(--rt, transparent); }
+.matrix tbody .sticky-col { z-index: 1; font-weight: 600; color: var(--text); background: linear-gradient(var(--rt, transparent), var(--rt, transparent)), var(--surface); }
+.matrix tbody td { color: var(--text); }
+.matrix .yr { color: var(--text-3); text-align: left; }
