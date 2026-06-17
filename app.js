@@ -116,17 +116,22 @@ function fetchText(url) {
 function parseCSV(text) {
   return Papa.parse(text.trim(), { header: true, skipEmptyLines: true }).data;
 }
+let _catsPromise = null;          // promise condivisa (evita doppio caricamento concorrente)
+const _catPromise = {};           // promise per categoria
 function ensureCats() {
   if (CATS.length) return Promise.resolve(CATS);
-  return fetchText('data/categories.csv').then(t => {
+  if (_catsPromise) return _catsPromise;
+  _catsPromise = fetchText('data/categories.csv').then(t => {
     parseCSV(t).forEach(r => CATS.push(r));
     return CATS;
   });
+  return _catsPromise;
 }
 function catBySlug(slug) { return CATS.find(c => c.slug === slug); }
 function ensureCategory(slug) {
   if (DATA[slug]) return Promise.resolve(DATA[slug]);
-  return ensureCats().then(() => {
+  if (_catPromise[slug]) return _catPromise[slug];
+  _catPromise[slug] = ensureCats().then(() => {
     const cat = catBySlug(slug);
     if (!cat) throw new Error('Categoria sconosciuta: ' + slug);
     return fetchText('data/' + cat.file).then(t => {
@@ -136,6 +141,7 @@ function ensureCategory(slug) {
       return rows;
     });
   });
+  return _catPromise[slug];
 }
 function ensureAllActive() {
   return ensureCats().then(() => Promise.all(
