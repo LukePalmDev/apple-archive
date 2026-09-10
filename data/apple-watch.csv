@@ -47,12 +47,17 @@ Apple Watch,Series 10,09/2024,09/2024,399,0.92,459,Apple S10,1 GB,64 GB,"1.89"" 
 Apple Watch,Series 10,09/2024,09/2024,499,0.92,579,Apple S10,1 GB,64 GB,"1.89"" OLED",18 ore,09/2024 - 09/2025,watchOS 11–26,42 mm,GPS + Cellular
 Apple Watch,Series 10,09/2024,09/2024,429,0.92,489,Apple S10,1 GB,64 GB,"1.96"" OLED",18 ore,09/2024 - 09/2025,watchOS 11–26,46 mm,GPS
 Apple Watch,Series 10,09/2024,09/2024,529,0.92,609,Apple S10,1 GB,64 GB,"1.96"" OLED",18 ore,09/2024 - 09/2025,watchOS 11–26,46 mm,GPS + Cellular
-Apple Watch,Series 11,09/2025,09/2025,399,0.90,459,Apple S10,1 GB,64 GB,"1.89"" OLED",24 ore,09/2025 - presente,watchOS 26,42 mm,GPS
-Apple Watch,Series 11,09/2025,09/2025,499,0.90,579,Apple S10,1 GB,64 GB,"1.89"" OLED",24 ore,09/2025 - presente,watchOS 26,42 mm,GPS + Cellular
-Apple Watch,Series 11,09/2025,09/2025,429,0.90,489,Apple S10,1 GB,64 GB,"1.96"" OLED",24 ore,09/2025 - presente,watchOS 26,46 mm,GPS
-Apple Watch,Series 11,09/2025,09/2025,529,0.90,609,Apple S10,1 GB,64 GB,"1.96"" OLED",24 ore,09/2025 - presente,watchOS 26,46 mm,GPS + Cellular
-Apple Watch,Ultra 3,09/2025,09/2025,799,0.90,909,Apple S10,1 GB,64 GB,"1.92"" OLED",42 ore,09/2025 - presente,watchOS 26,49 mm,GPS + Cellular
+Apple Watch,Series 11,09/2025,09/2025,399,0.90,459,Apple S10,1 GB,64 GB,"1.89"" OLED",24 ore,09/2025 - 09/2026,watchOS 26,42 mm,GPS
+Apple Watch,Series 11,09/2025,09/2025,499,0.90,579,Apple S10,1 GB,64 GB,"1.89"" OLED",24 ore,09/2025 - 09/2026,watchOS 26,42 mm,GPS + Cellular
+Apple Watch,Series 11,09/2025,09/2025,429,0.90,489,Apple S10,1 GB,64 GB,"1.96"" OLED",24 ore,09/2025 - 09/2026,watchOS 26,46 mm,GPS
+Apple Watch,Series 11,09/2025,09/2025,529,0.90,609,Apple S10,1 GB,64 GB,"1.96"" OLED",24 ore,09/2025 - 09/2026,watchOS 26,46 mm,GPS + Cellular
+Apple Watch,Ultra 3,09/2025,09/2025,799,0.90,909,Apple S10,1 GB,64 GB,"1.92"" OLED",42 ore,09/2025 - 09/2026,watchOS 26,49 mm,GPS + Cellular
 Apple Watch,SE (3ª gen),09/2025,09/2025,249,0.90,279,Apple S10,1 GB,64 GB,"1.57"" OLED",18 ore,09/2025 - presente,watchOS 26,40 mm,GPS
 Apple Watch,SE (3ª gen),09/2025,09/2025,299,0.90,339,Apple S10,1 GB,64 GB,"1.57"" OLED",18 ore,09/2025 - presente,watchOS 26,40 mm,GPS + Cellular
 Apple Watch,SE (3ª gen),09/2025,09/2025,279,0.90,309,Apple S10,1 GB,64 GB,"1.78"" OLED",18 ore,09/2025 - presente,watchOS 26,44 mm,GPS
 Apple Watch,SE (3ª gen),09/2025,09/2025,329,0.90,369,Apple S10,1 GB,64 GB,"1.78"" OLED",18 ore,09/2025 - presente,watchOS 26,44 mm,GPS + Cellular
+Apple Watch,Series 12,09/2026,09/2026,399,0.86,459,Apple S11,?,64 GB,374x446 OLED LTPO3,24 ore,09/2026 - presente,watchOS 27,42 mm,GPS
+Apple Watch,Series 12,09/2026,09/2026,?,0.86,?,Apple S11,?,64 GB,374x446 OLED LTPO3,24 ore,09/2026 - presente,watchOS 27,42 mm,GPS + Cellular
+Apple Watch,Series 12,09/2026,09/2026,?,0.86,?,Apple S11,?,64 GB,416x496 OLED LTPO3,24 ore,09/2026 - presente,watchOS 27,46 mm,GPS
+Apple Watch,Series 12,09/2026,09/2026,?,0.86,?,Apple S11,?,64 GB,416x496 OLED LTPO3,24 ore,09/2026 - presente,watchOS 27,46 mm,GPS + Cellular
+Apple Watch,Ultra 4,09/2026,09/2026,799,0.86,909,Apple S11,?,64 GB,422x514 OLED LTPO3,50 ore,09/2026 - presente,watchOS 27,49 mm,GPS + Cellular

@@ -15,11 +15,13 @@ export const SEGMENTS = [
   { key: 'mini',       name: 'mini',            color: '#34c759' },
   { key: 'Pro',        name: 'Pro',             color: '#bf5af2' },
   { key: 'Pro Max',    name: 'Pro Max',         color: '#ff375f' },
-  { key: 'Budget',     name: 'Budget (SE / e)', color: '#ff9f0a' }
+  { key: 'Budget',     name: 'Budget (SE / e)', color: '#ff9f0a' },
+  { key: 'Pieghevole', name: 'Pieghevole',      color: '#ffd60a' }
 ];
 
 export function iphoneSegment(m) {
   const s = String(m).toLowerCase().trim();
+  if (/\bduo\b|fold/.test(s)) return 'Pieghevole';
   if (/pro\s*max/.test(s) || /xs\s*max/.test(s)) return 'Pro Max';
   if (/pro/.test(s) || s === 'xs' || s === 'x') return 'Pro';
   if (/plus/.test(s) || /\bair\b/.test(s) || s === 'air') return 'Plus / Air';
