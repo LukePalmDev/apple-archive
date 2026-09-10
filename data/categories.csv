@@ -2,6 +2,6 @@ slug,nome,file,attiva
 iphone,iPhone,iphone.csv,si
 ipad,iPad,ipad.csv,si
 apple-watch,Apple Watch,apple-watch.csv,si
-apple-tv,Apple TV,apple-tv.csv,no
-cuffie,Cuffie / AirPods,cuffie.csv,no
+apple-tv,Apple TV,apple-tv.csv,si
+cuffie,Cuffie / AirPods,cuffie.csv,si
 mac,Mac,mac.csv,no

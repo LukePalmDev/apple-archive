@@ -18,11 +18,18 @@ export function viewCategory(slug) {
     const cols = columnsFor(rows);
     const state = { filter: '', sortKey: null, sortDir: 1 };
 
+    /* Il promemoria sul "?" compare solo se in questa categoria ce n'è almeno uno */
+    const daVerificare = rows.some(r => Object.keys(r).some(k => !k.startsWith('__') && r[k] === '?'));
+    const notice = daVerificare
+      ? `<div class="notice">Alcuni valori sono ancora <code>?</code>: dato non verificato su una fonte attendibile. <code>n.d.</code> indica invece un dato non applicabile a questo prodotto.</div>`
+      : '';
+
     app().innerHTML = `
       <div class="section-head">
         <div class="eyebrow">${CAT_EMOJI[slug] || '🍎'} Archivio</div>
         <h1>${esc(cat.nome)}</h1>
       </div>
+      ${notice}
       <div class="toolbar">
         <input type="text" class="filter" id="cat-filter" placeholder="Filtra (modello, chip, taglio…)" />
         <span class="grow"></span>

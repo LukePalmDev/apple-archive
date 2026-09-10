@@ -8,13 +8,15 @@ informazioni e specifiche tecniche. Sito statico, nessun backend: i dati vivono 
 > rispettivi proprietari.
 
 ## Categorie
-- ✅ iPhone · iPad · Apple Watch (attive)
-- ⏳ Apple TV · Cuffie/AirPods · Mac (predisposte, da popolare)
+- ✅ iPhone · iPad · Apple Watch · Apple TV · Cuffie/AirPods (attive)
+- ⏳ Mac (predisposta, da popolare)
 
 ## Come sono organizzati i dati
 - Ogni categoria ha un CSV in [`data/`](data/).
 - L'elenco delle categorie attive è in [`data/categories.csv`](data/categories.csv).
 - Lo standard delle colonne è documentato in [`data/SCHEMA.md`](data/SCHEMA.md).
+- L'elenco completo delle caratteristiche archiviabili è in [`data/TAXONOMY.md`](data/TAXONOMY.md).
+- Le scelte sul formato d'archivio sono motivate in [`data/STORAGE.md`](data/STORAGE.md).
 - Regola: **una riga = un taglio di archiviazione** (così ogni prezzo è quello del taglio).
 
 ### Aggiungere un prodotto
@@ -45,16 +47,31 @@ python3 -m http.server 8000
 apple-archive/
 ├── index.html        # shell della single-page app
 ├── styles.css        # stile (Apple chiaro + tema scuro/tech)
-├── app.js            # routing, caricamento CSV, calcoli, viste, confronto
+├── js/               # moduli ES, nessun build step
+│   ├── main.js          # punto di ingresso
+│   ├── router.js        # routing su hash
+│   ├── state.js         # stato condiviso, etichette, mappe OS
+│   ├── data.js          # caricamento CSV
+│   ├── derived.js       # prezzi teorici, anni di vendita e supporto
+│   ├── columns.js       # colonne della tabella
+│   ├── compare.js       # lista di confronto
+│   ├── charts.js        # grafici SVG
+│   ├── aggregate.js     # aggregatori statistiche
+│   ├── utils.js · ui.js
+│   └── views/           # una vista per file
 ├── README.md
 └── data/
     ├── categories.csv   # elenco categorie (manifest)
     ├── SCHEMA.md        # documentazione colonne
-    ├── iphone.csv
-    ├── ipad.csv
-    └── apple-watch.csv
+    ├── TAXONOMY.md      # tutte le caratteristiche archiviabili
+    ├── STORAGE.md       # analisi del formato d'archivio
+    ├── iphone.csv · ipad.csv · apple-watch.csv
+    └── apple-tv.csv · cuffie.csv
 ```
 
 ## Stack
-HTML/CSS/JS vanilla, nessun build step. Parsing CSV con
+HTML/CSS/JS vanilla a **moduli ES**, nessun build step. Parsing CSV con
 [PapaParse](https://www.papaparse.com/) via CDN. Routing client-side con hash (`#/...`).
+
+> I moduli ES e `fetch` richiedono HTTP: con `file://` (doppio clic) il sito non parte.
+> Serve il server locale descritto sopra.

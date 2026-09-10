@@ -18,7 +18,16 @@ export const LABELS = {
   prezzo_lancio_usd: 'Prezzo $', cambio_usd_eur: 'Cambio $→€', prezzo_reale_eur: 'Prezzo reale €',
   processore: 'Processore', ram: 'RAM', archiviazione: 'Archiviazione',
   schermo: 'Schermo', batteria: 'Batteria', periodo_vendita: 'Periodo di vendita', software: 'Software',
-  dimensione_cassa: 'Cassa', connettivita: 'Connettività'
+  dimensione_cassa: 'Cassa', connettivita: 'Connettività',
+  risoluzione_max: 'Risoluzione', hdr: 'HDR', audio: 'Audio', hdmi: 'HDMI',
+  ethernet: 'Ethernet', wifi: 'Wi-Fi', bluetooth: 'Bluetooth', thread: 'Thread',
+  telecomando: 'Telecomando', dimensioni_mm: 'Dimensioni (mm)', peso_g: 'Peso (g)',
+  tipo: 'Tipo', anc: 'Cancellazione rumore', trasparenza: 'Trasparenza',
+  audio_spaziale: 'Audio spaziale', autonomia_anc_on_h: 'Autonomia ANC on (h)',
+  autonomia_anc_off_h: 'Autonomia ANC off (h)', autonomia_totale_custodia_h: 'Totale con custodia (h)',
+  ricarica_rapida: 'Ricarica rapida', custodia: 'Custodia',
+  certificazione_ip: 'Certificazione IP', peso_auricolare_g: 'Peso auricolare (g)',
+  funzioni_salute: 'Funzioni salute'
 };
 export const KNOWN = Object.keys(LABELS);
 
