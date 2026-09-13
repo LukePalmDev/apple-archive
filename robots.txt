@@ -1,4 +1,5 @@
+# Archivio Apple — sito statico, tutto pubblico.
+# Il routing è su hash (#/...), quindi per i crawler esiste una sola pagina:
+# una sitemap elencherebbe URL che i motori non indicizzano separatamente.
 User-agent: *
 Allow: /
-
-Sitemap: /sitemap.xml

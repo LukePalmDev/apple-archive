@@ -33,7 +33,9 @@ function renderPrezzi(rows) {
       </div>
       ${caps.length
         ? `<div class="table-wrap"><table class="matrix"><thead>${head}</thead><tbody>${bodyRows}</tbody></table></div>`
-        : '<div class="stat-empty">Dati non disponibili.</div>'}
+        : `<div class="stat-empty">Questa categoria non ha tagli di archiviazione, quindi la matrice
+             per capacità non si applica. Le varianti si distinguono per altre caratteristiche
+             (custodia, connettività, dimensione della cassa): i prezzi sono nella tabella della categoria.</div>`}
     </div>`;
 
     $('#prezzi-cur').addEventListener('click', e => {
