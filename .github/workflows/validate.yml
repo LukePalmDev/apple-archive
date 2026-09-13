@@ -1,0 +1,23 @@
+name: Valida i dati
+
+# Un archivio pubblico senza validazione automatica degrada man mano che
+# arrivano contributi: questo blocca le pull request che rompono lo schema.
+on:
+  push:
+    branches: [main]
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'tools/validate.py'
+      - '.github/workflows/validate.yml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Controlla i CSV
+        run: python3 tools/validate.py --warnings

@@ -32,15 +32,17 @@ export function viewSearch(q) {
         <div class="sr-group">
           <h2>${CAT_EMOJI[g.cat.slug] || '🍎'} ${esc(g.cat.nome)} <span class="result-count">${g.models.length}</span></h2>
           <div class="table-wrap"><table class="grid"><tbody>${g.models.map(r =>
-            `<tr data-slug="${esc(g.cat.slug)}" data-modello="${esc(r.modello)}">
+            `<tr data-slug="${esc(g.cat.slug)}" data-modello="${esc(r.modello)}" tabindex="0" role="link" aria-label="${esc(r.modello)}">
               <td class="cell-model">${esc(r.modello)}</td>
               <td>${esc(r.processore || '')}</td><td>${esc(r.schermo || '')}</td>
               <td class="col-num">${fmtEur(num(r.prezzo_reale_eur))}</td>
               <td><span class="badge">${esc(r.software || '')}</span></td></tr>`).join('')}</tbody></table></div>
         </div>`).join('');
 
-    document.querySelectorAll('.sr-group tr').forEach(tr => tr.addEventListener('click', () => {
-      location.hash = '#/modello/' + encodeURIComponent(tr.dataset.slug) + '/' + encodeURIComponent(tr.dataset.modello);
-    }));
+    const vai = tr => { location.hash = '#/modello/' + encodeURIComponent(tr.dataset.slug) + '/' + encodeURIComponent(tr.dataset.modello); };
+    document.querySelectorAll('.sr-group tr').forEach(tr => {
+      tr.addEventListener('click', () => vai(tr));
+      tr.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); vai(tr); } });
+    });
   }).catch(errorBox);
 }

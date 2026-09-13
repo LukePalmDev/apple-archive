@@ -327,3 +327,41 @@ table.cmp td { font-weight: 500; }
   gap: 12px;
   flex-wrap: wrap;
 }
+
+/* ===========================================================
+   Accessibilità
+   =========================================================== */
+
+/* Salta la navigazione: visibile solo quando riceve il focus da tastiera */
+.skip-link {
+  position: absolute; left: 8px; top: -60px; z-index: 100;
+  background: var(--accent); color: #fff; padding: 10px 16px;
+  border-radius: var(--radius-sm); font-size: 14px; font-weight: 600;
+  transition: top .15s;
+}
+.skip-link:focus { top: 8px; }
+
+/* Un anello di focus visibile ovunque: prima gli input avevano
+   outline:none senza sostituto, rendendo il sito inutilizzabile da tastiera. */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+#app:focus { outline: none; }
+.search input:focus-visible,
+.toolbar input:focus-visible { outline-offset: 0; }
+
+/* Righe e intestazioni di tabella sono interattive: devono essere
+   raggiungibili e azionabili da tastiera, non solo col mouse. */
+tr[data-modello], th[data-key]:not(.nosort) { cursor: pointer; }
+tr[data-modello]:focus-visible { outline-offset: -2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

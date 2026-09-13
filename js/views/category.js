@@ -38,7 +38,7 @@ export function viewCategory(slug) {
       </div>
       <div class="table-wrap">
         <table class="grid"><thead><tr>${cols.map(c =>
-          `<th data-key="${c.key}" class="${c.cls}${c.sortable ? '' : ' nosort'}">${esc(c.label)}${c.sortable ? ' <span class="arrow">↕</span>' : ''}</th>`).join('')}</tr></thead>
+          `<th data-key="${c.key}" class="${c.cls}${c.sortable ? '' : ' nosort'}"${c.sortable ? ' role="button" tabindex="0" aria-sort="none"' : ''}>${esc(c.label)}${c.sortable ? ' <span class="arrow" aria-hidden="true">↕</span>' : ''}</th>`).join('')}</tr></thead>
           <tbody id="cat-body"></tbody></table>
       </div>`;
 
@@ -65,26 +65,37 @@ export function viewCategory(slug) {
       }
 
       body.innerHTML = view.map(r =>
-        `<tr data-modello="${esc(r.modello)}">${cols.map(c => `<td class="${c.cls}">${c.html(r)}</td>`).join('')}</tr>`).join('');
+        `<tr data-modello="${esc(r.modello)}" tabindex="0" role="link" aria-label="${esc(r.modello)}">${cols.map(c => `<td class="${c.cls}">${c.html(r)}</td>`).join('')}</tr>`).join('');
       countEl.textContent = view.length + ' di ' + rows.length;
 
       document.querySelectorAll('#app thead th').forEach(th => {
         const k = th.dataset.key, a = th.querySelector('.arrow');
-        th.classList.toggle('sorted', k === state.sortKey);
-        if (a) a.textContent = k === state.sortKey ? (state.sortDir === 1 ? '↑' : '↓') : '↕';
+        const attivo = k === state.sortKey;
+        th.classList.toggle('sorted', attivo);
+        if (th.hasAttribute('aria-sort')) {
+          th.setAttribute('aria-sort', attivo ? (state.sortDir === 1 ? 'ascending' : 'descending') : 'none');
+        }
+        if (a) a.textContent = attivo ? (state.sortDir === 1 ? '↑' : '↓') : '↕';
       });
     }
 
     $('#cat-filter').addEventListener('input', e => { state.filter = e.target.value; apply(); });
     $('#cat-compare').addEventListener('click', () => { location.hash = '#/confronto'; });
 
-    $('#app thead').addEventListener('click', e => {
-      const th = e.target.closest('th');
+    function ordina(th) {
       if (!th || th.classList.contains('nosort')) return;
       const k = th.dataset.key;
       if (state.sortKey === k) state.sortDir *= -1;
       else { state.sortKey = k; state.sortDir = 1; }
       apply();
+    }
+    $('#app thead').addEventListener('click', e => ordina(e.target.closest('th')));
+    $('#app thead').addEventListener('keydown', e => {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      const th = e.target.closest('th');
+      if (!th || th.classList.contains('nosort')) return;
+      e.preventDefault();
+      ordina(th);
     });
 
     body.addEventListener('click', e => {
@@ -97,6 +108,14 @@ export function viewCategory(slug) {
       }
       const tr = e.target.closest('tr');
       if (!tr) return;
+      location.hash = '#/modello/' + encodeURIComponent(slug) + '/' + encodeURIComponent(tr.dataset.modello);
+    });
+
+    body.addEventListener('keydown', e => {
+      if (e.key !== 'Enter') return;
+      const tr = e.target.closest('tr[data-modello]');
+      if (!tr) return;
+      e.preventDefault();
       location.hash = '#/modello/' + encodeURIComponent(slug) + '/' + encodeURIComponent(tr.dataset.modello);
     });
 
