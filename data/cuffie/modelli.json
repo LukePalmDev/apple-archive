@@ -20,7 +20,9 @@
     "peso_auricolare_g": "4",
     "bluetooth": "4.2",
     "funzioni_salute": "n.d.",
-    "fonti": []
+    "fonti": [
+      "https://www.apple.com/newsroom/2016/12/apple-airpods-are-now-available/"
+    ]
   },
   {
     "modello": "AirPods (2ª gen)",
@@ -43,7 +45,9 @@
     "peso_auricolare_g": "4",
     "bluetooth": "5.0",
     "funzioni_salute": "n.d.",
-    "fonti": []
+    "fonti": [
+      "https://www.apple.com/it/newsroom/2019/03/airpods-the-worlds-most-popular-wireless-headphones-are-getting-even-better/"
+    ]
   },
   {
     "modello": "AirPods (3ª gen)",
@@ -157,8 +161,10 @@
     "certificazione_ip": "IPX4",
     "peso_auricolare_g": "5.3",
     "bluetooth": "5.3",
-    "funzioni_salute": "?",
-    "fonti": []
+    "funzioni_salute": "apparecchio acustico; test dell'udito; protezione dell'udito",
+    "fonti": [
+      "https://www.apple.com/newsroom/2024/09/apple-introduces-airpods-4-and-a-hearing-health-experience-with-airpods-pro-2/"
+    ]
   },
   {
     "modello": "AirPods Pro 2 (USB-C)",
@@ -180,8 +186,10 @@
     "certificazione_ip": "IP54",
     "peso_auricolare_g": "5.3",
     "bluetooth": "5.3",
-    "funzioni_salute": "apparecchio acustico; test dell'udito",
-    "fonti": []
+    "funzioni_salute": "apparecchio acustico; test dell'udito; protezione dell'udito",
+    "fonti": [
+      "https://www.apple.com/newsroom/2024/09/apple-introduces-airpods-4-and-a-hearing-health-experience-with-airpods-pro-2/"
+    ]
   },
   {
     "modello": "AirPods Pro 3",
@@ -201,10 +209,13 @@
     "audio_spaziale": "si",
     "ricarica_rapida": "5 min → 1 ora",
     "certificazione_ip": "IP57",
-    "peso_auricolare_g": "?",
+    "peso_auricolare_g": "5.55",
     "bluetooth": "5.3",
     "funzioni_salute": "frequenza cardiaca; apparecchio acustico; traduzione dal vivo",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/AirPods_Pro",
+      "https://www.apple.com/airpods-pro/specs/"
+    ]
   },
   {
     "modello": "AirPods Max",
@@ -270,9 +281,12 @@
     "audio_spaziale": "si",
     "ricarica_rapida": "5 min → 1 ora",
     "certificazione_ip": "IP57",
-    "peso_auricolare_g": "?",
-    "bluetooth": "?",
-    "funzioni_salute": "?",
-    "fonti": []
+    "peso_auricolare_g": "4.3",
+    "bluetooth": "5.3",
+    "funzioni_salute": "n.d.",
+    "fonti": [
+      "https://www.apple.com/it/airpods-5/specs/",
+      "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/"
+    ]
   }
 ]

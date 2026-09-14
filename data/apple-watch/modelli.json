@@ -11,7 +11,10 @@
     "batteria": "18 ore",
     "periodo_vendita": "04/2015 - 09/2016",
     "software": "watchOS 1–4",
-    "fonti": []
+    "fonti": [
+      "https://www.apple.com/newsroom/2015/03/09Apple-Watch-Available-in-Nine-Countries-on-April-24/",
+      "https://www.apple.com/newsroom/2015/06/04Apple-Watch-Arrives-in-Seven-More-Countries-June-26/"
+    ]
   },
   {
     "modello": "Series 1",
@@ -137,7 +140,9 @@
     "batteria": "18 ore",
     "periodo_vendita": "09/2022 - 09/2025",
     "software": "watchOS 9–26",
-    "fonti": []
+    "fonti": [
+      "https://www.apple.com/it/newsroom/2022/09/apple-reveals-apple-watch-series-8-and-the-new-apple-watch-se/"
+    ]
   },
   {
     "modello": "Series 8",
@@ -258,12 +263,15 @@
     "data_commercializzazione": "09/2026",
     "cambio_usd_eur": "0.86",
     "processore": "Apple S11",
-    "ram": "?",
+    "ram": "4 GB",
     "archiviazione": "64 GB",
     "batteria": "24 ore",
     "periodo_vendita": "09/2026 - presente",
     "software": "watchOS 27",
-    "fonti": []
+    "fonti": [
+      "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/",
+      "https://www.macrumors.com/roundup/apple-watch/"
+    ]
   },
   {
     "modello": "Ultra 4",
@@ -272,11 +280,14 @@
     "data_commercializzazione": "09/2026",
     "cambio_usd_eur": "0.86",
     "processore": "Apple S11",
-    "ram": "?",
+    "ram": "4 GB",
     "archiviazione": "64 GB",
     "batteria": "50 ore",
     "periodo_vendita": "09/2026 - presente",
     "software": "watchOS 27",
-    "fonti": []
+    "fonti": [
+      "https://9to5mac.com/2026/09/10/apple-watch-ultra-4-and-series-12-have-surprise-upgrade-that-wasnt-announced/",
+      "https://www.apple.com/newsroom/2026/09/apple-unveils-apple-watch-ultra-4/"
+    ]
   }
 ]

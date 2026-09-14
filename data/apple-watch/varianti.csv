@@ -29,7 +29,7 @@ Series 7,399,439,"1.69"" OLED",41 mm,GPS
 Series 7,499,539,"1.69"" OLED",41 mm,GPS + Cellular
 Series 7,429,469,"1.9"" OLED",45 mm,GPS
 Series 7,529,569,"1.9"" OLED",45 mm,GPS + Cellular
-SE (2ª gen),249,269,"1.57"" OLED",40 mm,GPS
+SE (2ª gen),249,309,"1.57"" OLED",40 mm,GPS
 SE (2ª gen),299,319,"1.57"" OLED",40 mm,GPS + Cellular
 SE (2ª gen),279,299,"1.78"" OLED",44 mm,GPS
 SE (2ª gen),329,349,"1.78"" OLED",44 mm,GPS + Cellular
@@ -57,7 +57,7 @@ SE (3ª gen),299,339,"1.57"" OLED",40 mm,GPS + Cellular
 SE (3ª gen),279,309,"1.78"" OLED",44 mm,GPS
 SE (3ª gen),329,369,"1.78"" OLED",44 mm,GPS + Cellular
 Series 12,399,459,374x446 OLED LTPO3,42 mm,GPS
-Series 12,?,?,374x446 OLED LTPO3,42 mm,GPS + Cellular
-Series 12,?,?,416x496 OLED LTPO3,46 mm,GPS
-Series 12,?,?,416x496 OLED LTPO3,46 mm,GPS + Cellular
+Series 12,499,?,374x446 OLED LTPO3,42 mm,GPS + Cellular
+Series 12,449,?,416x496 OLED LTPO3,46 mm,GPS
+Series 12,549,?,416x496 OLED LTPO3,46 mm,GPS + Cellular
 Ultra 4,799,909,422x514 OLED LTPO3,49 mm,GPS + Cellular

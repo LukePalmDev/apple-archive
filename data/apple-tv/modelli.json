@@ -11,12 +11,16 @@
     "risoluzione_max": "720p",
     "hdr": "n.d.",
     "audio": "Dolby Digital 5.1",
-    "hdmi": "?",
+    "hdmi": "HDMI",
     "wifi": "802.11b/g/n draft",
     "bluetooth": "n.d.",
     "telecomando": "Apple Remote (bianco)",
     "dimensioni_mm": "28x200x200",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/Apple_TV_(1st_generation)",
+      "https://www.apple.com/it/newsroom/2007/01/09Apple-TV-Coming-to-Your-Living-Room/",
+      "https://www.apple.com/it/newsroom/2007/05/30YouTube-Coming-to-Apple-TV/"
+    ]
   },
   {
     "modello": "Apple TV (2ª gen)",
@@ -35,7 +39,9 @@
     "bluetooth": "2.0 + EDR",
     "telecomando": "Apple Remote (alluminio)",
     "dimensioni_mm": "23x98x98",
-    "fonti": []
+    "fonti": [
+      "https://www.apple.com/de/newsroom/2010/09/01Apple-Premieres-New-Apple-TV-for-Breakthrough-Price-of-99/"
+    ]
   },
   {
     "modello": "Apple TV (3ª gen)",
@@ -73,7 +79,9 @@
     "bluetooth": "4.0",
     "telecomando": "Siri Remote (1ª gen)",
     "dimensioni_mm": "35x98x98",
-    "fonti": []
+    "fonti": [
+      "https://www.apple.com/newsroom/2015/09/09Apple-Brings-Innovation-Back-to-Television-with-The-All-New-Apple-TV/"
+    ]
   },
   {
     "modello": "Apple TV 4K (1ª gen)",
@@ -92,7 +100,9 @@
     "bluetooth": "5.0",
     "telecomando": "Siri Remote (1ª gen)",
     "dimensioni_mm": "35x98x98",
-    "fonti": []
+    "fonti": [
+      "https://www.apple.com/it/newsroom/2017/09/apple-tv-4k-brings-home-the-magic-of-cinema-with-4k-and-hdr/"
+    ]
   },
   {
     "modello": "Apple TV 4K (2ª gen)",

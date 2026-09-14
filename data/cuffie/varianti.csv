@@ -1,7 +1,7 @@
 modello,prezzo_lancio_usd,prezzo_reale_eur,batteria,autonomia_anc_on_h,autonomia_anc_off_h,autonomia_totale_custodia_h,custodia
 AirPods (1ª gen),159,?,5 ore · 24 ore con custodia,n.d.,5,24,Lightning
-AirPods (2ª gen),159,?,5 ore · 24 ore con custodia,n.d.,5,24,Lightning
-AirPods (2ª gen),199,?,5 ore · 24 ore con custodia,n.d.,5,24,Lightning + Qi wireless
+AirPods (2ª gen),159,179,5 ore · 24 ore con custodia,n.d.,5,24,Lightning
+AirPods (2ª gen),199,229,5 ore · 24 ore con custodia,n.d.,5,24,Lightning + Qi wireless
 AirPods (3ª gen),179,199,6 ore · 30 ore con custodia,n.d.,6,30,Lightning + MagSafe
 AirPods 4,129,149,5 ore · 30 ore con custodia,n.d.,5,30,USB-C
 AirPods 4 (ANC),179,199,4 ore con ANC · 20 ore con custodia,4,5,20,USB-C + wireless + altoparlante
