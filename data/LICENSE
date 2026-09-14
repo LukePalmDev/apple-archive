@@ -1,0 +1,41 @@
+Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)
+==============================================================
+
+I dati contenuti in questa cartella (data/*.csv, data/*.json e ogni file di
+dati derivato) sono rilasciati sotto licenza Creative Commons Attribuzione
+4.0 Internazionale (CC BY 4.0).
+
+Testo legale completo: https://creativecommons.org/licenses/by/4.0/legalcode.it
+Riassunto leggibile:   https://creativecommons.org/licenses/by/4.0/deed.it
+
+Sei libero di:
+  - Condividere — copiare e ridistribuire il materiale con qualsiasi mezzo e
+    formato, per qualsiasi fine, anche commerciale.
+  - Modificare — remixare, trasformare il materiale e basarti su di esso,
+    anche per fini commerciali.
+
+Alle seguenti condizioni:
+  - Attribuzione — Devi riconoscere una menzione di paternità adeguata,
+    fornire un link alla licenza e indicare se sono state effettuate
+    modifiche. Puoi farlo in qualsiasi maniera ragionevole possibile, ma non
+    con modalità tali da suggerire che il licenziante avalli te o il modo in
+    cui usi il materiale.
+
+Nessuna restrizione ulteriore — Non puoi applicare termini legali o misure
+tecnologiche che impongano ad altri soggetti dei vincoli giuridici diversi da
+quelli previsti dalla licenza.
+
+Attribuzione suggerita:
+  Dati da "Archivio Apple" (https://github.com/<utente>/apple-archive),
+  rilasciati sotto licenza CC BY 4.0.
+
+Nota: questo è un archivio indipendente, non affiliato né sponsorizzato da
+Apple Inc. I dati sono raccolti e verificati da fonti pubbliche (apple.com,
+comunicati stampa, documentazione tecnica, Wikipedia, EveryMac, MacRumors,
+AppleInsider); vedi data/SCHEMA.md e CONTRIBUTING.md per i criteri di
+verifica e le fonti accettate. "Apple", "iPhone", "iPad", "Apple Watch",
+"Apple TV" e "AirPods" sono marchi registrati di Apple Inc., citati qui
+esclusivamente a fini descrittivi e di identificazione dei prodotti.
+
+Il codice sorgente del sito (fuori da questa cartella) è invece rilasciato
+sotto licenza MIT: vedi il file LICENSE nella radice del repository.
