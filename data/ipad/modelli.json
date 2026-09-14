@@ -10,7 +10,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "04/2010 - 03/2011",
     "software": "iOS 3–5",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad"
+    ]
   },
   {
     "modello": "iPad 2",
@@ -23,7 +25,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "03/2011 - 03/2014",
     "software": "iOS 4–9",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad"
+    ]
   },
   {
     "modello": "iPad (3ª gen)",
@@ -36,7 +40,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "03/2012 - 10/2012",
     "software": "iOS 5–9",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad"
+    ]
   },
   {
     "modello": "iPad (4ª gen)",
@@ -49,7 +55,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "11/2012 - 10/2014",
     "software": "iOS 6–10",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad"
+    ]
   },
   {
     "modello": "iPad Air",
@@ -62,7 +70,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "11/2013 - 10/2014",
     "software": "iOS 7–12",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Air"
+    ]
   },
   {
     "modello": "iPad Air 2",
@@ -75,7 +85,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "10/2014 - 03/2017",
     "software": "iOS 8–15",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Air"
+    ]
   },
   {
     "modello": "iPad (5ª gen)",
@@ -88,7 +100,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "03/2017 - 03/2018",
     "software": "iOS 10–16",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad"
+    ]
   },
   {
     "modello": "iPad (6ª gen)",
@@ -101,7 +115,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "03/2018 - 09/2019",
     "software": "iOS 11–17",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad"
+    ]
   },
   {
     "modello": "iPad (7ª gen)",
@@ -114,7 +130,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "09/2019 - 09/2020",
     "software": "iPadOS 13–17",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad"
+    ]
   },
   {
     "modello": "iPad (8ª gen)",
@@ -126,8 +144,11 @@
     "schermo": "10.2\" Retina LCD",
     "batteria": "10 ore",
     "periodo_vendita": "09/2020 - 09/2021",
-    "software": "iPadOS 14–18",
-    "fonti": []
+    "software": "iPadOS 14–26",
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad",
+      "https://en.wikipedia.org/wiki/IPadOS_26"
+    ]
   },
   {
     "modello": "iPad (9ª gen)",
@@ -140,7 +161,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "09/2021 - 05/2024",
     "software": "iPadOS 15–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad"
+    ]
   },
   {
     "modello": "iPad (10ª gen)",
@@ -153,7 +176,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "10/2022 - 03/2025",
     "software": "iPadOS 16–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad"
+    ]
   },
   {
     "modello": "iPad (A16)",
@@ -166,7 +191,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "03/2025 - presente",
     "software": "iPadOS 18–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad"
+    ]
   },
   {
     "modello": "iPad mini",
@@ -179,7 +206,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "11/2012 - 06/2015",
     "software": "iOS 6–9",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Mini"
+    ]
   },
   {
     "modello": "iPad mini 2",
@@ -192,7 +221,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "11/2013 - 03/2017",
     "software": "iOS 7–12",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Mini"
+    ]
   },
   {
     "modello": "iPad mini 3",
@@ -205,7 +236,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "10/2014 - 09/2015",
     "software": "iOS 8–12",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Mini"
+    ]
   },
   {
     "modello": "iPad mini 4",
@@ -218,7 +251,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "09/2015 - 03/2019",
     "software": "iOS 9–15",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Mini"
+    ]
   },
   {
     "modello": "iPad mini (5ª gen)",
@@ -231,7 +266,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "03/2019 - 09/2021",
     "software": "iPadOS 13–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Mini"
+    ]
   },
   {
     "modello": "iPad mini (6ª gen)",
@@ -244,7 +281,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "09/2021 - 10/2024",
     "software": "iPadOS 15–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Mini"
+    ]
   },
   {
     "modello": "iPad mini (A17 Pro)",
@@ -257,7 +296,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "10/2024 - presente",
     "software": "iPadOS 18–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Mini"
+    ]
   },
   {
     "modello": "iPad Air (3ª gen)",
@@ -269,8 +310,12 @@
     "schermo": "10.5\" Retina LCD",
     "batteria": "10 ore",
     "periodo_vendita": "03/2019 - 09/2020",
-    "software": "iPadOS 13–18",
-    "fonti": []
+    "software": "iPadOS 13–26",
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPadOS_26",
+      "https://en.wikipedia.org/wiki/IPad_Air",
+      "https://en.wikipedia.org/wiki/IPad_Air_(3rd_generation)"
+    ]
   },
   {
     "modello": "iPad Air (4ª gen)",
@@ -283,7 +328,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "10/2020 - 03/2022",
     "software": "iPadOS 14–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Air"
+    ]
   },
   {
     "modello": "iPad Air (5ª gen)",
@@ -296,7 +343,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "03/2022 - 05/2024",
     "software": "iPadOS 15–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Air"
+    ]
   },
   {
     "modello": "iPad Air 11\" (M2)",
@@ -309,7 +358,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "05/2024 - 03/2025",
     "software": "iPadOS 17–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Air"
+    ]
   },
   {
     "modello": "iPad Air 13\" (M2)",
@@ -322,7 +373,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "05/2024 - 03/2025",
     "software": "iPadOS 17–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Air"
+    ]
   },
   {
     "modello": "iPad Air 11\" (M3)",
@@ -335,7 +388,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "03/2025 - 03/2026",
     "software": "iPadOS 18–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Air"
+    ]
   },
   {
     "modello": "iPad Air 13\" (M3)",
@@ -348,7 +403,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "03/2025 - 03/2026",
     "software": "iPadOS 18–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Air"
+    ]
   },
   {
     "modello": "iPad Pro 12.9\" (1ª gen)",
@@ -361,7 +418,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "11/2015 - 06/2017",
     "software": "iPadOS 9–16",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Pro"
+    ]
   },
   {
     "modello": "iPad Pro 9.7\"",
@@ -374,7 +433,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "03/2016 - 06/2017",
     "software": "iPadOS 9–16",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Pro"
+    ]
   },
   {
     "modello": "iPad Pro 10.5\"",
@@ -383,11 +444,13 @@
     "data_commercializzazione": "06/2017",
     "cambio_usd_eur": "0.89",
     "processore": "Apple A10X Fusion",
-    "schermo": "10.5\" Retina LCD",
+    "schermo": "10.5\" Retina LCD, ProMotion 120Hz",
     "batteria": "10 ore",
     "periodo_vendita": "06/2017 - 10/2018",
     "software": "iPadOS 10–17",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Pro"
+    ]
   },
   {
     "modello": "iPad Pro 12.9\" (2ª gen)",
@@ -396,11 +459,13 @@
     "data_commercializzazione": "06/2017",
     "cambio_usd_eur": "0.89",
     "processore": "Apple A10X Fusion",
-    "schermo": "12.9\" Retina LCD",
+    "schermo": "12.9\" Retina LCD, ProMotion 120Hz",
     "batteria": "10 ore",
     "periodo_vendita": "06/2017 - 10/2018",
     "software": "iPadOS 10–17",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Pro"
+    ]
   },
   {
     "modello": "iPad Pro 11\" (1ª gen)",
@@ -409,11 +474,14 @@
     "data_commercializzazione": "11/2018",
     "cambio_usd_eur": "0.87",
     "processore": "Apple A12X Bionic",
-    "schermo": "11\" Liquid Retina LCD",
+    "schermo": "11\" Liquid Retina LCD, ProMotion 120Hz",
     "batteria": "10 ore",
     "periodo_vendita": "11/2018 - 03/2020",
-    "software": "iPadOS 12–18",
-    "fonti": []
+    "software": "iPadOS 12–26",
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPadOS_26",
+      "https://en.wikipedia.org/wiki/IPad_Pro"
+    ]
   },
   {
     "modello": "iPad Pro 12.9\" (3ª gen)",
@@ -422,11 +490,14 @@
     "data_commercializzazione": "11/2018",
     "cambio_usd_eur": "0.87",
     "processore": "Apple A12X Bionic",
-    "schermo": "12.9\" Liquid Retina LCD",
+    "schermo": "12.9\" Liquid Retina LCD, ProMotion 120Hz",
     "batteria": "10 ore",
     "periodo_vendita": "11/2018 - 03/2020",
-    "software": "iPadOS 12–18",
-    "fonti": []
+    "software": "iPadOS 12–26",
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPadOS_26",
+      "https://en.wikipedia.org/wiki/IPad_Pro"
+    ]
   },
   {
     "modello": "iPad Pro 11\" (2ª gen)",
@@ -435,11 +506,14 @@
     "data_commercializzazione": "03/2020",
     "cambio_usd_eur": "0.90",
     "processore": "Apple A12Z Bionic",
-    "schermo": "11\" Liquid Retina LCD",
+    "schermo": "11\" Liquid Retina LCD, ProMotion 120Hz",
     "batteria": "10 ore",
     "periodo_vendita": "03/2020 - 04/2021",
-    "software": "iPadOS 13–18",
-    "fonti": []
+    "software": "iPadOS 13–26",
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPadOS_26",
+      "https://en.wikipedia.org/wiki/IPad_Pro"
+    ]
   },
   {
     "modello": "iPad Pro 12.9\" (4ª gen)",
@@ -448,11 +522,14 @@
     "data_commercializzazione": "03/2020",
     "cambio_usd_eur": "0.90",
     "processore": "Apple A12Z Bionic",
-    "schermo": "12.9\" Liquid Retina LCD",
+    "schermo": "12.9\" Liquid Retina LCD, ProMotion 120Hz",
     "batteria": "10 ore",
     "periodo_vendita": "03/2020 - 04/2021",
-    "software": "iPadOS 13–18",
-    "fonti": []
+    "software": "iPadOS 13–26",
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPadOS_26",
+      "https://en.wikipedia.org/wiki/IPad_Pro"
+    ]
   },
   {
     "modello": "iPad Pro 11\" (3ª gen)",
@@ -461,11 +538,13 @@
     "data_commercializzazione": "05/2021",
     "cambio_usd_eur": "0.84",
     "processore": "Apple M1",
-    "schermo": "11\" Liquid Retina LCD",
+    "schermo": "11\" Liquid Retina LCD, ProMotion 120Hz",
     "batteria": "10 ore",
     "periodo_vendita": "05/2021 - 10/2022",
     "software": "iPadOS 14–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Pro"
+    ]
   },
   {
     "modello": "iPad Pro 12.9\" (5ª gen)",
@@ -474,11 +553,13 @@
     "data_commercializzazione": "05/2021",
     "cambio_usd_eur": "0.84",
     "processore": "Apple M1",
-    "schermo": "12.9\" Liquid Retina XDR",
+    "schermo": "12.9\" Liquid Retina XDR (mini-LED), ProMotion 120Hz",
     "batteria": "10 ore",
     "periodo_vendita": "05/2021 - 10/2022",
     "software": "iPadOS 14–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Pro"
+    ]
   },
   {
     "modello": "iPad Pro 11\" (4ª gen)",
@@ -487,11 +568,13 @@
     "data_commercializzazione": "10/2022",
     "cambio_usd_eur": "1.02",
     "processore": "Apple M2",
-    "schermo": "11\" Liquid Retina LCD",
+    "schermo": "11\" Liquid Retina LCD, ProMotion 120Hz",
     "batteria": "10 ore",
     "periodo_vendita": "10/2022 - 05/2024",
     "software": "iPadOS 16–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Pro"
+    ]
   },
   {
     "modello": "iPad Pro 12.9\" (6ª gen)",
@@ -500,11 +583,13 @@
     "data_commercializzazione": "10/2022",
     "cambio_usd_eur": "1.02",
     "processore": "Apple M2",
-    "schermo": "12.9\" Liquid Retina XDR",
+    "schermo": "12.9\" Liquid Retina XDR (mini-LED), ProMotion 120Hz",
     "batteria": "10 ore",
     "periodo_vendita": "10/2022 - 05/2024",
     "software": "iPadOS 16–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Pro"
+    ]
   },
   {
     "modello": "iPad Pro 11\" (M4)",
@@ -513,11 +598,13 @@
     "data_commercializzazione": "05/2024",
     "cambio_usd_eur": "0.93",
     "processore": "Apple M4",
-    "schermo": "11\" Ultra Retina XDR OLED",
+    "schermo": "11\" Ultra Retina XDR OLED (tandem), ProMotion 120Hz",
     "batteria": "10 ore",
     "periodo_vendita": "05/2024 - 10/2025",
     "software": "iPadOS 17–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Pro"
+    ]
   },
   {
     "modello": "iPad Pro 13\" (M4)",
@@ -526,11 +613,13 @@
     "data_commercializzazione": "05/2024",
     "cambio_usd_eur": "0.93",
     "processore": "Apple M4",
-    "schermo": "13\" Ultra Retina XDR OLED",
+    "schermo": "13\" Ultra Retina XDR OLED (tandem), ProMotion 120Hz",
     "batteria": "10 ore",
     "periodo_vendita": "05/2024 - 10/2025",
     "software": "iPadOS 17–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Pro"
+    ]
   },
   {
     "modello": "iPad Air 11\" (M4)",
@@ -543,7 +632,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "03/2026 - presente",
     "software": "iPadOS 26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Air_(M4)"
+    ]
   },
   {
     "modello": "iPad Air 13\" (M4)",
@@ -556,7 +647,9 @@
     "batteria": "10 ore",
     "periodo_vendita": "03/2026 - presente",
     "software": "iPadOS 26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Air_(M4)"
+    ]
   },
   {
     "modello": "iPad Pro 11\" (M5)",
@@ -565,11 +658,13 @@
     "data_commercializzazione": "10/2025",
     "cambio_usd_eur": "0.86",
     "processore": "Apple M5",
-    "schermo": "11\" Ultra Retina XDR OLED",
+    "schermo": "11\" Ultra Retina XDR OLED (tandem), ProMotion 120Hz",
     "batteria": "10 ore",
     "periodo_vendita": "10/2025 - presente",
     "software": "iPadOS 26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Pro"
+    ]
   },
   {
     "modello": "iPad Pro 13\" (M5)",
@@ -578,10 +673,12 @@
     "data_commercializzazione": "10/2025",
     "cambio_usd_eur": "0.86",
     "processore": "Apple M5",
-    "schermo": "13\" Ultra Retina XDR OLED",
+    "schermo": "13\" Ultra Retina XDR OLED (tandem), ProMotion 120Hz",
     "batteria": "10 ore",
     "periodo_vendita": "10/2025 - presente",
     "software": "iPadOS 26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPad_Pro"
+    ]
   }
 ]
