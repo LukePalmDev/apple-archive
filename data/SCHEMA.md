@@ -35,6 +35,13 @@ oggetto,modello,data_presentazione,data_commercializzazione,prezzo_lancio_usd,ca
 ### Note sui formati
 - **Date** (`data_presentazione`, `data_commercializzazione`): sempre `MM/AAAA`.
 - **Numeri** (`prezzo_*`, `cambio_*`): solo cifre e punto decimale, niente simboli di valuta.
+- **`cambio_usd_eur`**: **media mensile** USD→EUR del mese di *presentazione*, a due decimali.
+  Non il cambio di un singolo giorno. Fonti di riferimento, in ordine:
+  [tassi BCE](https://data-api.ecb.europa.eu/service/data/EXR/M.USD.EUR.SP00.A?format=csvdata)
+  (pubblicati come USD per 1 EUR: vanno **invertiti**), la serie
+  [FRED EXUSEU](https://fred.stlouisfed.org/series/EXUSEU) della Federal Reserve,
+  e [x-rates](https://www.x-rates.com/average/?from=USD&to=EUR&amount=1) (dal 2016 in poi).
+  Righe dello stesso mese devono avere lo stesso cambio: `tools/validate.py` lo segnala.
 - **`periodo_vendita`**: `MM/AAAA - MM/AAAA`, oppure `MM/AAAA - presente` se ancora in vendita.
 - **`software`**: intervallo di versioni *major*, con trattino lungo `–` (es. `iOS 5–9`,
   `iPadOS 13–18`, `watchOS 1–10`). Per i prodotti ancora supportati usare l'ultima major nota.

@@ -1,102 +1,102 @@
 oggetto,modello,data_presentazione,data_commercializzazione,prezzo_lancio_usd,cambio_usd_eur,prezzo_reale_eur,processore,ram,archiviazione,schermo,batteria,periodo_vendita,software,connettivita
-iPad,iPad (1ª gen),01/2010,04/2010,499,0.76,499,Apple A4,256 MB,16 GB,"9.7"" LCD",10 ore,04/2010 - 03/2011,iOS 3–5,Wi-Fi
-iPad,iPad (1ª gen),01/2010,04/2010,629,0.76,599,Apple A4,256 MB,16 GB,"9.7"" LCD",10 ore,04/2010 - 03/2011,iOS 3–5,Wi-Fi + Cellular
-iPad,iPad (1ª gen),01/2010,04/2010,599,0.76,599,Apple A4,256 MB,32 GB,"9.7"" LCD",10 ore,04/2010 - 03/2011,iOS 3–5,Wi-Fi
-iPad,iPad (1ª gen),01/2010,04/2010,729,0.76,699,Apple A4,256 MB,32 GB,"9.7"" LCD",10 ore,04/2010 - 03/2011,iOS 3–5,Wi-Fi + Cellular
-iPad,iPad (1ª gen),01/2010,04/2010,699,0.76,699,Apple A4,256 MB,64 GB,"9.7"" LCD",10 ore,04/2010 - 03/2011,iOS 3–5,Wi-Fi
-iPad,iPad (1ª gen),01/2010,04/2010,829,0.76,799,Apple A4,256 MB,64 GB,"9.7"" LCD",10 ore,04/2010 - 03/2011,iOS 3–5,Wi-Fi + Cellular
-iPad,iPad 2,03/2011,03/2011,499,0.72,499,Apple A5,512 MB,16 GB,"9.7"" LCD",10 ore,03/2011 - 03/2014,iOS 4–9,Wi-Fi
-iPad,iPad 2,03/2011,03/2011,629,0.72,599,Apple A5,512 MB,16 GB,"9.7"" LCD",10 ore,03/2011 - 03/2014,iOS 4–9,Wi-Fi + Cellular
-iPad,iPad 2,03/2011,03/2011,599,0.72,599,Apple A5,512 MB,32 GB,"9.7"" LCD",10 ore,03/2011 - 03/2014,iOS 4–9,Wi-Fi
-iPad,iPad 2,03/2011,03/2011,729,0.72,699,Apple A5,512 MB,32 GB,"9.7"" LCD",10 ore,03/2011 - 03/2014,iOS 4–9,Wi-Fi + Cellular
-iPad,iPad 2,03/2011,03/2011,699,0.72,699,Apple A5,512 MB,64 GB,"9.7"" LCD",10 ore,03/2011 - 03/2014,iOS 4–9,Wi-Fi
-iPad,iPad 2,03/2011,03/2011,829,0.72,799,Apple A5,512 MB,64 GB,"9.7"" LCD",10 ore,03/2011 - 03/2014,iOS 4–9,Wi-Fi + Cellular
-iPad,iPad (3ª gen),03/2012,03/2012,499,0.78,499,Apple A5X,1 GB,16 GB,"9.7"" Retina LCD",10 ore,03/2012 - 10/2012,iOS 5–9,Wi-Fi
-iPad,iPad (3ª gen),03/2012,03/2012,629,0.78,599,Apple A5X,1 GB,16 GB,"9.7"" Retina LCD",10 ore,03/2012 - 10/2012,iOS 5–9,Wi-Fi + Cellular
-iPad,iPad (3ª gen),03/2012,03/2012,599,0.78,599,Apple A5X,1 GB,32 GB,"9.7"" Retina LCD",10 ore,03/2012 - 10/2012,iOS 5–9,Wi-Fi
-iPad,iPad (3ª gen),03/2012,03/2012,729,0.78,699,Apple A5X,1 GB,32 GB,"9.7"" Retina LCD",10 ore,03/2012 - 10/2012,iOS 5–9,Wi-Fi + Cellular
-iPad,iPad (3ª gen),03/2012,03/2012,699,0.78,699,Apple A5X,1 GB,64 GB,"9.7"" Retina LCD",10 ore,03/2012 - 10/2012,iOS 5–9,Wi-Fi
-iPad,iPad (3ª gen),03/2012,03/2012,829,0.78,799,Apple A5X,1 GB,64 GB,"9.7"" Retina LCD",10 ore,03/2012 - 10/2012,iOS 5–9,Wi-Fi + Cellular
-iPad,iPad (4ª gen),10/2012,11/2012,499,0.78,499,Apple A6X,1 GB,16 GB,"9.7"" Retina LCD",10 ore,11/2012 - 10/2014,iOS 6–10,Wi-Fi
-iPad,iPad (4ª gen),10/2012,11/2012,629,0.78,629,Apple A6X,1 GB,16 GB,"9.7"" Retina LCD",10 ore,11/2012 - 10/2014,iOS 6–10,Wi-Fi + Cellular
-iPad,iPad (4ª gen),10/2012,11/2012,599,0.78,599,Apple A6X,1 GB,32 GB,"9.7"" Retina LCD",10 ore,11/2012 - 10/2014,iOS 6–10,Wi-Fi
-iPad,iPad (4ª gen),10/2012,11/2012,729,0.78,729,Apple A6X,1 GB,32 GB,"9.7"" Retina LCD",10 ore,11/2012 - 10/2014,iOS 6–10,Wi-Fi + Cellular
-iPad,iPad (4ª gen),10/2012,11/2012,699,0.78,699,Apple A6X,1 GB,64 GB,"9.7"" Retina LCD",10 ore,11/2012 - 10/2014,iOS 6–10,Wi-Fi
-iPad,iPad (4ª gen),10/2012,11/2012,829,0.78,829,Apple A6X,1 GB,64 GB,"9.7"" Retina LCD",10 ore,11/2012 - 10/2014,iOS 6–10,Wi-Fi + Cellular
-iPad,iPad (4ª gen),10/2012,11/2012,799,0.78,799,Apple A6X,1 GB,128 GB,"9.7"" Retina LCD",10 ore,11/2012 - 10/2014,iOS 6–10,Wi-Fi
-iPad,iPad (4ª gen),10/2012,11/2012,929,0.78,929,Apple A6X,1 GB,128 GB,"9.7"" Retina LCD",10 ore,11/2012 - 10/2014,iOS 6–10,Wi-Fi + Cellular
-iPad,iPad Air,10/2013,11/2013,499,0.75,489,Apple A7,1 GB,16 GB,"9.7"" Retina LCD",10 ore,11/2013 - 10/2014,iOS 7–12,Wi-Fi
-iPad,iPad Air,10/2013,11/2013,629,0.75,609,Apple A7,1 GB,16 GB,"9.7"" Retina LCD",10 ore,11/2013 - 10/2014,iOS 7–12,Wi-Fi + Cellular
-iPad,iPad Air,10/2013,11/2013,599,0.75,589,Apple A7,1 GB,32 GB,"9.7"" Retina LCD",10 ore,11/2013 - 10/2014,iOS 7–12,Wi-Fi
-iPad,iPad Air,10/2013,11/2013,729,0.75,709,Apple A7,1 GB,32 GB,"9.7"" Retina LCD",10 ore,11/2013 - 10/2014,iOS 7–12,Wi-Fi + Cellular
-iPad,iPad Air,10/2013,11/2013,699,0.75,689,Apple A7,1 GB,64 GB,"9.7"" Retina LCD",10 ore,11/2013 - 10/2014,iOS 7–12,Wi-Fi
-iPad,iPad Air,10/2013,11/2013,829,0.75,809,Apple A7,1 GB,64 GB,"9.7"" Retina LCD",10 ore,11/2013 - 10/2014,iOS 7–12,Wi-Fi + Cellular
-iPad,iPad Air,10/2013,11/2013,799,0.75,789,Apple A7,1 GB,128 GB,"9.7"" Retina LCD",10 ore,11/2013 - 10/2014,iOS 7–12,Wi-Fi
-iPad,iPad Air,10/2013,11/2013,929,0.75,909,Apple A7,1 GB,128 GB,"9.7"" Retina LCD",10 ore,11/2013 - 10/2014,iOS 7–12,Wi-Fi + Cellular
-iPad,iPad Air 2,10/2014,10/2014,499,0.75,489,Apple A8X,2 GB,16 GB,"9.7"" Retina LCD",10 ore,10/2014 - 03/2017,iOS 8–15,Wi-Fi
-iPad,iPad Air 2,10/2014,10/2014,629,0.75,609,Apple A8X,2 GB,16 GB,"9.7"" Retina LCD",10 ore,10/2014 - 03/2017,iOS 8–15,Wi-Fi + Cellular
-iPad,iPad Air 2,10/2014,10/2014,599,0.75,589,Apple A8X,2 GB,64 GB,"9.7"" Retina LCD",10 ore,10/2014 - 03/2017,iOS 8–15,Wi-Fi
-iPad,iPad Air 2,10/2014,10/2014,729,0.75,709,Apple A8X,2 GB,64 GB,"9.7"" Retina LCD",10 ore,10/2014 - 03/2017,iOS 8–15,Wi-Fi + Cellular
-iPad,iPad Air 2,10/2014,10/2014,699,0.75,689,Apple A8X,2 GB,128 GB,"9.7"" Retina LCD",10 ore,10/2014 - 03/2017,iOS 8–15,Wi-Fi
-iPad,iPad Air 2,10/2014,10/2014,829,0.75,809,Apple A8X,2 GB,128 GB,"9.7"" Retina LCD",10 ore,10/2014 - 03/2017,iOS 8–15,Wi-Fi + Cellular
-iPad,iPad (5ª gen),03/2017,03/2017,329,0.88,409,Apple A9,2 GB,32 GB,"9.7"" Retina LCD",10 ore,03/2017 - 03/2018,iOS 10–16,Wi-Fi
-iPad,iPad (5ª gen),03/2017,03/2017,459,0.88,569,Apple A9,2 GB,32 GB,"9.7"" Retina LCD",10 ore,03/2017 - 03/2018,iOS 10–16,Wi-Fi + Cellular
-iPad,iPad (5ª gen),03/2017,03/2017,429,0.88,519,Apple A9,2 GB,128 GB,"9.7"" Retina LCD",10 ore,03/2017 - 03/2018,iOS 10–16,Wi-Fi
-iPad,iPad (5ª gen),03/2017,03/2017,559,0.88,679,Apple A9,2 GB,128 GB,"9.7"" Retina LCD",10 ore,03/2017 - 03/2018,iOS 10–16,Wi-Fi + Cellular
-iPad,iPad (6ª gen),03/2018,03/2018,329,0.85,359,Apple A10 Fusion,2 GB,32 GB,"9.7"" Retina LCD",10 ore,03/2018 - 09/2019,iOS 11–17,Wi-Fi
-iPad,iPad (6ª gen),03/2018,03/2018,459,0.85,489,Apple A10 Fusion,2 GB,32 GB,"9.7"" Retina LCD",10 ore,03/2018 - 09/2019,iOS 11–17,Wi-Fi + Cellular
-iPad,iPad (6ª gen),03/2018,03/2018,429,0.85,469,Apple A10 Fusion,2 GB,128 GB,"9.7"" Retina LCD",10 ore,03/2018 - 09/2019,iOS 11–17,Wi-Fi
-iPad,iPad (6ª gen),03/2018,03/2018,559,0.85,599,Apple A10 Fusion,2 GB,128 GB,"9.7"" Retina LCD",10 ore,03/2018 - 09/2019,iOS 11–17,Wi-Fi + Cellular
-iPad,iPad (7ª gen),09/2019,09/2019,329,0.89,389,Apple A10 Fusion,3 GB,32 GB,"10.2"" Retina LCD",10 ore,09/2019 - 09/2020,iPadOS 13–17,Wi-Fi
-iPad,iPad (7ª gen),09/2019,09/2019,459,0.89,529,Apple A10 Fusion,3 GB,32 GB,"10.2"" Retina LCD",10 ore,09/2019 - 09/2020,iPadOS 13–17,Wi-Fi + Cellular
-iPad,iPad (7ª gen),09/2019,09/2019,429,0.89,499,Apple A10 Fusion,3 GB,128 GB,"10.2"" Retina LCD",10 ore,09/2019 - 09/2020,iPadOS 13–17,Wi-Fi
-iPad,iPad (7ª gen),09/2019,09/2019,559,0.89,639,Apple A10 Fusion,3 GB,128 GB,"10.2"" Retina LCD",10 ore,09/2019 - 09/2020,iPadOS 13–17,Wi-Fi + Cellular
-iPad,iPad (8ª gen),09/2020,09/2020,329,0.88,389,Apple A12 Bionic,3 GB,32 GB,"10.2"" Retina LCD",10 ore,09/2020 - 09/2021,iPadOS 14–18,Wi-Fi
-iPad,iPad (8ª gen),09/2020,09/2020,459,0.88,529,Apple A12 Bionic,3 GB,32 GB,"10.2"" Retina LCD",10 ore,09/2020 - 09/2021,iPadOS 14–18,Wi-Fi + Cellular
-iPad,iPad (8ª gen),09/2020,09/2020,429,0.88,499,Apple A12 Bionic,3 GB,128 GB,"10.2"" Retina LCD",10 ore,09/2020 - 09/2021,iPadOS 14–18,Wi-Fi
-iPad,iPad (8ª gen),09/2020,09/2020,559,0.88,639,Apple A12 Bionic,3 GB,128 GB,"10.2"" Retina LCD",10 ore,09/2020 - 09/2021,iPadOS 14–18,Wi-Fi + Cellular
+iPad,iPad (1ª gen),01/2010,04/2010,499,0.70,499,Apple A4,256 MB,16 GB,"9.7"" LCD",10 ore,04/2010 - 03/2011,iOS 3–5,Wi-Fi
+iPad,iPad (1ª gen),01/2010,04/2010,629,0.70,599,Apple A4,256 MB,16 GB,"9.7"" LCD",10 ore,04/2010 - 03/2011,iOS 3–5,Wi-Fi + Cellular
+iPad,iPad (1ª gen),01/2010,04/2010,599,0.70,599,Apple A4,256 MB,32 GB,"9.7"" LCD",10 ore,04/2010 - 03/2011,iOS 3–5,Wi-Fi
+iPad,iPad (1ª gen),01/2010,04/2010,729,0.70,699,Apple A4,256 MB,32 GB,"9.7"" LCD",10 ore,04/2010 - 03/2011,iOS 3–5,Wi-Fi + Cellular
+iPad,iPad (1ª gen),01/2010,04/2010,699,0.70,699,Apple A4,256 MB,64 GB,"9.7"" LCD",10 ore,04/2010 - 03/2011,iOS 3–5,Wi-Fi
+iPad,iPad (1ª gen),01/2010,04/2010,829,0.70,799,Apple A4,256 MB,64 GB,"9.7"" LCD",10 ore,04/2010 - 03/2011,iOS 3–5,Wi-Fi + Cellular
+iPad,iPad 2,03/2011,03/2011,499,0.71,499,Apple A5,512 MB,16 GB,"9.7"" LCD",10 ore,03/2011 - 03/2014,iOS 4–9,Wi-Fi
+iPad,iPad 2,03/2011,03/2011,629,0.71,599,Apple A5,512 MB,16 GB,"9.7"" LCD",10 ore,03/2011 - 03/2014,iOS 4–9,Wi-Fi + Cellular
+iPad,iPad 2,03/2011,03/2011,599,0.71,599,Apple A5,512 MB,32 GB,"9.7"" LCD",10 ore,03/2011 - 03/2014,iOS 4–9,Wi-Fi
+iPad,iPad 2,03/2011,03/2011,729,0.71,699,Apple A5,512 MB,32 GB,"9.7"" LCD",10 ore,03/2011 - 03/2014,iOS 4–9,Wi-Fi + Cellular
+iPad,iPad 2,03/2011,03/2011,699,0.71,699,Apple A5,512 MB,64 GB,"9.7"" LCD",10 ore,03/2011 - 03/2014,iOS 4–9,Wi-Fi
+iPad,iPad 2,03/2011,03/2011,829,0.71,799,Apple A5,512 MB,64 GB,"9.7"" LCD",10 ore,03/2011 - 03/2014,iOS 4–9,Wi-Fi + Cellular
+iPad,iPad (3ª gen),03/2012,03/2012,499,0.76,499,Apple A5X,1 GB,16 GB,"9.7"" Retina LCD",10 ore,03/2012 - 10/2012,iOS 5–9,Wi-Fi
+iPad,iPad (3ª gen),03/2012,03/2012,629,0.76,599,Apple A5X,1 GB,16 GB,"9.7"" Retina LCD",10 ore,03/2012 - 10/2012,iOS 5–9,Wi-Fi + Cellular
+iPad,iPad (3ª gen),03/2012,03/2012,599,0.76,599,Apple A5X,1 GB,32 GB,"9.7"" Retina LCD",10 ore,03/2012 - 10/2012,iOS 5–9,Wi-Fi
+iPad,iPad (3ª gen),03/2012,03/2012,729,0.76,699,Apple A5X,1 GB,32 GB,"9.7"" Retina LCD",10 ore,03/2012 - 10/2012,iOS 5–9,Wi-Fi + Cellular
+iPad,iPad (3ª gen),03/2012,03/2012,699,0.76,699,Apple A5X,1 GB,64 GB,"9.7"" Retina LCD",10 ore,03/2012 - 10/2012,iOS 5–9,Wi-Fi
+iPad,iPad (3ª gen),03/2012,03/2012,829,0.76,799,Apple A5X,1 GB,64 GB,"9.7"" Retina LCD",10 ore,03/2012 - 10/2012,iOS 5–9,Wi-Fi + Cellular
+iPad,iPad (4ª gen),10/2012,11/2012,499,0.77,499,Apple A6X,1 GB,16 GB,"9.7"" Retina LCD",10 ore,11/2012 - 10/2014,iOS 6–10,Wi-Fi
+iPad,iPad (4ª gen),10/2012,11/2012,629,0.77,629,Apple A6X,1 GB,16 GB,"9.7"" Retina LCD",10 ore,11/2012 - 10/2014,iOS 6–10,Wi-Fi + Cellular
+iPad,iPad (4ª gen),10/2012,11/2012,599,0.77,599,Apple A6X,1 GB,32 GB,"9.7"" Retina LCD",10 ore,11/2012 - 10/2014,iOS 6–10,Wi-Fi
+iPad,iPad (4ª gen),10/2012,11/2012,729,0.77,729,Apple A6X,1 GB,32 GB,"9.7"" Retina LCD",10 ore,11/2012 - 10/2014,iOS 6–10,Wi-Fi + Cellular
+iPad,iPad (4ª gen),10/2012,11/2012,699,0.77,699,Apple A6X,1 GB,64 GB,"9.7"" Retina LCD",10 ore,11/2012 - 10/2014,iOS 6–10,Wi-Fi
+iPad,iPad (4ª gen),10/2012,11/2012,829,0.77,829,Apple A6X,1 GB,64 GB,"9.7"" Retina LCD",10 ore,11/2012 - 10/2014,iOS 6–10,Wi-Fi + Cellular
+iPad,iPad (4ª gen),10/2012,11/2012,799,0.77,799,Apple A6X,1 GB,128 GB,"9.7"" Retina LCD",10 ore,11/2012 - 10/2014,iOS 6–10,Wi-Fi
+iPad,iPad (4ª gen),10/2012,11/2012,929,0.77,929,Apple A6X,1 GB,128 GB,"9.7"" Retina LCD",10 ore,11/2012 - 10/2014,iOS 6–10,Wi-Fi + Cellular
+iPad,iPad Air,10/2013,11/2013,499,0.73,489,Apple A7,1 GB,16 GB,"9.7"" Retina LCD",10 ore,11/2013 - 10/2014,iOS 7–12,Wi-Fi
+iPad,iPad Air,10/2013,11/2013,629,0.73,609,Apple A7,1 GB,16 GB,"9.7"" Retina LCD",10 ore,11/2013 - 10/2014,iOS 7–12,Wi-Fi + Cellular
+iPad,iPad Air,10/2013,11/2013,599,0.73,589,Apple A7,1 GB,32 GB,"9.7"" Retina LCD",10 ore,11/2013 - 10/2014,iOS 7–12,Wi-Fi
+iPad,iPad Air,10/2013,11/2013,729,0.73,709,Apple A7,1 GB,32 GB,"9.7"" Retina LCD",10 ore,11/2013 - 10/2014,iOS 7–12,Wi-Fi + Cellular
+iPad,iPad Air,10/2013,11/2013,699,0.73,689,Apple A7,1 GB,64 GB,"9.7"" Retina LCD",10 ore,11/2013 - 10/2014,iOS 7–12,Wi-Fi
+iPad,iPad Air,10/2013,11/2013,829,0.73,809,Apple A7,1 GB,64 GB,"9.7"" Retina LCD",10 ore,11/2013 - 10/2014,iOS 7–12,Wi-Fi + Cellular
+iPad,iPad Air,10/2013,11/2013,799,0.73,789,Apple A7,1 GB,128 GB,"9.7"" Retina LCD",10 ore,11/2013 - 10/2014,iOS 7–12,Wi-Fi
+iPad,iPad Air,10/2013,11/2013,929,0.73,909,Apple A7,1 GB,128 GB,"9.7"" Retina LCD",10 ore,11/2013 - 10/2014,iOS 7–12,Wi-Fi + Cellular
+iPad,iPad Air 2,10/2014,10/2014,499,0.79,489,Apple A8X,2 GB,16 GB,"9.7"" Retina LCD",10 ore,10/2014 - 03/2017,iOS 8–15,Wi-Fi
+iPad,iPad Air 2,10/2014,10/2014,629,0.79,609,Apple A8X,2 GB,16 GB,"9.7"" Retina LCD",10 ore,10/2014 - 03/2017,iOS 8–15,Wi-Fi + Cellular
+iPad,iPad Air 2,10/2014,10/2014,599,0.79,589,Apple A8X,2 GB,64 GB,"9.7"" Retina LCD",10 ore,10/2014 - 03/2017,iOS 8–15,Wi-Fi
+iPad,iPad Air 2,10/2014,10/2014,729,0.79,709,Apple A8X,2 GB,64 GB,"9.7"" Retina LCD",10 ore,10/2014 - 03/2017,iOS 8–15,Wi-Fi + Cellular
+iPad,iPad Air 2,10/2014,10/2014,699,0.79,689,Apple A8X,2 GB,128 GB,"9.7"" Retina LCD",10 ore,10/2014 - 03/2017,iOS 8–15,Wi-Fi
+iPad,iPad Air 2,10/2014,10/2014,829,0.79,809,Apple A8X,2 GB,128 GB,"9.7"" Retina LCD",10 ore,10/2014 - 03/2017,iOS 8–15,Wi-Fi + Cellular
+iPad,iPad (5ª gen),03/2017,03/2017,329,0.94,409,Apple A9,2 GB,32 GB,"9.7"" Retina LCD",10 ore,03/2017 - 03/2018,iOS 10–16,Wi-Fi
+iPad,iPad (5ª gen),03/2017,03/2017,459,0.94,569,Apple A9,2 GB,32 GB,"9.7"" Retina LCD",10 ore,03/2017 - 03/2018,iOS 10–16,Wi-Fi + Cellular
+iPad,iPad (5ª gen),03/2017,03/2017,429,0.94,519,Apple A9,2 GB,128 GB,"9.7"" Retina LCD",10 ore,03/2017 - 03/2018,iOS 10–16,Wi-Fi
+iPad,iPad (5ª gen),03/2017,03/2017,559,0.94,679,Apple A9,2 GB,128 GB,"9.7"" Retina LCD",10 ore,03/2017 - 03/2018,iOS 10–16,Wi-Fi + Cellular
+iPad,iPad (6ª gen),03/2018,03/2018,329,0.81,359,Apple A10 Fusion,2 GB,32 GB,"9.7"" Retina LCD",10 ore,03/2018 - 09/2019,iOS 11–17,Wi-Fi
+iPad,iPad (6ª gen),03/2018,03/2018,459,0.81,489,Apple A10 Fusion,2 GB,32 GB,"9.7"" Retina LCD",10 ore,03/2018 - 09/2019,iOS 11–17,Wi-Fi + Cellular
+iPad,iPad (6ª gen),03/2018,03/2018,429,0.81,469,Apple A10 Fusion,2 GB,128 GB,"9.7"" Retina LCD",10 ore,03/2018 - 09/2019,iOS 11–17,Wi-Fi
+iPad,iPad (6ª gen),03/2018,03/2018,559,0.81,599,Apple A10 Fusion,2 GB,128 GB,"9.7"" Retina LCD",10 ore,03/2018 - 09/2019,iOS 11–17,Wi-Fi + Cellular
+iPad,iPad (7ª gen),09/2019,09/2019,329,0.91,389,Apple A10 Fusion,3 GB,32 GB,"10.2"" Retina LCD",10 ore,09/2019 - 09/2020,iPadOS 13–17,Wi-Fi
+iPad,iPad (7ª gen),09/2019,09/2019,459,0.91,529,Apple A10 Fusion,3 GB,32 GB,"10.2"" Retina LCD",10 ore,09/2019 - 09/2020,iPadOS 13–17,Wi-Fi + Cellular
+iPad,iPad (7ª gen),09/2019,09/2019,429,0.91,499,Apple A10 Fusion,3 GB,128 GB,"10.2"" Retina LCD",10 ore,09/2019 - 09/2020,iPadOS 13–17,Wi-Fi
+iPad,iPad (7ª gen),09/2019,09/2019,559,0.91,639,Apple A10 Fusion,3 GB,128 GB,"10.2"" Retina LCD",10 ore,09/2019 - 09/2020,iPadOS 13–17,Wi-Fi + Cellular
+iPad,iPad (8ª gen),09/2020,09/2020,329,0.85,389,Apple A12 Bionic,3 GB,32 GB,"10.2"" Retina LCD",10 ore,09/2020 - 09/2021,iPadOS 14–18,Wi-Fi
+iPad,iPad (8ª gen),09/2020,09/2020,459,0.85,529,Apple A12 Bionic,3 GB,32 GB,"10.2"" Retina LCD",10 ore,09/2020 - 09/2021,iPadOS 14–18,Wi-Fi + Cellular
+iPad,iPad (8ª gen),09/2020,09/2020,429,0.85,499,Apple A12 Bionic,3 GB,128 GB,"10.2"" Retina LCD",10 ore,09/2020 - 09/2021,iPadOS 14–18,Wi-Fi
+iPad,iPad (8ª gen),09/2020,09/2020,559,0.85,639,Apple A12 Bionic,3 GB,128 GB,"10.2"" Retina LCD",10 ore,09/2020 - 09/2021,iPadOS 14–18,Wi-Fi + Cellular
 iPad,iPad (9ª gen),09/2021,09/2021,329,0.85,389,Apple A13 Bionic,3 GB,64 GB,"10.2"" Retina LCD",10 ore,09/2021 - 05/2024,iPadOS 15–26,Wi-Fi
 iPad,iPad (9ª gen),09/2021,09/2021,459,0.85,529,Apple A13 Bionic,3 GB,64 GB,"10.2"" Retina LCD",10 ore,09/2021 - 05/2024,iPadOS 15–26,Wi-Fi + Cellular
 iPad,iPad (9ª gen),09/2021,09/2021,479,0.85,559,Apple A13 Bionic,3 GB,256 GB,"10.2"" Retina LCD",10 ore,09/2021 - 05/2024,iPadOS 15–26,Wi-Fi
 iPad,iPad (9ª gen),09/2021,09/2021,609,0.85,699,Apple A13 Bionic,3 GB,256 GB,"10.2"" Retina LCD",10 ore,09/2021 - 05/2024,iPadOS 15–26,Wi-Fi + Cellular
-iPad,iPad (10ª gen),10/2022,10/2022,449,0.95,589,Apple A14 Bionic,4 GB,64 GB,"10.9"" Liquid Retina LCD",10 ore,10/2022 - 03/2025,iPadOS 16–26,Wi-Fi
-iPad,iPad (10ª gen),10/2022,10/2022,599,0.95,789,Apple A14 Bionic,4 GB,64 GB,"10.9"" Liquid Retina LCD",10 ore,10/2022 - 03/2025,iPadOS 16–26,Wi-Fi + Cellular
-iPad,iPad (10ª gen),10/2022,10/2022,599,0.95,789,Apple A14 Bionic,4 GB,256 GB,"10.9"" Liquid Retina LCD",10 ore,10/2022 - 03/2025,iPadOS 16–26,Wi-Fi
-iPad,iPad (10ª gen),10/2022,10/2022,749,0.95,989,Apple A14 Bionic,4 GB,256 GB,"10.9"" Liquid Retina LCD",10 ore,10/2022 - 03/2025,iPadOS 16–26,Wi-Fi + Cellular
-iPad,iPad (A16),03/2025,03/2025,349,0.90,409,Apple A16,6 GB,128 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - presente,iPadOS 18–26,Wi-Fi
-iPad,iPad (A16),03/2025,03/2025,499,0.90,579,Apple A16,6 GB,128 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - presente,iPadOS 18–26,Wi-Fi + Cellular
-iPad,iPad (A16),03/2025,03/2025,449,0.90,529,Apple A16,6 GB,256 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - presente,iPadOS 18–26,Wi-Fi
-iPad,iPad (A16),03/2025,03/2025,599,0.90,699,Apple A16,6 GB,256 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - presente,iPadOS 18–26,Wi-Fi + Cellular
-iPad,iPad (A16),03/2025,03/2025,649,0.90,749,Apple A16,6 GB,512 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - presente,iPadOS 18–26,Wi-Fi
-iPad,iPad (A16),03/2025,03/2025,799,0.90,919,Apple A16,6 GB,512 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - presente,iPadOS 18–26,Wi-Fi + Cellular
-iPad,iPad mini,10/2012,11/2012,329,0.78,329,Apple A5,512 MB,16 GB,"7.9"" LCD",10 ore,11/2012 - 06/2015,iOS 6–9,Wi-Fi
-iPad,iPad mini,10/2012,11/2012,459,0.78,459,Apple A5,512 MB,16 GB,"7.9"" LCD",10 ore,11/2012 - 06/2015,iOS 6–9,Wi-Fi + Cellular
-iPad,iPad mini,10/2012,11/2012,429,0.78,429,Apple A5,512 MB,32 GB,"7.9"" LCD",10 ore,11/2012 - 06/2015,iOS 6–9,Wi-Fi
-iPad,iPad mini,10/2012,11/2012,559,0.78,559,Apple A5,512 MB,32 GB,"7.9"" LCD",10 ore,11/2012 - 06/2015,iOS 6–9,Wi-Fi + Cellular
-iPad,iPad mini,10/2012,11/2012,529,0.78,529,Apple A5,512 MB,64 GB,"7.9"" LCD",10 ore,11/2012 - 06/2015,iOS 6–9,Wi-Fi
-iPad,iPad mini,10/2012,11/2012,659,0.78,659,Apple A5,512 MB,64 GB,"7.9"" LCD",10 ore,11/2012 - 06/2015,iOS 6–9,Wi-Fi + Cellular
-iPad,iPad mini 2,10/2013,11/2013,399,0.75,389,Apple A7,1 GB,16 GB,"7.9"" Retina LCD",10 ore,11/2013 - 03/2017,iOS 7–12,Wi-Fi
-iPad,iPad mini 2,10/2013,11/2013,529,0.75,509,Apple A7,1 GB,16 GB,"7.9"" Retina LCD",10 ore,11/2013 - 03/2017,iOS 7–12,Wi-Fi + Cellular
-iPad,iPad mini 2,10/2013,11/2013,499,0.75,489,Apple A7,1 GB,32 GB,"7.9"" Retina LCD",10 ore,11/2013 - 03/2017,iOS 7–12,Wi-Fi
-iPad,iPad mini 2,10/2013,11/2013,629,0.75,609,Apple A7,1 GB,32 GB,"7.9"" Retina LCD",10 ore,11/2013 - 03/2017,iOS 7–12,Wi-Fi + Cellular
-iPad,iPad mini 2,10/2013,11/2013,599,0.75,589,Apple A7,1 GB,64 GB,"7.9"" Retina LCD",10 ore,11/2013 - 03/2017,iOS 7–12,Wi-Fi
-iPad,iPad mini 2,10/2013,11/2013,729,0.75,709,Apple A7,1 GB,64 GB,"7.9"" Retina LCD",10 ore,11/2013 - 03/2017,iOS 7–12,Wi-Fi + Cellular
-iPad,iPad mini 3,10/2014,10/2014,399,0.75,389,Apple A7,1 GB,16 GB,"7.9"" Retina LCD",10 ore,10/2014 - 09/2015,iOS 8–12,Wi-Fi
-iPad,iPad mini 3,10/2014,10/2014,529,0.75,509,Apple A7,1 GB,16 GB,"7.9"" Retina LCD",10 ore,10/2014 - 09/2015,iOS 8–12,Wi-Fi + Cellular
-iPad,iPad mini 3,10/2014,10/2014,499,0.75,489,Apple A7,1 GB,64 GB,"7.9"" Retina LCD",10 ore,10/2014 - 09/2015,iOS 8–12,Wi-Fi
-iPad,iPad mini 3,10/2014,10/2014,629,0.75,609,Apple A7,1 GB,64 GB,"7.9"" Retina LCD",10 ore,10/2014 - 09/2015,iOS 8–12,Wi-Fi + Cellular
-iPad,iPad mini 3,10/2014,10/2014,599,0.75,589,Apple A7,1 GB,128 GB,"7.9"" Retina LCD",10 ore,10/2014 - 09/2015,iOS 8–12,Wi-Fi
-iPad,iPad mini 3,10/2014,10/2014,729,0.75,709,Apple A7,1 GB,128 GB,"7.9"" Retina LCD",10 ore,10/2014 - 09/2015,iOS 8–12,Wi-Fi + Cellular
-iPad,iPad mini 4,09/2015,09/2015,399,0.90,489,Apple A8,2 GB,16 GB,"7.9"" Retina LCD",10 ore,09/2015 - 03/2019,iOS 9–15,Wi-Fi
-iPad,iPad mini 4,09/2015,09/2015,529,0.90,609,Apple A8,2 GB,16 GB,"7.9"" Retina LCD",10 ore,09/2015 - 03/2019,iOS 9–15,Wi-Fi + Cellular
-iPad,iPad mini 4,09/2015,09/2015,499,0.90,609,Apple A8,2 GB,64 GB,"7.9"" Retina LCD",10 ore,09/2015 - 03/2019,iOS 9–15,Wi-Fi
-iPad,iPad mini 4,09/2015,09/2015,629,0.90,729,Apple A8,2 GB,64 GB,"7.9"" Retina LCD",10 ore,09/2015 - 03/2019,iOS 9–15,Wi-Fi + Cellular
-iPad,iPad mini 4,09/2015,09/2015,599,0.90,729,Apple A8,2 GB,128 GB,"7.9"" Retina LCD",10 ore,09/2015 - 03/2019,iOS 9–15,Wi-Fi
-iPad,iPad mini 4,09/2015,09/2015,729,0.90,849,Apple A8,2 GB,128 GB,"7.9"" Retina LCD",10 ore,09/2015 - 03/2019,iOS 9–15,Wi-Fi + Cellular
-iPad,iPad mini (5ª gen),03/2019,03/2019,399,0.89,459,Apple A12 Bionic,3 GB,64 GB,"7.9"" Retina LCD",10 ore,03/2019 - 09/2021,iPadOS 13–26,Wi-Fi
-iPad,iPad mini (5ª gen),03/2019,03/2019,529,0.89,599,Apple A12 Bionic,3 GB,64 GB,"7.9"" Retina LCD",10 ore,03/2019 - 09/2021,iPadOS 13–26,Wi-Fi + Cellular
-iPad,iPad mini (5ª gen),03/2019,03/2019,549,0.89,629,Apple A12 Bionic,3 GB,256 GB,"7.9"" Retina LCD",10 ore,03/2019 - 09/2021,iPadOS 13–26,Wi-Fi
-iPad,iPad mini (5ª gen),03/2019,03/2019,679,0.89,769,Apple A12 Bionic,3 GB,256 GB,"7.9"" Retina LCD",10 ore,03/2019 - 09/2021,iPadOS 13–26,Wi-Fi + Cellular
+iPad,iPad (10ª gen),10/2022,10/2022,449,1.02,589,Apple A14 Bionic,4 GB,64 GB,"10.9"" Liquid Retina LCD",10 ore,10/2022 - 03/2025,iPadOS 16–26,Wi-Fi
+iPad,iPad (10ª gen),10/2022,10/2022,599,1.02,789,Apple A14 Bionic,4 GB,64 GB,"10.9"" Liquid Retina LCD",10 ore,10/2022 - 03/2025,iPadOS 16–26,Wi-Fi + Cellular
+iPad,iPad (10ª gen),10/2022,10/2022,599,1.02,789,Apple A14 Bionic,4 GB,256 GB,"10.9"" Liquid Retina LCD",10 ore,10/2022 - 03/2025,iPadOS 16–26,Wi-Fi
+iPad,iPad (10ª gen),10/2022,10/2022,749,1.02,989,Apple A14 Bionic,4 GB,256 GB,"10.9"" Liquid Retina LCD",10 ore,10/2022 - 03/2025,iPadOS 16–26,Wi-Fi + Cellular
+iPad,iPad (A16),03/2025,03/2025,349,0.93,409,Apple A16,6 GB,128 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - presente,iPadOS 18–26,Wi-Fi
+iPad,iPad (A16),03/2025,03/2025,499,0.93,579,Apple A16,6 GB,128 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - presente,iPadOS 18–26,Wi-Fi + Cellular
+iPad,iPad (A16),03/2025,03/2025,449,0.93,529,Apple A16,6 GB,256 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - presente,iPadOS 18–26,Wi-Fi
+iPad,iPad (A16),03/2025,03/2025,599,0.93,699,Apple A16,6 GB,256 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - presente,iPadOS 18–26,Wi-Fi + Cellular
+iPad,iPad (A16),03/2025,03/2025,649,0.93,749,Apple A16,6 GB,512 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - presente,iPadOS 18–26,Wi-Fi
+iPad,iPad (A16),03/2025,03/2025,799,0.93,919,Apple A16,6 GB,512 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - presente,iPadOS 18–26,Wi-Fi + Cellular
+iPad,iPad mini,10/2012,11/2012,329,0.77,329,Apple A5,512 MB,16 GB,"7.9"" LCD",10 ore,11/2012 - 06/2015,iOS 6–9,Wi-Fi
+iPad,iPad mini,10/2012,11/2012,459,0.77,459,Apple A5,512 MB,16 GB,"7.9"" LCD",10 ore,11/2012 - 06/2015,iOS 6–9,Wi-Fi + Cellular
+iPad,iPad mini,10/2012,11/2012,429,0.77,429,Apple A5,512 MB,32 GB,"7.9"" LCD",10 ore,11/2012 - 06/2015,iOS 6–9,Wi-Fi
+iPad,iPad mini,10/2012,11/2012,559,0.77,559,Apple A5,512 MB,32 GB,"7.9"" LCD",10 ore,11/2012 - 06/2015,iOS 6–9,Wi-Fi + Cellular
+iPad,iPad mini,10/2012,11/2012,529,0.77,529,Apple A5,512 MB,64 GB,"7.9"" LCD",10 ore,11/2012 - 06/2015,iOS 6–9,Wi-Fi
+iPad,iPad mini,10/2012,11/2012,659,0.77,659,Apple A5,512 MB,64 GB,"7.9"" LCD",10 ore,11/2012 - 06/2015,iOS 6–9,Wi-Fi + Cellular
+iPad,iPad mini 2,10/2013,11/2013,399,0.73,389,Apple A7,1 GB,16 GB,"7.9"" Retina LCD",10 ore,11/2013 - 03/2017,iOS 7–12,Wi-Fi
+iPad,iPad mini 2,10/2013,11/2013,529,0.73,509,Apple A7,1 GB,16 GB,"7.9"" Retina LCD",10 ore,11/2013 - 03/2017,iOS 7–12,Wi-Fi + Cellular
+iPad,iPad mini 2,10/2013,11/2013,499,0.73,489,Apple A7,1 GB,32 GB,"7.9"" Retina LCD",10 ore,11/2013 - 03/2017,iOS 7–12,Wi-Fi
+iPad,iPad mini 2,10/2013,11/2013,629,0.73,609,Apple A7,1 GB,32 GB,"7.9"" Retina LCD",10 ore,11/2013 - 03/2017,iOS 7–12,Wi-Fi + Cellular
+iPad,iPad mini 2,10/2013,11/2013,599,0.73,589,Apple A7,1 GB,64 GB,"7.9"" Retina LCD",10 ore,11/2013 - 03/2017,iOS 7–12,Wi-Fi
+iPad,iPad mini 2,10/2013,11/2013,729,0.73,709,Apple A7,1 GB,64 GB,"7.9"" Retina LCD",10 ore,11/2013 - 03/2017,iOS 7–12,Wi-Fi + Cellular
+iPad,iPad mini 3,10/2014,10/2014,399,0.79,389,Apple A7,1 GB,16 GB,"7.9"" Retina LCD",10 ore,10/2014 - 09/2015,iOS 8–12,Wi-Fi
+iPad,iPad mini 3,10/2014,10/2014,529,0.79,509,Apple A7,1 GB,16 GB,"7.9"" Retina LCD",10 ore,10/2014 - 09/2015,iOS 8–12,Wi-Fi + Cellular
+iPad,iPad mini 3,10/2014,10/2014,499,0.79,489,Apple A7,1 GB,64 GB,"7.9"" Retina LCD",10 ore,10/2014 - 09/2015,iOS 8–12,Wi-Fi
+iPad,iPad mini 3,10/2014,10/2014,629,0.79,609,Apple A7,1 GB,64 GB,"7.9"" Retina LCD",10 ore,10/2014 - 09/2015,iOS 8–12,Wi-Fi + Cellular
+iPad,iPad mini 3,10/2014,10/2014,599,0.79,589,Apple A7,1 GB,128 GB,"7.9"" Retina LCD",10 ore,10/2014 - 09/2015,iOS 8–12,Wi-Fi
+iPad,iPad mini 3,10/2014,10/2014,729,0.79,709,Apple A7,1 GB,128 GB,"7.9"" Retina LCD",10 ore,10/2014 - 09/2015,iOS 8–12,Wi-Fi + Cellular
+iPad,iPad mini 4,09/2015,09/2015,399,0.89,489,Apple A8,2 GB,16 GB,"7.9"" Retina LCD",10 ore,09/2015 - 03/2019,iOS 9–15,Wi-Fi
+iPad,iPad mini 4,09/2015,09/2015,529,0.89,609,Apple A8,2 GB,16 GB,"7.9"" Retina LCD",10 ore,09/2015 - 03/2019,iOS 9–15,Wi-Fi + Cellular
+iPad,iPad mini 4,09/2015,09/2015,499,0.89,609,Apple A8,2 GB,64 GB,"7.9"" Retina LCD",10 ore,09/2015 - 03/2019,iOS 9–15,Wi-Fi
+iPad,iPad mini 4,09/2015,09/2015,629,0.89,729,Apple A8,2 GB,64 GB,"7.9"" Retina LCD",10 ore,09/2015 - 03/2019,iOS 9–15,Wi-Fi + Cellular
+iPad,iPad mini 4,09/2015,09/2015,599,0.89,729,Apple A8,2 GB,128 GB,"7.9"" Retina LCD",10 ore,09/2015 - 03/2019,iOS 9–15,Wi-Fi
+iPad,iPad mini 4,09/2015,09/2015,729,0.89,849,Apple A8,2 GB,128 GB,"7.9"" Retina LCD",10 ore,09/2015 - 03/2019,iOS 9–15,Wi-Fi + Cellular
+iPad,iPad mini (5ª gen),03/2019,03/2019,399,0.88,459,Apple A12 Bionic,3 GB,64 GB,"7.9"" Retina LCD",10 ore,03/2019 - 09/2021,iPadOS 13–26,Wi-Fi
+iPad,iPad mini (5ª gen),03/2019,03/2019,529,0.88,599,Apple A12 Bionic,3 GB,64 GB,"7.9"" Retina LCD",10 ore,03/2019 - 09/2021,iPadOS 13–26,Wi-Fi + Cellular
+iPad,iPad mini (5ª gen),03/2019,03/2019,549,0.88,629,Apple A12 Bionic,3 GB,256 GB,"7.9"" Retina LCD",10 ore,03/2019 - 09/2021,iPadOS 13–26,Wi-Fi
+iPad,iPad mini (5ª gen),03/2019,03/2019,679,0.88,769,Apple A12 Bionic,3 GB,256 GB,"7.9"" Retina LCD",10 ore,03/2019 - 09/2021,iPadOS 13–26,Wi-Fi + Cellular
 iPad,iPad mini (6ª gen),09/2021,09/2021,499,0.85,559,Apple A15 Bionic,4 GB,64 GB,"8.3"" Liquid Retina LCD",10 ore,09/2021 - 10/2024,iPadOS 15–26,Wi-Fi
 iPad,iPad mini (6ª gen),09/2021,09/2021,649,0.85,729,Apple A15 Bionic,4 GB,64 GB,"8.3"" Liquid Retina LCD",10 ore,09/2021 - 10/2024,iPadOS 15–26,Wi-Fi + Cellular
 iPad,iPad mini (6ª gen),09/2021,09/2021,649,0.85,729,Apple A15 Bionic,4 GB,256 GB,"8.3"" Liquid Retina LCD",10 ore,09/2021 - 10/2024,iPadOS 15–26,Wi-Fi
@@ -107,190 +107,190 @@ iPad,iPad mini (A17 Pro),10/2024,10/2024,599,0.92,729,Apple A17 Pro,8 GB,256 GB,
 iPad,iPad mini (A17 Pro),10/2024,10/2024,749,0.92,899,Apple A17 Pro,8 GB,256 GB,"8.3"" Liquid Retina LCD",10 ore,10/2024 - presente,iPadOS 18–26,Wi-Fi + Cellular
 iPad,iPad mini (A17 Pro),10/2024,10/2024,799,0.92,969,Apple A17 Pro,8 GB,512 GB,"8.3"" Liquid Retina LCD",10 ore,10/2024 - presente,iPadOS 18–26,Wi-Fi
 iPad,iPad mini (A17 Pro),10/2024,10/2024,949,0.92,1139,Apple A17 Pro,8 GB,512 GB,"8.3"" Liquid Retina LCD",10 ore,10/2024 - presente,iPadOS 18–26,Wi-Fi + Cellular
-iPad,iPad Air (3ª gen),03/2019,03/2019,499,0.89,569,Apple A12 Bionic,3 GB,64 GB,"10.5"" Retina LCD",10 ore,03/2019 - 09/2020,iPadOS 13–18,Wi-Fi
-iPad,iPad Air (3ª gen),03/2019,03/2019,629,0.89,709,Apple A12 Bionic,3 GB,64 GB,"10.5"" Retina LCD",10 ore,03/2019 - 09/2020,iPadOS 13–18,Wi-Fi + Cellular
-iPad,iPad Air (3ª gen),03/2019,03/2019,649,0.89,749,Apple A12 Bionic,3 GB,256 GB,"10.5"" Retina LCD",10 ore,03/2019 - 09/2020,iPadOS 13–18,Wi-Fi
-iPad,iPad Air (3ª gen),03/2019,03/2019,779,0.89,889,Apple A12 Bionic,3 GB,256 GB,"10.5"" Retina LCD",10 ore,03/2019 - 09/2020,iPadOS 13–18,Wi-Fi + Cellular
-iPad,iPad Air (4ª gen),09/2020,10/2020,599,0.88,669,Apple A14 Bionic,4 GB,64 GB,"10.9"" Liquid Retina LCD",10 ore,10/2020 - 03/2022,iPadOS 14–26,Wi-Fi
-iPad,iPad Air (4ª gen),09/2020,10/2020,729,0.88,839,Apple A14 Bionic,4 GB,64 GB,"10.9"" Liquid Retina LCD",10 ore,10/2020 - 03/2022,iPadOS 14–26,Wi-Fi + Cellular
-iPad,iPad Air (4ª gen),09/2020,10/2020,749,0.88,839,Apple A14 Bionic,4 GB,256 GB,"10.9"" Liquid Retina LCD",10 ore,10/2020 - 03/2022,iPadOS 14–26,Wi-Fi
-iPad,iPad Air (4ª gen),09/2020,10/2020,879,0.88,1009,Apple A14 Bionic,4 GB,256 GB,"10.9"" Liquid Retina LCD",10 ore,10/2020 - 03/2022,iPadOS 14–26,Wi-Fi + Cellular
-iPad,iPad Air (5ª gen),03/2022,03/2022,599,0.95,789,Apple M1,8 GB,64 GB,"10.9"" Liquid Retina LCD",10 ore,03/2022 - 05/2024,iPadOS 15–26,Wi-Fi
-iPad,iPad Air (5ª gen),03/2022,03/2022,749,0.95,969,Apple M1,8 GB,64 GB,"10.9"" Liquid Retina LCD",10 ore,03/2022 - 05/2024,iPadOS 15–26,Wi-Fi + Cellular
-iPad,iPad Air (5ª gen),03/2022,03/2022,749,0.95,979,Apple M1,8 GB,256 GB,"10.9"" Liquid Retina LCD",10 ore,03/2022 - 05/2024,iPadOS 15–26,Wi-Fi
-iPad,iPad Air (5ª gen),03/2022,03/2022,899,0.95,1159,Apple M1,8 GB,256 GB,"10.9"" Liquid Retina LCD",10 ore,03/2022 - 05/2024,iPadOS 15–26,Wi-Fi + Cellular
-iPad,"iPad Air 11"" (M2)",05/2024,05/2024,599,0.92,719,Apple M2,8 GB,128 GB,"11"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi
-iPad,"iPad Air 11"" (M2)",05/2024,05/2024,749,0.92,889,Apple M2,8 GB,128 GB,"11"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi + Cellular
-iPad,"iPad Air 11"" (M2)",05/2024,05/2024,699,0.92,849,Apple M2,8 GB,256 GB,"11"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi
-iPad,"iPad Air 11"" (M2)",05/2024,05/2024,849,0.92,1019,Apple M2,8 GB,256 GB,"11"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi + Cellular
-iPad,"iPad Air 11"" (M2)",05/2024,05/2024,899,0.92,1099,Apple M2,8 GB,512 GB,"11"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi
-iPad,"iPad Air 11"" (M2)",05/2024,05/2024,1049,0.92,1269,Apple M2,8 GB,512 GB,"11"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi + Cellular
-iPad,"iPad Air 11"" (M2)",05/2024,05/2024,1099,0.92,1349,Apple M2,8 GB,1 TB,"11"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi
-iPad,"iPad Air 11"" (M2)",05/2024,05/2024,1249,0.92,1519,Apple M2,8 GB,1 TB,"11"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi + Cellular
-iPad,"iPad Air 13"" (M2)",05/2024,05/2024,799,0.92,969,Apple M2,8 GB,128 GB,"13"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi
-iPad,"iPad Air 13"" (M2)",05/2024,05/2024,949,0.92,1139,Apple M2,8 GB,128 GB,"13"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi + Cellular
-iPad,"iPad Air 13"" (M2)",05/2024,05/2024,899,0.92,1099,Apple M2,8 GB,256 GB,"13"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi
-iPad,"iPad Air 13"" (M2)",05/2024,05/2024,1049,0.92,1269,Apple M2,8 GB,256 GB,"13"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi + Cellular
-iPad,"iPad Air 13"" (M2)",05/2024,05/2024,1099,0.92,1349,Apple M2,8 GB,512 GB,"13"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi
-iPad,"iPad Air 13"" (M2)",05/2024,05/2024,1249,0.92,1519,Apple M2,8 GB,512 GB,"13"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi + Cellular
-iPad,"iPad Air 13"" (M2)",05/2024,05/2024,1299,0.92,1599,Apple M2,8 GB,1 TB,"13"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi
-iPad,"iPad Air 13"" (M2)",05/2024,05/2024,1449,0.92,1769,Apple M2,8 GB,1 TB,"13"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi + Cellular
-iPad,"iPad Air 11"" (M3)",03/2025,03/2025,599,0.90,719,Apple M3,8 GB,128 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi
-iPad,"iPad Air 11"" (M3)",03/2025,03/2025,749,0.90,889,Apple M3,8 GB,128 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi + Cellular
-iPad,"iPad Air 11"" (M3)",03/2025,03/2025,699,0.90,849,Apple M3,8 GB,256 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi
-iPad,"iPad Air 11"" (M3)",03/2025,03/2025,849,0.90,1019,Apple M3,8 GB,256 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi + Cellular
-iPad,"iPad Air 11"" (M3)",03/2025,03/2025,899,0.90,1099,Apple M3,8 GB,512 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi
-iPad,"iPad Air 11"" (M3)",03/2025,03/2025,1049,0.90,1269,Apple M3,8 GB,512 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi + Cellular
-iPad,"iPad Air 11"" (M3)",03/2025,03/2025,1099,0.90,1349,Apple M3,8 GB,1 TB,"11"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi
-iPad,"iPad Air 11"" (M3)",03/2025,03/2025,1249,0.90,1519,Apple M3,8 GB,1 TB,"11"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi + Cellular
-iPad,"iPad Air 13"" (M3)",03/2025,03/2025,799,0.90,969,Apple M3,8 GB,128 GB,"13"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi
-iPad,"iPad Air 13"" (M3)",03/2025,03/2025,949,0.90,1139,Apple M3,8 GB,128 GB,"13"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi + Cellular
-iPad,"iPad Air 13"" (M3)",03/2025,03/2025,899,0.90,1099,Apple M3,8 GB,256 GB,"13"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi
-iPad,"iPad Air 13"" (M3)",03/2025,03/2025,1049,0.90,1269,Apple M3,8 GB,256 GB,"13"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi + Cellular
-iPad,"iPad Air 13"" (M3)",03/2025,03/2025,1099,0.90,1349,Apple M3,8 GB,512 GB,"13"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi
-iPad,"iPad Air 13"" (M3)",03/2025,03/2025,1249,0.90,1519,Apple M3,8 GB,512 GB,"13"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi + Cellular
-iPad,"iPad Air 13"" (M3)",03/2025,03/2025,1299,0.90,1599,Apple M3,8 GB,1 TB,"13"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi
-iPad,"iPad Air 13"" (M3)",03/2025,03/2025,1449,0.90,1769,Apple M3,8 GB,1 TB,"13"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (1ª gen)",09/2015,11/2015,799,0.90,919,Apple A9X,4 GB,32 GB,"12.9"" Retina LCD",10 ore,11/2015 - 06/2017,iPadOS 9–16,Wi-Fi
-iPad,"iPad Pro 12.9"" (1ª gen)",09/2015,11/2015,949,0.90,1099,Apple A9X,4 GB,128 GB,"12.9"" Retina LCD",10 ore,11/2015 - 06/2017,iPadOS 9–16,Wi-Fi
-iPad,"iPad Pro 12.9"" (1ª gen)",09/2015,11/2015,1079,0.90,1249,Apple A9X,4 GB,128 GB,"12.9"" Retina LCD",10 ore,11/2015 - 06/2017,iPadOS 9–16,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (1ª gen)",09/2015,11/2015,1099,0.90,1279,Apple A9X,4 GB,256 GB,"12.9"" Retina LCD",10 ore,11/2015 - 06/2017,iPadOS 9–16,Wi-Fi
-iPad,"iPad Pro 12.9"" (1ª gen)",09/2015,11/2015,1229,0.90,1429,Apple A9X,4 GB,256 GB,"12.9"" Retina LCD",10 ore,11/2015 - 06/2017,iPadOS 9–16,Wi-Fi + Cellular
+iPad,iPad Air (3ª gen),03/2019,03/2019,499,0.88,569,Apple A12 Bionic,3 GB,64 GB,"10.5"" Retina LCD",10 ore,03/2019 - 09/2020,iPadOS 13–18,Wi-Fi
+iPad,iPad Air (3ª gen),03/2019,03/2019,629,0.88,709,Apple A12 Bionic,3 GB,64 GB,"10.5"" Retina LCD",10 ore,03/2019 - 09/2020,iPadOS 13–18,Wi-Fi + Cellular
+iPad,iPad Air (3ª gen),03/2019,03/2019,649,0.88,749,Apple A12 Bionic,3 GB,256 GB,"10.5"" Retina LCD",10 ore,03/2019 - 09/2020,iPadOS 13–18,Wi-Fi
+iPad,iPad Air (3ª gen),03/2019,03/2019,779,0.88,889,Apple A12 Bionic,3 GB,256 GB,"10.5"" Retina LCD",10 ore,03/2019 - 09/2020,iPadOS 13–18,Wi-Fi + Cellular
+iPad,iPad Air (4ª gen),09/2020,10/2020,599,0.85,669,Apple A14 Bionic,4 GB,64 GB,"10.9"" Liquid Retina LCD",10 ore,10/2020 - 03/2022,iPadOS 14–26,Wi-Fi
+iPad,iPad Air (4ª gen),09/2020,10/2020,729,0.85,839,Apple A14 Bionic,4 GB,64 GB,"10.9"" Liquid Retina LCD",10 ore,10/2020 - 03/2022,iPadOS 14–26,Wi-Fi + Cellular
+iPad,iPad Air (4ª gen),09/2020,10/2020,749,0.85,839,Apple A14 Bionic,4 GB,256 GB,"10.9"" Liquid Retina LCD",10 ore,10/2020 - 03/2022,iPadOS 14–26,Wi-Fi
+iPad,iPad Air (4ª gen),09/2020,10/2020,879,0.85,1009,Apple A14 Bionic,4 GB,256 GB,"10.9"" Liquid Retina LCD",10 ore,10/2020 - 03/2022,iPadOS 14–26,Wi-Fi + Cellular
+iPad,iPad Air (5ª gen),03/2022,03/2022,599,0.91,789,Apple M1,8 GB,64 GB,"10.9"" Liquid Retina LCD",10 ore,03/2022 - 05/2024,iPadOS 15–26,Wi-Fi
+iPad,iPad Air (5ª gen),03/2022,03/2022,749,0.91,969,Apple M1,8 GB,64 GB,"10.9"" Liquid Retina LCD",10 ore,03/2022 - 05/2024,iPadOS 15–26,Wi-Fi + Cellular
+iPad,iPad Air (5ª gen),03/2022,03/2022,749,0.91,979,Apple M1,8 GB,256 GB,"10.9"" Liquid Retina LCD",10 ore,03/2022 - 05/2024,iPadOS 15–26,Wi-Fi
+iPad,iPad Air (5ª gen),03/2022,03/2022,899,0.91,1159,Apple M1,8 GB,256 GB,"10.9"" Liquid Retina LCD",10 ore,03/2022 - 05/2024,iPadOS 15–26,Wi-Fi + Cellular
+iPad,"iPad Air 11"" (M2)",05/2024,05/2024,599,0.93,719,Apple M2,8 GB,128 GB,"11"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi
+iPad,"iPad Air 11"" (M2)",05/2024,05/2024,749,0.93,889,Apple M2,8 GB,128 GB,"11"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi + Cellular
+iPad,"iPad Air 11"" (M2)",05/2024,05/2024,699,0.93,849,Apple M2,8 GB,256 GB,"11"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi
+iPad,"iPad Air 11"" (M2)",05/2024,05/2024,849,0.93,1019,Apple M2,8 GB,256 GB,"11"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi + Cellular
+iPad,"iPad Air 11"" (M2)",05/2024,05/2024,899,0.93,1099,Apple M2,8 GB,512 GB,"11"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi
+iPad,"iPad Air 11"" (M2)",05/2024,05/2024,1049,0.93,1269,Apple M2,8 GB,512 GB,"11"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi + Cellular
+iPad,"iPad Air 11"" (M2)",05/2024,05/2024,1099,0.93,1349,Apple M2,8 GB,1 TB,"11"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi
+iPad,"iPad Air 11"" (M2)",05/2024,05/2024,1249,0.93,1519,Apple M2,8 GB,1 TB,"11"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi + Cellular
+iPad,"iPad Air 13"" (M2)",05/2024,05/2024,799,0.93,969,Apple M2,8 GB,128 GB,"13"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi
+iPad,"iPad Air 13"" (M2)",05/2024,05/2024,949,0.93,1139,Apple M2,8 GB,128 GB,"13"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi + Cellular
+iPad,"iPad Air 13"" (M2)",05/2024,05/2024,899,0.93,1099,Apple M2,8 GB,256 GB,"13"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi
+iPad,"iPad Air 13"" (M2)",05/2024,05/2024,1049,0.93,1269,Apple M2,8 GB,256 GB,"13"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi + Cellular
+iPad,"iPad Air 13"" (M2)",05/2024,05/2024,1099,0.93,1349,Apple M2,8 GB,512 GB,"13"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi
+iPad,"iPad Air 13"" (M2)",05/2024,05/2024,1249,0.93,1519,Apple M2,8 GB,512 GB,"13"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi + Cellular
+iPad,"iPad Air 13"" (M2)",05/2024,05/2024,1299,0.93,1599,Apple M2,8 GB,1 TB,"13"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi
+iPad,"iPad Air 13"" (M2)",05/2024,05/2024,1449,0.93,1769,Apple M2,8 GB,1 TB,"13"" Liquid Retina LCD",10 ore,05/2024 - 03/2025,iPadOS 17–26,Wi-Fi + Cellular
+iPad,"iPad Air 11"" (M3)",03/2025,03/2025,599,0.93,719,Apple M3,8 GB,128 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi
+iPad,"iPad Air 11"" (M3)",03/2025,03/2025,749,0.93,889,Apple M3,8 GB,128 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi + Cellular
+iPad,"iPad Air 11"" (M3)",03/2025,03/2025,699,0.93,849,Apple M3,8 GB,256 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi
+iPad,"iPad Air 11"" (M3)",03/2025,03/2025,849,0.93,1019,Apple M3,8 GB,256 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi + Cellular
+iPad,"iPad Air 11"" (M3)",03/2025,03/2025,899,0.93,1099,Apple M3,8 GB,512 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi
+iPad,"iPad Air 11"" (M3)",03/2025,03/2025,1049,0.93,1269,Apple M3,8 GB,512 GB,"11"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi + Cellular
+iPad,"iPad Air 11"" (M3)",03/2025,03/2025,1099,0.93,1349,Apple M3,8 GB,1 TB,"11"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi
+iPad,"iPad Air 11"" (M3)",03/2025,03/2025,1249,0.93,1519,Apple M3,8 GB,1 TB,"11"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi + Cellular
+iPad,"iPad Air 13"" (M3)",03/2025,03/2025,799,0.93,969,Apple M3,8 GB,128 GB,"13"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi
+iPad,"iPad Air 13"" (M3)",03/2025,03/2025,949,0.93,1139,Apple M3,8 GB,128 GB,"13"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi + Cellular
+iPad,"iPad Air 13"" (M3)",03/2025,03/2025,899,0.93,1099,Apple M3,8 GB,256 GB,"13"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi
+iPad,"iPad Air 13"" (M3)",03/2025,03/2025,1049,0.93,1269,Apple M3,8 GB,256 GB,"13"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi + Cellular
+iPad,"iPad Air 13"" (M3)",03/2025,03/2025,1099,0.93,1349,Apple M3,8 GB,512 GB,"13"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi
+iPad,"iPad Air 13"" (M3)",03/2025,03/2025,1249,0.93,1519,Apple M3,8 GB,512 GB,"13"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi + Cellular
+iPad,"iPad Air 13"" (M3)",03/2025,03/2025,1299,0.93,1599,Apple M3,8 GB,1 TB,"13"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi
+iPad,"iPad Air 13"" (M3)",03/2025,03/2025,1449,0.93,1769,Apple M3,8 GB,1 TB,"13"" Liquid Retina LCD",10 ore,03/2025 - 03/2026,iPadOS 18–26,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (1ª gen)",09/2015,11/2015,799,0.89,919,Apple A9X,4 GB,32 GB,"12.9"" Retina LCD",10 ore,11/2015 - 06/2017,iPadOS 9–16,Wi-Fi
+iPad,"iPad Pro 12.9"" (1ª gen)",09/2015,11/2015,949,0.89,1099,Apple A9X,4 GB,128 GB,"12.9"" Retina LCD",10 ore,11/2015 - 06/2017,iPadOS 9–16,Wi-Fi
+iPad,"iPad Pro 12.9"" (1ª gen)",09/2015,11/2015,1079,0.89,1249,Apple A9X,4 GB,128 GB,"12.9"" Retina LCD",10 ore,11/2015 - 06/2017,iPadOS 9–16,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (1ª gen)",09/2015,11/2015,1099,0.89,1279,Apple A9X,4 GB,256 GB,"12.9"" Retina LCD",10 ore,11/2015 - 06/2017,iPadOS 9–16,Wi-Fi
+iPad,"iPad Pro 12.9"" (1ª gen)",09/2015,11/2015,1229,0.89,1429,Apple A9X,4 GB,256 GB,"12.9"" Retina LCD",10 ore,11/2015 - 06/2017,iPadOS 9–16,Wi-Fi + Cellular
 iPad,"iPad Pro 9.7""",03/2016,03/2016,599,0.90,729,Apple A9X,2 GB,32 GB,"9.7"" Retina LCD",10 ore,03/2016 - 06/2017,iPadOS 9–16,Wi-Fi
 iPad,"iPad Pro 9.7""",03/2016,03/2016,729,0.90,879,Apple A9X,2 GB,32 GB,"9.7"" Retina LCD",10 ore,03/2016 - 06/2017,iPadOS 9–16,Wi-Fi + Cellular
 iPad,"iPad Pro 9.7""",03/2016,03/2016,749,0.90,899,Apple A9X,2 GB,128 GB,"9.7"" Retina LCD",10 ore,03/2016 - 06/2017,iPadOS 9–16,Wi-Fi
 iPad,"iPad Pro 9.7""",03/2016,03/2016,879,0.90,1049,Apple A9X,2 GB,128 GB,"9.7"" Retina LCD",10 ore,03/2016 - 06/2017,iPadOS 9–16,Wi-Fi + Cellular
 iPad,"iPad Pro 9.7""",03/2016,03/2016,899,0.90,1079,Apple A9X,2 GB,256 GB,"9.7"" Retina LCD",10 ore,03/2016 - 06/2017,iPadOS 9–16,Wi-Fi
 iPad,"iPad Pro 9.7""",03/2016,03/2016,1029,0.90,1229,Apple A9X,2 GB,256 GB,"9.7"" Retina LCD",10 ore,03/2016 - 06/2017,iPadOS 9–16,Wi-Fi + Cellular
-iPad,"iPad Pro 10.5""",06/2017,06/2017,649,0.88,769,Apple A10X Fusion,4 GB,64 GB,"10.5"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi
-iPad,"iPad Pro 10.5""",06/2017,06/2017,779,0.88,929,Apple A10X Fusion,4 GB,64 GB,"10.5"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi + Cellular
-iPad,"iPad Pro 10.5""",06/2017,06/2017,849,0.88,1009,Apple A10X Fusion,4 GB,256 GB,"10.5"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi
-iPad,"iPad Pro 10.5""",06/2017,06/2017,979,0.88,1169,Apple A10X Fusion,4 GB,256 GB,"10.5"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi + Cellular
-iPad,"iPad Pro 10.5""",06/2017,06/2017,1049,0.88,1249,Apple A10X Fusion,4 GB,512 GB,"10.5"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi
-iPad,"iPad Pro 10.5""",06/2017,06/2017,1179,0.88,1409,Apple A10X Fusion,4 GB,512 GB,"10.5"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (2ª gen)",06/2017,06/2017,799,0.88,919,Apple A10X Fusion,4 GB,64 GB,"12.9"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi
-iPad,"iPad Pro 12.9"" (2ª gen)",06/2017,06/2017,929,0.88,1079,Apple A10X Fusion,4 GB,64 GB,"12.9"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (2ª gen)",06/2017,06/2017,999,0.88,1169,Apple A10X Fusion,4 GB,256 GB,"12.9"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi
-iPad,"iPad Pro 12.9"" (2ª gen)",06/2017,06/2017,1129,0.88,1329,Apple A10X Fusion,4 GB,256 GB,"12.9"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (2ª gen)",06/2017,06/2017,1149,0.88,1369,Apple A10X Fusion,4 GB,512 GB,"12.9"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi
-iPad,"iPad Pro 12.9"" (2ª gen)",06/2017,06/2017,1279,0.88,1529,Apple A10X Fusion,4 GB,512 GB,"12.9"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (1ª gen)",10/2018,11/2018,799,0.85,899,Apple A12X Bionic,4 GB,64 GB,"11"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi
-iPad,"iPad Pro 11"" (1ª gen)",10/2018,11/2018,949,0.85,1069,Apple A12X Bionic,4 GB,64 GB,"11"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (1ª gen)",10/2018,11/2018,949,0.85,1069,Apple A12X Bionic,4 GB,256 GB,"11"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi
-iPad,"iPad Pro 11"" (1ª gen)",10/2018,11/2018,1099,0.85,1239,Apple A12X Bionic,4 GB,256 GB,"11"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (1ª gen)",10/2018,11/2018,1149,0.85,1299,Apple A12X Bionic,4 GB,512 GB,"11"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi
-iPad,"iPad Pro 11"" (1ª gen)",10/2018,11/2018,1299,0.85,1469,Apple A12X Bionic,4 GB,512 GB,"11"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (1ª gen)",10/2018,11/2018,1549,0.85,1729,Apple A12X Bionic,6 GB,1 TB,"11"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi
-iPad,"iPad Pro 11"" (1ª gen)",10/2018,11/2018,1699,0.85,1899,Apple A12X Bionic,6 GB,1 TB,"11"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (3ª gen)",10/2018,11/2018,999,0.85,1119,Apple A12X Bionic,4 GB,64 GB,"12.9"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi
-iPad,"iPad Pro 12.9"" (3ª gen)",10/2018,11/2018,1149,0.85,1289,Apple A12X Bionic,4 GB,64 GB,"12.9"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (3ª gen)",10/2018,11/2018,1149,0.85,1289,Apple A12X Bionic,4 GB,256 GB,"12.9"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi
-iPad,"iPad Pro 12.9"" (3ª gen)",10/2018,11/2018,1299,0.85,1459,Apple A12X Bionic,4 GB,256 GB,"12.9"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (3ª gen)",10/2018,11/2018,1349,0.85,1519,Apple A12X Bionic,4 GB,512 GB,"12.9"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi
-iPad,"iPad Pro 12.9"" (3ª gen)",10/2018,11/2018,1499,0.85,1689,Apple A12X Bionic,4 GB,512 GB,"12.9"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (3ª gen)",10/2018,11/2018,1749,0.85,1969,Apple A12X Bionic,6 GB,1 TB,"12.9"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi
-iPad,"iPad Pro 12.9"" (3ª gen)",10/2018,11/2018,1899,0.85,2139,Apple A12X Bionic,6 GB,1 TB,"12.9"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (2ª gen)",03/2020,03/2020,799,0.88,899,Apple A12Z Bionic,6 GB,128 GB,"11"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi
-iPad,"iPad Pro 11"" (2ª gen)",03/2020,03/2020,949,0.88,1069,Apple A12Z Bionic,6 GB,128 GB,"11"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (2ª gen)",03/2020,03/2020,899,0.88,1009,Apple A12Z Bionic,6 GB,256 GB,"11"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi
-iPad,"iPad Pro 11"" (2ª gen)",03/2020,03/2020,1049,0.88,1179,Apple A12Z Bionic,6 GB,256 GB,"11"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (2ª gen)",03/2020,03/2020,1099,0.88,1239,Apple A12Z Bionic,6 GB,512 GB,"11"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi
-iPad,"iPad Pro 11"" (2ª gen)",03/2020,03/2020,1249,0.88,1409,Apple A12Z Bionic,6 GB,512 GB,"11"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (2ª gen)",03/2020,03/2020,1299,0.88,1469,Apple A12Z Bionic,6 GB,1 TB,"11"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi
-iPad,"iPad Pro 11"" (2ª gen)",03/2020,03/2020,1449,0.88,1639,Apple A12Z Bionic,6 GB,1 TB,"11"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (4ª gen)",03/2020,03/2020,999,0.88,1119,Apple A12Z Bionic,6 GB,128 GB,"12.9"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi
-iPad,"iPad Pro 12.9"" (4ª gen)",03/2020,03/2020,1149,0.88,1289,Apple A12Z Bionic,6 GB,128 GB,"12.9"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (4ª gen)",03/2020,03/2020,1099,0.88,1239,Apple A12Z Bionic,6 GB,256 GB,"12.9"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi
-iPad,"iPad Pro 12.9"" (4ª gen)",03/2020,03/2020,1249,0.88,1409,Apple A12Z Bionic,6 GB,256 GB,"12.9"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (4ª gen)",03/2020,03/2020,1299,0.88,1469,Apple A12Z Bionic,6 GB,512 GB,"12.9"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi
-iPad,"iPad Pro 12.9"" (4ª gen)",03/2020,03/2020,1449,0.88,1639,Apple A12Z Bionic,6 GB,512 GB,"12.9"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (4ª gen)",03/2020,03/2020,1499,0.88,1699,Apple A12Z Bionic,6 GB,1 TB,"12.9"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi
-iPad,"iPad Pro 12.9"" (4ª gen)",03/2020,03/2020,1649,0.88,1869,Apple A12Z Bionic,6 GB,1 TB,"12.9"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,799,0.85,899,Apple M1,8 GB,128 GB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
-iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,999,0.85,1119,Apple M1,8 GB,128 GB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,899,0.85,1019,Apple M1,8 GB,256 GB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
-iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,1099,0.85,1239,Apple M1,8 GB,256 GB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,1099,0.85,1239,Apple M1,8 GB,512 GB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
-iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,1299,0.85,1459,Apple M1,8 GB,512 GB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,1499,0.85,1689,Apple M1,16 GB,1 TB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
-iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,1699,0.85,1909,Apple M1,16 GB,1 TB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,1899,0.85,2139,Apple M1,16 GB,2 TB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
-iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,2099,0.85,2359,Apple M1,16 GB,2 TB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,1099,0.85,1239,Apple M1,8 GB,128 GB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
-iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,1299,0.85,1459,Apple M1,8 GB,128 GB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,1199,0.85,1369,Apple M1,8 GB,256 GB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
-iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,1399,0.85,1589,Apple M1,8 GB,256 GB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,1399,0.85,1589,Apple M1,8 GB,512 GB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
-iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,1599,0.85,1809,Apple M1,8 GB,512 GB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,1799,0.85,2069,Apple M1,16 GB,1 TB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
-iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,1999,0.85,2289,Apple M1,16 GB,1 TB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,2199,0.85,2519,Apple M1,16 GB,2 TB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
-iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,2399,0.85,2739,Apple M1,16 GB,2 TB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,799,0.95,1069,Apple M2,8 GB,128 GB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
-iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,999,0.95,1269,Apple M2,8 GB,128 GB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,899,0.95,1189,Apple M2,8 GB,256 GB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
-iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,1099,0.95,1389,Apple M2,8 GB,256 GB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,1099,0.95,1469,Apple M2,8 GB,512 GB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
-iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,1299,0.95,1669,Apple M2,8 GB,512 GB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,1499,0.95,1969,Apple M2,16 GB,1 TB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
-iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,1699,0.95,2169,Apple M2,16 GB,1 TB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,1899,0.95,2469,Apple M2,16 GB,2 TB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
-iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,2099,0.95,2669,Apple M2,16 GB,2 TB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,1099,0.95,1469,Apple M2,8 GB,128 GB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
-iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,1299,0.95,1669,Apple M2,8 GB,128 GB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,1199,0.95,1589,Apple M2,8 GB,256 GB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
-iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,1399,0.95,1789,Apple M2,8 GB,256 GB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,1399,0.95,1869,Apple M2,8 GB,512 GB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
-iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,1599,0.95,2069,Apple M2,8 GB,512 GB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,1799,0.95,2369,Apple M2,16 GB,1 TB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
-iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,1999,0.95,2569,Apple M2,16 GB,1 TB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
-iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,2199,0.95,2869,Apple M2,16 GB,2 TB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
-iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,2399,0.95,3069,Apple M2,16 GB,2 TB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (M4)",05/2024,05/2024,999,0.92,1219,Apple M4,8 GB,256 GB,"11"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi
-iPad,"iPad Pro 11"" (M4)",05/2024,05/2024,1199,0.92,1469,Apple M4,8 GB,256 GB,"11"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (M4)",05/2024,05/2024,1099,0.92,1339,Apple M4,8 GB,512 GB,"11"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi
-iPad,"iPad Pro 11"" (M4)",05/2024,05/2024,1299,0.92,1589,Apple M4,8 GB,512 GB,"11"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (M4)",05/2024,05/2024,1499,0.92,1839,Apple M4,16 GB,1 TB,"11"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi
-iPad,"iPad Pro 11"" (M4)",05/2024,05/2024,1699,0.92,2089,Apple M4,16 GB,1 TB,"11"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (M4)",05/2024,05/2024,1899,0.92,2329,Apple M4,16 GB,2 TB,"11"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi
-iPad,"iPad Pro 11"" (M4)",05/2024,05/2024,2099,0.92,2579,Apple M4,16 GB,2 TB,"11"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi + Cellular
-iPad,"iPad Pro 13"" (M4)",05/2024,05/2024,1299,0.92,1589,Apple M4,8 GB,256 GB,"13"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi
-iPad,"iPad Pro 13"" (M4)",05/2024,05/2024,1499,0.92,1839,Apple M4,8 GB,256 GB,"13"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi + Cellular
-iPad,"iPad Pro 13"" (M4)",05/2024,05/2024,1399,0.92,1719,Apple M4,8 GB,512 GB,"13"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi
-iPad,"iPad Pro 13"" (M4)",05/2024,05/2024,1599,0.92,1969,Apple M4,8 GB,512 GB,"13"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi + Cellular
-iPad,"iPad Pro 13"" (M4)",05/2024,05/2024,1799,0.92,2199,Apple M4,16 GB,1 TB,"13"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi
-iPad,"iPad Pro 13"" (M4)",05/2024,05/2024,1999,0.92,2449,Apple M4,16 GB,1 TB,"13"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi + Cellular
-iPad,"iPad Pro 13"" (M4)",05/2024,05/2024,2199,0.92,2699,Apple M4,16 GB,2 TB,"13"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi
-iPad,"iPad Pro 13"" (M4)",05/2024,05/2024,2399,0.92,2949,Apple M4,16 GB,2 TB,"13"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi + Cellular
-iPad,"iPad Air 11"" (M4)",03/2026,03/2026,599,0.92,669,Apple M4,12 GB,128 GB,"11"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi
-iPad,"iPad Air 11"" (M4)",03/2026,03/2026,749,0.92,839,Apple M4,12 GB,128 GB,"11"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi + Cellular
-iPad,"iPad Air 11"" (M4)",03/2026,03/2026,699,0.92,799,Apple M4,12 GB,256 GB,"11"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi
-iPad,"iPad Air 11"" (M4)",03/2026,03/2026,849,0.92,969,Apple M4,12 GB,256 GB,"11"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi + Cellular
-iPad,"iPad Air 11"" (M4)",03/2026,03/2026,899,0.92,1049,Apple M4,12 GB,512 GB,"11"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi
-iPad,"iPad Air 11"" (M4)",03/2026,03/2026,1049,0.92,1219,Apple M4,12 GB,512 GB,"11"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi + Cellular
-iPad,"iPad Air 11"" (M4)",03/2026,03/2026,1099,0.92,1299,Apple M4,12 GB,1 TB,"11"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi
-iPad,"iPad Air 11"" (M4)",03/2026,03/2026,1249,0.92,1469,Apple M4,12 GB,1 TB,"11"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi + Cellular
-iPad,"iPad Air 13"" (M4)",03/2026,03/2026,799,0.92,869,Apple M4,12 GB,128 GB,"13"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi
-iPad,"iPad Air 13"" (M4)",03/2026,03/2026,949,0.92,1039,Apple M4,12 GB,128 GB,"13"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi + Cellular
-iPad,"iPad Air 13"" (M4)",03/2026,03/2026,899,0.92,999,Apple M4,12 GB,256 GB,"13"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi
-iPad,"iPad Air 13"" (M4)",03/2026,03/2026,1049,0.92,1169,Apple M4,12 GB,256 GB,"13"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi + Cellular
-iPad,"iPad Air 13"" (M4)",03/2026,03/2026,1099,0.92,1249,Apple M4,12 GB,512 GB,"13"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi
-iPad,"iPad Air 13"" (M4)",03/2026,03/2026,1249,0.92,1419,Apple M4,12 GB,512 GB,"13"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi + Cellular
-iPad,"iPad Air 13"" (M4)",03/2026,03/2026,1299,0.92,1499,Apple M4,12 GB,1 TB,"13"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi
-iPad,"iPad Air 13"" (M4)",03/2026,03/2026,1449,0.92,1669,Apple M4,12 GB,1 TB,"13"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (M5)",10/2025,10/2025,999,0.90,1119,Apple M5,12 GB,256 GB,"11"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi
-iPad,"iPad Pro 11"" (M5)",10/2025,10/2025,1199,0.90,1369,Apple M5,12 GB,256 GB,"11"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (M5)",10/2025,10/2025,1199,0.90,1369,Apple M5,12 GB,512 GB,"11"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi
-iPad,"iPad Pro 11"" (M5)",10/2025,10/2025,1399,0.90,1619,Apple M5,12 GB,512 GB,"11"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (M5)",10/2025,10/2025,1599,0.90,1849,Apple M5,16 GB,1 TB,"11"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi
-iPad,"iPad Pro 11"" (M5)",10/2025,10/2025,1799,0.90,2099,Apple M5,16 GB,1 TB,"11"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi + Cellular
-iPad,"iPad Pro 11"" (M5)",10/2025,10/2025,1999,0.90,2329,Apple M5,16 GB,2 TB,"11"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi
-iPad,"iPad Pro 11"" (M5)",10/2025,10/2025,2199,0.90,2579,Apple M5,16 GB,2 TB,"11"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi + Cellular
-iPad,"iPad Pro 13"" (M5)",10/2025,10/2025,1299,0.90,1469,Apple M5,12 GB,256 GB,"13"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi
-iPad,"iPad Pro 13"" (M5)",10/2025,10/2025,1499,0.90,1719,Apple M5,12 GB,256 GB,"13"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi + Cellular
-iPad,"iPad Pro 13"" (M5)",10/2025,10/2025,1499,0.90,1719,Apple M5,12 GB,512 GB,"13"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi
-iPad,"iPad Pro 13"" (M5)",10/2025,10/2025,1699,0.90,1969,Apple M5,12 GB,512 GB,"13"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi + Cellular
-iPad,"iPad Pro 13"" (M5)",10/2025,10/2025,1899,0.90,2199,Apple M5,16 GB,1 TB,"13"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi
-iPad,"iPad Pro 13"" (M5)",10/2025,10/2025,2099,0.90,2449,Apple M5,16 GB,1 TB,"13"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi + Cellular
-iPad,"iPad Pro 13"" (M5)",10/2025,10/2025,2299,0.90,2679,Apple M5,16 GB,2 TB,"13"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi
-iPad,"iPad Pro 13"" (M5)",10/2025,10/2025,2499,0.90,2929,Apple M5,16 GB,2 TB,"13"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi + Cellular
+iPad,"iPad Pro 10.5""",06/2017,06/2017,649,0.89,769,Apple A10X Fusion,4 GB,64 GB,"10.5"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi
+iPad,"iPad Pro 10.5""",06/2017,06/2017,779,0.89,929,Apple A10X Fusion,4 GB,64 GB,"10.5"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi + Cellular
+iPad,"iPad Pro 10.5""",06/2017,06/2017,849,0.89,1009,Apple A10X Fusion,4 GB,256 GB,"10.5"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi
+iPad,"iPad Pro 10.5""",06/2017,06/2017,979,0.89,1169,Apple A10X Fusion,4 GB,256 GB,"10.5"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi + Cellular
+iPad,"iPad Pro 10.5""",06/2017,06/2017,1049,0.89,1249,Apple A10X Fusion,4 GB,512 GB,"10.5"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi
+iPad,"iPad Pro 10.5""",06/2017,06/2017,1179,0.89,1409,Apple A10X Fusion,4 GB,512 GB,"10.5"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (2ª gen)",06/2017,06/2017,799,0.89,919,Apple A10X Fusion,4 GB,64 GB,"12.9"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi
+iPad,"iPad Pro 12.9"" (2ª gen)",06/2017,06/2017,929,0.89,1079,Apple A10X Fusion,4 GB,64 GB,"12.9"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (2ª gen)",06/2017,06/2017,999,0.89,1169,Apple A10X Fusion,4 GB,256 GB,"12.9"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi
+iPad,"iPad Pro 12.9"" (2ª gen)",06/2017,06/2017,1129,0.89,1329,Apple A10X Fusion,4 GB,256 GB,"12.9"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (2ª gen)",06/2017,06/2017,1149,0.89,1369,Apple A10X Fusion,4 GB,512 GB,"12.9"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi
+iPad,"iPad Pro 12.9"" (2ª gen)",06/2017,06/2017,1279,0.89,1529,Apple A10X Fusion,4 GB,512 GB,"12.9"" Retina LCD",10 ore,06/2017 - 10/2018,iPadOS 10–17,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (1ª gen)",10/2018,11/2018,799,0.87,899,Apple A12X Bionic,4 GB,64 GB,"11"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi
+iPad,"iPad Pro 11"" (1ª gen)",10/2018,11/2018,949,0.87,1069,Apple A12X Bionic,4 GB,64 GB,"11"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (1ª gen)",10/2018,11/2018,949,0.87,1069,Apple A12X Bionic,4 GB,256 GB,"11"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi
+iPad,"iPad Pro 11"" (1ª gen)",10/2018,11/2018,1099,0.87,1239,Apple A12X Bionic,4 GB,256 GB,"11"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (1ª gen)",10/2018,11/2018,1149,0.87,1299,Apple A12X Bionic,4 GB,512 GB,"11"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi
+iPad,"iPad Pro 11"" (1ª gen)",10/2018,11/2018,1299,0.87,1469,Apple A12X Bionic,4 GB,512 GB,"11"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (1ª gen)",10/2018,11/2018,1549,0.87,1729,Apple A12X Bionic,6 GB,1 TB,"11"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi
+iPad,"iPad Pro 11"" (1ª gen)",10/2018,11/2018,1699,0.87,1899,Apple A12X Bionic,6 GB,1 TB,"11"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (3ª gen)",10/2018,11/2018,999,0.87,1119,Apple A12X Bionic,4 GB,64 GB,"12.9"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi
+iPad,"iPad Pro 12.9"" (3ª gen)",10/2018,11/2018,1149,0.87,1289,Apple A12X Bionic,4 GB,64 GB,"12.9"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (3ª gen)",10/2018,11/2018,1149,0.87,1289,Apple A12X Bionic,4 GB,256 GB,"12.9"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi
+iPad,"iPad Pro 12.9"" (3ª gen)",10/2018,11/2018,1299,0.87,1459,Apple A12X Bionic,4 GB,256 GB,"12.9"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (3ª gen)",10/2018,11/2018,1349,0.87,1519,Apple A12X Bionic,4 GB,512 GB,"12.9"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi
+iPad,"iPad Pro 12.9"" (3ª gen)",10/2018,11/2018,1499,0.87,1689,Apple A12X Bionic,4 GB,512 GB,"12.9"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (3ª gen)",10/2018,11/2018,1749,0.87,1969,Apple A12X Bionic,6 GB,1 TB,"12.9"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi
+iPad,"iPad Pro 12.9"" (3ª gen)",10/2018,11/2018,1899,0.87,2139,Apple A12X Bionic,6 GB,1 TB,"12.9"" Liquid Retina LCD",10 ore,11/2018 - 03/2020,iPadOS 12–18,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (2ª gen)",03/2020,03/2020,799,0.90,899,Apple A12Z Bionic,6 GB,128 GB,"11"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi
+iPad,"iPad Pro 11"" (2ª gen)",03/2020,03/2020,949,0.90,1069,Apple A12Z Bionic,6 GB,128 GB,"11"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (2ª gen)",03/2020,03/2020,899,0.90,1009,Apple A12Z Bionic,6 GB,256 GB,"11"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi
+iPad,"iPad Pro 11"" (2ª gen)",03/2020,03/2020,1049,0.90,1179,Apple A12Z Bionic,6 GB,256 GB,"11"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (2ª gen)",03/2020,03/2020,1099,0.90,1239,Apple A12Z Bionic,6 GB,512 GB,"11"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi
+iPad,"iPad Pro 11"" (2ª gen)",03/2020,03/2020,1249,0.90,1409,Apple A12Z Bionic,6 GB,512 GB,"11"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (2ª gen)",03/2020,03/2020,1299,0.90,1469,Apple A12Z Bionic,6 GB,1 TB,"11"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi
+iPad,"iPad Pro 11"" (2ª gen)",03/2020,03/2020,1449,0.90,1639,Apple A12Z Bionic,6 GB,1 TB,"11"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (4ª gen)",03/2020,03/2020,999,0.90,1119,Apple A12Z Bionic,6 GB,128 GB,"12.9"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi
+iPad,"iPad Pro 12.9"" (4ª gen)",03/2020,03/2020,1149,0.90,1289,Apple A12Z Bionic,6 GB,128 GB,"12.9"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (4ª gen)",03/2020,03/2020,1099,0.90,1239,Apple A12Z Bionic,6 GB,256 GB,"12.9"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi
+iPad,"iPad Pro 12.9"" (4ª gen)",03/2020,03/2020,1249,0.90,1409,Apple A12Z Bionic,6 GB,256 GB,"12.9"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (4ª gen)",03/2020,03/2020,1299,0.90,1469,Apple A12Z Bionic,6 GB,512 GB,"12.9"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi
+iPad,"iPad Pro 12.9"" (4ª gen)",03/2020,03/2020,1449,0.90,1639,Apple A12Z Bionic,6 GB,512 GB,"12.9"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (4ª gen)",03/2020,03/2020,1499,0.90,1699,Apple A12Z Bionic,6 GB,1 TB,"12.9"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi
+iPad,"iPad Pro 12.9"" (4ª gen)",03/2020,03/2020,1649,0.90,1869,Apple A12Z Bionic,6 GB,1 TB,"12.9"" Liquid Retina LCD",10 ore,03/2020 - 04/2021,iPadOS 13–18,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,799,0.84,899,Apple M1,8 GB,128 GB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
+iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,999,0.84,1119,Apple M1,8 GB,128 GB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,899,0.84,1019,Apple M1,8 GB,256 GB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
+iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,1099,0.84,1239,Apple M1,8 GB,256 GB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,1099,0.84,1239,Apple M1,8 GB,512 GB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
+iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,1299,0.84,1459,Apple M1,8 GB,512 GB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,1499,0.84,1689,Apple M1,16 GB,1 TB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
+iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,1699,0.84,1909,Apple M1,16 GB,1 TB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,1899,0.84,2139,Apple M1,16 GB,2 TB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
+iPad,"iPad Pro 11"" (3ª gen)",04/2021,05/2021,2099,0.84,2359,Apple M1,16 GB,2 TB,"11"" Liquid Retina LCD",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,1099,0.84,1239,Apple M1,8 GB,128 GB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
+iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,1299,0.84,1459,Apple M1,8 GB,128 GB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,1199,0.84,1369,Apple M1,8 GB,256 GB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
+iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,1399,0.84,1589,Apple M1,8 GB,256 GB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,1399,0.84,1589,Apple M1,8 GB,512 GB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
+iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,1599,0.84,1809,Apple M1,8 GB,512 GB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,1799,0.84,2069,Apple M1,16 GB,1 TB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
+iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,1999,0.84,2289,Apple M1,16 GB,1 TB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,2199,0.84,2519,Apple M1,16 GB,2 TB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi
+iPad,"iPad Pro 12.9"" (5ª gen)",04/2021,05/2021,2399,0.84,2739,Apple M1,16 GB,2 TB,"12.9"" Liquid Retina XDR",10 ore,05/2021 - 10/2022,iPadOS 14–26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,799,1.02,1069,Apple M2,8 GB,128 GB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
+iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,999,1.02,1269,Apple M2,8 GB,128 GB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,899,1.02,1189,Apple M2,8 GB,256 GB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
+iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,1099,1.02,1389,Apple M2,8 GB,256 GB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,1099,1.02,1469,Apple M2,8 GB,512 GB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
+iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,1299,1.02,1669,Apple M2,8 GB,512 GB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,1499,1.02,1969,Apple M2,16 GB,1 TB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
+iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,1699,1.02,2169,Apple M2,16 GB,1 TB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,1899,1.02,2469,Apple M2,16 GB,2 TB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
+iPad,"iPad Pro 11"" (4ª gen)",10/2022,10/2022,2099,1.02,2669,Apple M2,16 GB,2 TB,"11"" Liquid Retina LCD",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,1099,1.02,1469,Apple M2,8 GB,128 GB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
+iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,1299,1.02,1669,Apple M2,8 GB,128 GB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,1199,1.02,1589,Apple M2,8 GB,256 GB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
+iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,1399,1.02,1789,Apple M2,8 GB,256 GB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,1399,1.02,1869,Apple M2,8 GB,512 GB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
+iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,1599,1.02,2069,Apple M2,8 GB,512 GB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,1799,1.02,2369,Apple M2,16 GB,1 TB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
+iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,1999,1.02,2569,Apple M2,16 GB,1 TB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
+iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,2199,1.02,2869,Apple M2,16 GB,2 TB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi
+iPad,"iPad Pro 12.9"" (6ª gen)",10/2022,10/2022,2399,1.02,3069,Apple M2,16 GB,2 TB,"12.9"" Liquid Retina XDR",10 ore,10/2022 - 05/2024,iPadOS 16–26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (M4)",05/2024,05/2024,999,0.93,1219,Apple M4,8 GB,256 GB,"11"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi
+iPad,"iPad Pro 11"" (M4)",05/2024,05/2024,1199,0.93,1469,Apple M4,8 GB,256 GB,"11"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (M4)",05/2024,05/2024,1099,0.93,1339,Apple M4,8 GB,512 GB,"11"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi
+iPad,"iPad Pro 11"" (M4)",05/2024,05/2024,1299,0.93,1589,Apple M4,8 GB,512 GB,"11"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (M4)",05/2024,05/2024,1499,0.93,1839,Apple M4,16 GB,1 TB,"11"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi
+iPad,"iPad Pro 11"" (M4)",05/2024,05/2024,1699,0.93,2089,Apple M4,16 GB,1 TB,"11"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (M4)",05/2024,05/2024,1899,0.93,2329,Apple M4,16 GB,2 TB,"11"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi
+iPad,"iPad Pro 11"" (M4)",05/2024,05/2024,2099,0.93,2579,Apple M4,16 GB,2 TB,"11"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi + Cellular
+iPad,"iPad Pro 13"" (M4)",05/2024,05/2024,1299,0.93,1589,Apple M4,8 GB,256 GB,"13"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi
+iPad,"iPad Pro 13"" (M4)",05/2024,05/2024,1499,0.93,1839,Apple M4,8 GB,256 GB,"13"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi + Cellular
+iPad,"iPad Pro 13"" (M4)",05/2024,05/2024,1399,0.93,1719,Apple M4,8 GB,512 GB,"13"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi
+iPad,"iPad Pro 13"" (M4)",05/2024,05/2024,1599,0.93,1969,Apple M4,8 GB,512 GB,"13"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi + Cellular
+iPad,"iPad Pro 13"" (M4)",05/2024,05/2024,1799,0.93,2199,Apple M4,16 GB,1 TB,"13"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi
+iPad,"iPad Pro 13"" (M4)",05/2024,05/2024,1999,0.93,2449,Apple M4,16 GB,1 TB,"13"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi + Cellular
+iPad,"iPad Pro 13"" (M4)",05/2024,05/2024,2199,0.93,2699,Apple M4,16 GB,2 TB,"13"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi
+iPad,"iPad Pro 13"" (M4)",05/2024,05/2024,2399,0.93,2949,Apple M4,16 GB,2 TB,"13"" Ultra Retina XDR OLED",10 ore,05/2024 - 10/2025,iPadOS 17–26,Wi-Fi + Cellular
+iPad,"iPad Air 11"" (M4)",03/2026,03/2026,599,0.86,669,Apple M4,12 GB,128 GB,"11"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi
+iPad,"iPad Air 11"" (M4)",03/2026,03/2026,749,0.86,839,Apple M4,12 GB,128 GB,"11"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi + Cellular
+iPad,"iPad Air 11"" (M4)",03/2026,03/2026,699,0.86,799,Apple M4,12 GB,256 GB,"11"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi
+iPad,"iPad Air 11"" (M4)",03/2026,03/2026,849,0.86,969,Apple M4,12 GB,256 GB,"11"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi + Cellular
+iPad,"iPad Air 11"" (M4)",03/2026,03/2026,899,0.86,1049,Apple M4,12 GB,512 GB,"11"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi
+iPad,"iPad Air 11"" (M4)",03/2026,03/2026,1049,0.86,1219,Apple M4,12 GB,512 GB,"11"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi + Cellular
+iPad,"iPad Air 11"" (M4)",03/2026,03/2026,1099,0.86,1299,Apple M4,12 GB,1 TB,"11"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi
+iPad,"iPad Air 11"" (M4)",03/2026,03/2026,1249,0.86,1469,Apple M4,12 GB,1 TB,"11"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi + Cellular
+iPad,"iPad Air 13"" (M4)",03/2026,03/2026,799,0.86,869,Apple M4,12 GB,128 GB,"13"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi
+iPad,"iPad Air 13"" (M4)",03/2026,03/2026,949,0.86,1039,Apple M4,12 GB,128 GB,"13"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi + Cellular
+iPad,"iPad Air 13"" (M4)",03/2026,03/2026,899,0.86,999,Apple M4,12 GB,256 GB,"13"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi
+iPad,"iPad Air 13"" (M4)",03/2026,03/2026,1049,0.86,1169,Apple M4,12 GB,256 GB,"13"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi + Cellular
+iPad,"iPad Air 13"" (M4)",03/2026,03/2026,1099,0.86,1249,Apple M4,12 GB,512 GB,"13"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi
+iPad,"iPad Air 13"" (M4)",03/2026,03/2026,1249,0.86,1419,Apple M4,12 GB,512 GB,"13"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi + Cellular
+iPad,"iPad Air 13"" (M4)",03/2026,03/2026,1299,0.86,1499,Apple M4,12 GB,1 TB,"13"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi
+iPad,"iPad Air 13"" (M4)",03/2026,03/2026,1449,0.86,1669,Apple M4,12 GB,1 TB,"13"" Liquid Retina LCD",10 ore,03/2026 - presente,iPadOS 26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (M5)",10/2025,10/2025,999,0.86,1119,Apple M5,12 GB,256 GB,"11"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi
+iPad,"iPad Pro 11"" (M5)",10/2025,10/2025,1199,0.86,1369,Apple M5,12 GB,256 GB,"11"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (M5)",10/2025,10/2025,1199,0.86,1369,Apple M5,12 GB,512 GB,"11"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi
+iPad,"iPad Pro 11"" (M5)",10/2025,10/2025,1399,0.86,1619,Apple M5,12 GB,512 GB,"11"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (M5)",10/2025,10/2025,1599,0.86,1849,Apple M5,16 GB,1 TB,"11"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi
+iPad,"iPad Pro 11"" (M5)",10/2025,10/2025,1799,0.86,2099,Apple M5,16 GB,1 TB,"11"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi + Cellular
+iPad,"iPad Pro 11"" (M5)",10/2025,10/2025,1999,0.86,2329,Apple M5,16 GB,2 TB,"11"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi
+iPad,"iPad Pro 11"" (M5)",10/2025,10/2025,2199,0.86,2579,Apple M5,16 GB,2 TB,"11"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi + Cellular
+iPad,"iPad Pro 13"" (M5)",10/2025,10/2025,1299,0.86,1469,Apple M5,12 GB,256 GB,"13"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi
+iPad,"iPad Pro 13"" (M5)",10/2025,10/2025,1499,0.86,1719,Apple M5,12 GB,256 GB,"13"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi + Cellular
+iPad,"iPad Pro 13"" (M5)",10/2025,10/2025,1499,0.86,1719,Apple M5,12 GB,512 GB,"13"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi
+iPad,"iPad Pro 13"" (M5)",10/2025,10/2025,1699,0.86,1969,Apple M5,12 GB,512 GB,"13"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi + Cellular
+iPad,"iPad Pro 13"" (M5)",10/2025,10/2025,1899,0.86,2199,Apple M5,16 GB,1 TB,"13"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi
+iPad,"iPad Pro 13"" (M5)",10/2025,10/2025,2099,0.86,2449,Apple M5,16 GB,1 TB,"13"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi + Cellular
+iPad,"iPad Pro 13"" (M5)",10/2025,10/2025,2299,0.86,2679,Apple M5,16 GB,2 TB,"13"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi
+iPad,"iPad Pro 13"" (M5)",10/2025,10/2025,2499,0.86,2929,Apple M5,16 GB,2 TB,"13"" Ultra Retina XDR OLED",10 ore,10/2025 - presente,iPadOS 26,Wi-Fi + Cellular
