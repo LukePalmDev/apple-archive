@@ -1,0 +1,296 @@
+modello,prezzo_lancio_usd,prezzo_reale_eur,ram,archiviazione,connettivita
+iPad (1ª gen),499,499,256 MB,16 GB,Wi-Fi
+iPad (1ª gen),629,599,256 MB,16 GB,Wi-Fi + Cellular
+iPad (1ª gen),599,599,256 MB,32 GB,Wi-Fi
+iPad (1ª gen),729,699,256 MB,32 GB,Wi-Fi + Cellular
+iPad (1ª gen),699,699,256 MB,64 GB,Wi-Fi
+iPad (1ª gen),829,799,256 MB,64 GB,Wi-Fi + Cellular
+iPad 2,499,499,512 MB,16 GB,Wi-Fi
+iPad 2,629,599,512 MB,16 GB,Wi-Fi + Cellular
+iPad 2,599,599,512 MB,32 GB,Wi-Fi
+iPad 2,729,699,512 MB,32 GB,Wi-Fi + Cellular
+iPad 2,699,699,512 MB,64 GB,Wi-Fi
+iPad 2,829,799,512 MB,64 GB,Wi-Fi + Cellular
+iPad (3ª gen),499,499,1 GB,16 GB,Wi-Fi
+iPad (3ª gen),629,599,1 GB,16 GB,Wi-Fi + Cellular
+iPad (3ª gen),599,599,1 GB,32 GB,Wi-Fi
+iPad (3ª gen),729,699,1 GB,32 GB,Wi-Fi + Cellular
+iPad (3ª gen),699,699,1 GB,64 GB,Wi-Fi
+iPad (3ª gen),829,799,1 GB,64 GB,Wi-Fi + Cellular
+iPad (4ª gen),499,499,1 GB,16 GB,Wi-Fi
+iPad (4ª gen),629,629,1 GB,16 GB,Wi-Fi + Cellular
+iPad (4ª gen),599,599,1 GB,32 GB,Wi-Fi
+iPad (4ª gen),729,729,1 GB,32 GB,Wi-Fi + Cellular
+iPad (4ª gen),699,699,1 GB,64 GB,Wi-Fi
+iPad (4ª gen),829,829,1 GB,64 GB,Wi-Fi + Cellular
+iPad (4ª gen),799,799,1 GB,128 GB,Wi-Fi
+iPad (4ª gen),929,929,1 GB,128 GB,Wi-Fi + Cellular
+iPad Air,499,489,1 GB,16 GB,Wi-Fi
+iPad Air,629,609,1 GB,16 GB,Wi-Fi + Cellular
+iPad Air,599,589,1 GB,32 GB,Wi-Fi
+iPad Air,729,709,1 GB,32 GB,Wi-Fi + Cellular
+iPad Air,699,689,1 GB,64 GB,Wi-Fi
+iPad Air,829,809,1 GB,64 GB,Wi-Fi + Cellular
+iPad Air,799,789,1 GB,128 GB,Wi-Fi
+iPad Air,929,909,1 GB,128 GB,Wi-Fi + Cellular
+iPad Air 2,499,489,2 GB,16 GB,Wi-Fi
+iPad Air 2,629,609,2 GB,16 GB,Wi-Fi + Cellular
+iPad Air 2,599,589,2 GB,64 GB,Wi-Fi
+iPad Air 2,729,709,2 GB,64 GB,Wi-Fi + Cellular
+iPad Air 2,699,689,2 GB,128 GB,Wi-Fi
+iPad Air 2,829,809,2 GB,128 GB,Wi-Fi + Cellular
+iPad (5ª gen),329,409,2 GB,32 GB,Wi-Fi
+iPad (5ª gen),459,569,2 GB,32 GB,Wi-Fi + Cellular
+iPad (5ª gen),429,519,2 GB,128 GB,Wi-Fi
+iPad (5ª gen),559,679,2 GB,128 GB,Wi-Fi + Cellular
+iPad (6ª gen),329,359,2 GB,32 GB,Wi-Fi
+iPad (6ª gen),459,489,2 GB,32 GB,Wi-Fi + Cellular
+iPad (6ª gen),429,469,2 GB,128 GB,Wi-Fi
+iPad (6ª gen),559,599,2 GB,128 GB,Wi-Fi + Cellular
+iPad (7ª gen),329,389,3 GB,32 GB,Wi-Fi
+iPad (7ª gen),459,529,3 GB,32 GB,Wi-Fi + Cellular
+iPad (7ª gen),429,499,3 GB,128 GB,Wi-Fi
+iPad (7ª gen),559,639,3 GB,128 GB,Wi-Fi + Cellular
+iPad (8ª gen),329,389,3 GB,32 GB,Wi-Fi
+iPad (8ª gen),459,529,3 GB,32 GB,Wi-Fi + Cellular
+iPad (8ª gen),429,499,3 GB,128 GB,Wi-Fi
+iPad (8ª gen),559,639,3 GB,128 GB,Wi-Fi + Cellular
+iPad (9ª gen),329,389,3 GB,64 GB,Wi-Fi
+iPad (9ª gen),459,529,3 GB,64 GB,Wi-Fi + Cellular
+iPad (9ª gen),479,559,3 GB,256 GB,Wi-Fi
+iPad (9ª gen),609,699,3 GB,256 GB,Wi-Fi + Cellular
+iPad (10ª gen),449,589,4 GB,64 GB,Wi-Fi
+iPad (10ª gen),599,789,4 GB,64 GB,Wi-Fi + Cellular
+iPad (10ª gen),599,789,4 GB,256 GB,Wi-Fi
+iPad (10ª gen),749,989,4 GB,256 GB,Wi-Fi + Cellular
+iPad (A16),349,409,6 GB,128 GB,Wi-Fi
+iPad (A16),499,579,6 GB,128 GB,Wi-Fi + Cellular
+iPad (A16),449,529,6 GB,256 GB,Wi-Fi
+iPad (A16),599,699,6 GB,256 GB,Wi-Fi + Cellular
+iPad (A16),649,749,6 GB,512 GB,Wi-Fi
+iPad (A16),799,919,6 GB,512 GB,Wi-Fi + Cellular
+iPad mini,329,329,512 MB,16 GB,Wi-Fi
+iPad mini,459,459,512 MB,16 GB,Wi-Fi + Cellular
+iPad mini,429,429,512 MB,32 GB,Wi-Fi
+iPad mini,559,559,512 MB,32 GB,Wi-Fi + Cellular
+iPad mini,529,529,512 MB,64 GB,Wi-Fi
+iPad mini,659,659,512 MB,64 GB,Wi-Fi + Cellular
+iPad mini 2,399,389,1 GB,16 GB,Wi-Fi
+iPad mini 2,529,509,1 GB,16 GB,Wi-Fi + Cellular
+iPad mini 2,499,489,1 GB,32 GB,Wi-Fi
+iPad mini 2,629,609,1 GB,32 GB,Wi-Fi + Cellular
+iPad mini 2,599,589,1 GB,64 GB,Wi-Fi
+iPad mini 2,729,709,1 GB,64 GB,Wi-Fi + Cellular
+iPad mini 3,399,389,1 GB,16 GB,Wi-Fi
+iPad mini 3,529,509,1 GB,16 GB,Wi-Fi + Cellular
+iPad mini 3,499,489,1 GB,64 GB,Wi-Fi
+iPad mini 3,629,609,1 GB,64 GB,Wi-Fi + Cellular
+iPad mini 3,599,589,1 GB,128 GB,Wi-Fi
+iPad mini 3,729,709,1 GB,128 GB,Wi-Fi + Cellular
+iPad mini 4,399,489,2 GB,16 GB,Wi-Fi
+iPad mini 4,529,609,2 GB,16 GB,Wi-Fi + Cellular
+iPad mini 4,499,609,2 GB,64 GB,Wi-Fi
+iPad mini 4,629,729,2 GB,64 GB,Wi-Fi + Cellular
+iPad mini 4,599,729,2 GB,128 GB,Wi-Fi
+iPad mini 4,729,849,2 GB,128 GB,Wi-Fi + Cellular
+iPad mini (5ª gen),399,459,3 GB,64 GB,Wi-Fi
+iPad mini (5ª gen),529,599,3 GB,64 GB,Wi-Fi + Cellular
+iPad mini (5ª gen),549,629,3 GB,256 GB,Wi-Fi
+iPad mini (5ª gen),679,769,3 GB,256 GB,Wi-Fi + Cellular
+iPad mini (6ª gen),499,559,4 GB,64 GB,Wi-Fi
+iPad mini (6ª gen),649,729,4 GB,64 GB,Wi-Fi + Cellular
+iPad mini (6ª gen),649,729,4 GB,256 GB,Wi-Fi
+iPad mini (6ª gen),799,899,4 GB,256 GB,Wi-Fi + Cellular
+iPad mini (A17 Pro),499,609,8 GB,128 GB,Wi-Fi
+iPad mini (A17 Pro),649,779,8 GB,128 GB,Wi-Fi + Cellular
+iPad mini (A17 Pro),599,729,8 GB,256 GB,Wi-Fi
+iPad mini (A17 Pro),749,899,8 GB,256 GB,Wi-Fi + Cellular
+iPad mini (A17 Pro),799,969,8 GB,512 GB,Wi-Fi
+iPad mini (A17 Pro),949,1139,8 GB,512 GB,Wi-Fi + Cellular
+iPad Air (3ª gen),499,569,3 GB,64 GB,Wi-Fi
+iPad Air (3ª gen),629,709,3 GB,64 GB,Wi-Fi + Cellular
+iPad Air (3ª gen),649,749,3 GB,256 GB,Wi-Fi
+iPad Air (3ª gen),779,889,3 GB,256 GB,Wi-Fi + Cellular
+iPad Air (4ª gen),599,669,4 GB,64 GB,Wi-Fi
+iPad Air (4ª gen),729,839,4 GB,64 GB,Wi-Fi + Cellular
+iPad Air (4ª gen),749,839,4 GB,256 GB,Wi-Fi
+iPad Air (4ª gen),879,1009,4 GB,256 GB,Wi-Fi + Cellular
+iPad Air (5ª gen),599,789,8 GB,64 GB,Wi-Fi
+iPad Air (5ª gen),749,969,8 GB,64 GB,Wi-Fi + Cellular
+iPad Air (5ª gen),749,979,8 GB,256 GB,Wi-Fi
+iPad Air (5ª gen),899,1159,8 GB,256 GB,Wi-Fi + Cellular
+"iPad Air 11"" (M2)",599,719,8 GB,128 GB,Wi-Fi
+"iPad Air 11"" (M2)",749,889,8 GB,128 GB,Wi-Fi + Cellular
+"iPad Air 11"" (M2)",699,849,8 GB,256 GB,Wi-Fi
+"iPad Air 11"" (M2)",849,1019,8 GB,256 GB,Wi-Fi + Cellular
+"iPad Air 11"" (M2)",899,1099,8 GB,512 GB,Wi-Fi
+"iPad Air 11"" (M2)",1049,1269,8 GB,512 GB,Wi-Fi + Cellular
+"iPad Air 11"" (M2)",1099,1349,8 GB,1 TB,Wi-Fi
+"iPad Air 11"" (M2)",1249,1519,8 GB,1 TB,Wi-Fi + Cellular
+"iPad Air 13"" (M2)",799,969,8 GB,128 GB,Wi-Fi
+"iPad Air 13"" (M2)",949,1139,8 GB,128 GB,Wi-Fi + Cellular
+"iPad Air 13"" (M2)",899,1099,8 GB,256 GB,Wi-Fi
+"iPad Air 13"" (M2)",1049,1269,8 GB,256 GB,Wi-Fi + Cellular
+"iPad Air 13"" (M2)",1099,1349,8 GB,512 GB,Wi-Fi
+"iPad Air 13"" (M2)",1249,1519,8 GB,512 GB,Wi-Fi + Cellular
+"iPad Air 13"" (M2)",1299,1599,8 GB,1 TB,Wi-Fi
+"iPad Air 13"" (M2)",1449,1769,8 GB,1 TB,Wi-Fi + Cellular
+"iPad Air 11"" (M3)",599,719,8 GB,128 GB,Wi-Fi
+"iPad Air 11"" (M3)",749,889,8 GB,128 GB,Wi-Fi + Cellular
+"iPad Air 11"" (M3)",699,849,8 GB,256 GB,Wi-Fi
+"iPad Air 11"" (M3)",849,1019,8 GB,256 GB,Wi-Fi + Cellular
+"iPad Air 11"" (M3)",899,1099,8 GB,512 GB,Wi-Fi
+"iPad Air 11"" (M3)",1049,1269,8 GB,512 GB,Wi-Fi + Cellular
+"iPad Air 11"" (M3)",1099,1349,8 GB,1 TB,Wi-Fi
+"iPad Air 11"" (M3)",1249,1519,8 GB,1 TB,Wi-Fi + Cellular
+"iPad Air 13"" (M3)",799,969,8 GB,128 GB,Wi-Fi
+"iPad Air 13"" (M3)",949,1139,8 GB,128 GB,Wi-Fi + Cellular
+"iPad Air 13"" (M3)",899,1099,8 GB,256 GB,Wi-Fi
+"iPad Air 13"" (M3)",1049,1269,8 GB,256 GB,Wi-Fi + Cellular
+"iPad Air 13"" (M3)",1099,1349,8 GB,512 GB,Wi-Fi
+"iPad Air 13"" (M3)",1249,1519,8 GB,512 GB,Wi-Fi + Cellular
+"iPad Air 13"" (M3)",1299,1599,8 GB,1 TB,Wi-Fi
+"iPad Air 13"" (M3)",1449,1769,8 GB,1 TB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (1ª gen)",799,919,4 GB,32 GB,Wi-Fi
+"iPad Pro 12.9"" (1ª gen)",949,1099,4 GB,128 GB,Wi-Fi
+"iPad Pro 12.9"" (1ª gen)",1079,1249,4 GB,128 GB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (1ª gen)",1099,1279,4 GB,256 GB,Wi-Fi
+"iPad Pro 12.9"" (1ª gen)",1229,1429,4 GB,256 GB,Wi-Fi + Cellular
+"iPad Pro 9.7""",599,729,2 GB,32 GB,Wi-Fi
+"iPad Pro 9.7""",729,879,2 GB,32 GB,Wi-Fi + Cellular
+"iPad Pro 9.7""",749,899,2 GB,128 GB,Wi-Fi
+"iPad Pro 9.7""",879,1049,2 GB,128 GB,Wi-Fi + Cellular
+"iPad Pro 9.7""",899,1079,2 GB,256 GB,Wi-Fi
+"iPad Pro 9.7""",1029,1229,2 GB,256 GB,Wi-Fi + Cellular
+"iPad Pro 10.5""",649,769,4 GB,64 GB,Wi-Fi
+"iPad Pro 10.5""",779,929,4 GB,64 GB,Wi-Fi + Cellular
+"iPad Pro 10.5""",849,1009,4 GB,256 GB,Wi-Fi
+"iPad Pro 10.5""",979,1169,4 GB,256 GB,Wi-Fi + Cellular
+"iPad Pro 10.5""",1049,1249,4 GB,512 GB,Wi-Fi
+"iPad Pro 10.5""",1179,1409,4 GB,512 GB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (2ª gen)",799,919,4 GB,64 GB,Wi-Fi
+"iPad Pro 12.9"" (2ª gen)",929,1079,4 GB,64 GB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (2ª gen)",999,1169,4 GB,256 GB,Wi-Fi
+"iPad Pro 12.9"" (2ª gen)",1129,1329,4 GB,256 GB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (2ª gen)",1149,1369,4 GB,512 GB,Wi-Fi
+"iPad Pro 12.9"" (2ª gen)",1279,1529,4 GB,512 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (1ª gen)",799,899,4 GB,64 GB,Wi-Fi
+"iPad Pro 11"" (1ª gen)",949,1069,4 GB,64 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (1ª gen)",949,1069,4 GB,256 GB,Wi-Fi
+"iPad Pro 11"" (1ª gen)",1099,1239,4 GB,256 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (1ª gen)",1149,1299,4 GB,512 GB,Wi-Fi
+"iPad Pro 11"" (1ª gen)",1299,1469,4 GB,512 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (1ª gen)",1549,1729,6 GB,1 TB,Wi-Fi
+"iPad Pro 11"" (1ª gen)",1699,1899,6 GB,1 TB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (3ª gen)",999,1119,4 GB,64 GB,Wi-Fi
+"iPad Pro 12.9"" (3ª gen)",1149,1289,4 GB,64 GB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (3ª gen)",1149,1289,4 GB,256 GB,Wi-Fi
+"iPad Pro 12.9"" (3ª gen)",1299,1459,4 GB,256 GB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (3ª gen)",1349,1519,4 GB,512 GB,Wi-Fi
+"iPad Pro 12.9"" (3ª gen)",1499,1689,4 GB,512 GB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (3ª gen)",1749,1969,6 GB,1 TB,Wi-Fi
+"iPad Pro 12.9"" (3ª gen)",1899,2139,6 GB,1 TB,Wi-Fi + Cellular
+"iPad Pro 11"" (2ª gen)",799,899,6 GB,128 GB,Wi-Fi
+"iPad Pro 11"" (2ª gen)",949,1069,6 GB,128 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (2ª gen)",899,1009,6 GB,256 GB,Wi-Fi
+"iPad Pro 11"" (2ª gen)",1049,1179,6 GB,256 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (2ª gen)",1099,1239,6 GB,512 GB,Wi-Fi
+"iPad Pro 11"" (2ª gen)",1249,1409,6 GB,512 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (2ª gen)",1299,1469,6 GB,1 TB,Wi-Fi
+"iPad Pro 11"" (2ª gen)",1449,1639,6 GB,1 TB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (4ª gen)",999,1119,6 GB,128 GB,Wi-Fi
+"iPad Pro 12.9"" (4ª gen)",1149,1289,6 GB,128 GB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (4ª gen)",1099,1239,6 GB,256 GB,Wi-Fi
+"iPad Pro 12.9"" (4ª gen)",1249,1409,6 GB,256 GB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (4ª gen)",1299,1469,6 GB,512 GB,Wi-Fi
+"iPad Pro 12.9"" (4ª gen)",1449,1639,6 GB,512 GB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (4ª gen)",1499,1699,6 GB,1 TB,Wi-Fi
+"iPad Pro 12.9"" (4ª gen)",1649,1869,6 GB,1 TB,Wi-Fi + Cellular
+"iPad Pro 11"" (3ª gen)",799,899,8 GB,128 GB,Wi-Fi
+"iPad Pro 11"" (3ª gen)",999,1119,8 GB,128 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (3ª gen)",899,1019,8 GB,256 GB,Wi-Fi
+"iPad Pro 11"" (3ª gen)",1099,1239,8 GB,256 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (3ª gen)",1099,1239,8 GB,512 GB,Wi-Fi
+"iPad Pro 11"" (3ª gen)",1299,1459,8 GB,512 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (3ª gen)",1499,1689,16 GB,1 TB,Wi-Fi
+"iPad Pro 11"" (3ª gen)",1699,1909,16 GB,1 TB,Wi-Fi + Cellular
+"iPad Pro 11"" (3ª gen)",1899,2139,16 GB,2 TB,Wi-Fi
+"iPad Pro 11"" (3ª gen)",2099,2359,16 GB,2 TB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (5ª gen)",1099,1239,8 GB,128 GB,Wi-Fi
+"iPad Pro 12.9"" (5ª gen)",1299,1459,8 GB,128 GB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (5ª gen)",1199,1369,8 GB,256 GB,Wi-Fi
+"iPad Pro 12.9"" (5ª gen)",1399,1589,8 GB,256 GB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (5ª gen)",1399,1589,8 GB,512 GB,Wi-Fi
+"iPad Pro 12.9"" (5ª gen)",1599,1809,8 GB,512 GB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (5ª gen)",1799,2069,16 GB,1 TB,Wi-Fi
+"iPad Pro 12.9"" (5ª gen)",1999,2289,16 GB,1 TB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (5ª gen)",2199,2519,16 GB,2 TB,Wi-Fi
+"iPad Pro 12.9"" (5ª gen)",2399,2739,16 GB,2 TB,Wi-Fi + Cellular
+"iPad Pro 11"" (4ª gen)",799,1069,8 GB,128 GB,Wi-Fi
+"iPad Pro 11"" (4ª gen)",999,1269,8 GB,128 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (4ª gen)",899,1189,8 GB,256 GB,Wi-Fi
+"iPad Pro 11"" (4ª gen)",1099,1389,8 GB,256 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (4ª gen)",1099,1469,8 GB,512 GB,Wi-Fi
+"iPad Pro 11"" (4ª gen)",1299,1669,8 GB,512 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (4ª gen)",1499,1969,16 GB,1 TB,Wi-Fi
+"iPad Pro 11"" (4ª gen)",1699,2169,16 GB,1 TB,Wi-Fi + Cellular
+"iPad Pro 11"" (4ª gen)",1899,2469,16 GB,2 TB,Wi-Fi
+"iPad Pro 11"" (4ª gen)",2099,2669,16 GB,2 TB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (6ª gen)",1099,1469,8 GB,128 GB,Wi-Fi
+"iPad Pro 12.9"" (6ª gen)",1299,1669,8 GB,128 GB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (6ª gen)",1199,1589,8 GB,256 GB,Wi-Fi
+"iPad Pro 12.9"" (6ª gen)",1399,1789,8 GB,256 GB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (6ª gen)",1399,1869,8 GB,512 GB,Wi-Fi
+"iPad Pro 12.9"" (6ª gen)",1599,2069,8 GB,512 GB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (6ª gen)",1799,2369,16 GB,1 TB,Wi-Fi
+"iPad Pro 12.9"" (6ª gen)",1999,2569,16 GB,1 TB,Wi-Fi + Cellular
+"iPad Pro 12.9"" (6ª gen)",2199,2869,16 GB,2 TB,Wi-Fi
+"iPad Pro 12.9"" (6ª gen)",2399,3069,16 GB,2 TB,Wi-Fi + Cellular
+"iPad Pro 11"" (M4)",999,1219,8 GB,256 GB,Wi-Fi
+"iPad Pro 11"" (M4)",1199,1469,8 GB,256 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (M4)",1099,1339,8 GB,512 GB,Wi-Fi
+"iPad Pro 11"" (M4)",1299,1589,8 GB,512 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (M4)",1499,1839,16 GB,1 TB,Wi-Fi
+"iPad Pro 11"" (M4)",1699,2089,16 GB,1 TB,Wi-Fi + Cellular
+"iPad Pro 11"" (M4)",1899,2329,16 GB,2 TB,Wi-Fi
+"iPad Pro 11"" (M4)",2099,2579,16 GB,2 TB,Wi-Fi + Cellular
+"iPad Pro 13"" (M4)",1299,1589,8 GB,256 GB,Wi-Fi
+"iPad Pro 13"" (M4)",1499,1839,8 GB,256 GB,Wi-Fi + Cellular
+"iPad Pro 13"" (M4)",1399,1719,8 GB,512 GB,Wi-Fi
+"iPad Pro 13"" (M4)",1599,1969,8 GB,512 GB,Wi-Fi + Cellular
+"iPad Pro 13"" (M4)",1799,2199,16 GB,1 TB,Wi-Fi
+"iPad Pro 13"" (M4)",1999,2449,16 GB,1 TB,Wi-Fi + Cellular
+"iPad Pro 13"" (M4)",2199,2699,16 GB,2 TB,Wi-Fi
+"iPad Pro 13"" (M4)",2399,2949,16 GB,2 TB,Wi-Fi + Cellular
+"iPad Air 11"" (M4)",599,669,12 GB,128 GB,Wi-Fi
+"iPad Air 11"" (M4)",749,839,12 GB,128 GB,Wi-Fi + Cellular
+"iPad Air 11"" (M4)",699,799,12 GB,256 GB,Wi-Fi
+"iPad Air 11"" (M4)",849,969,12 GB,256 GB,Wi-Fi + Cellular
+"iPad Air 11"" (M4)",899,1049,12 GB,512 GB,Wi-Fi
+"iPad Air 11"" (M4)",1049,1219,12 GB,512 GB,Wi-Fi + Cellular
+"iPad Air 11"" (M4)",1099,1299,12 GB,1 TB,Wi-Fi
+"iPad Air 11"" (M4)",1249,1469,12 GB,1 TB,Wi-Fi + Cellular
+"iPad Air 13"" (M4)",799,869,12 GB,128 GB,Wi-Fi
+"iPad Air 13"" (M4)",949,1039,12 GB,128 GB,Wi-Fi + Cellular
+"iPad Air 13"" (M4)",899,999,12 GB,256 GB,Wi-Fi
+"iPad Air 13"" (M4)",1049,1169,12 GB,256 GB,Wi-Fi + Cellular
+"iPad Air 13"" (M4)",1099,1249,12 GB,512 GB,Wi-Fi
+"iPad Air 13"" (M4)",1249,1419,12 GB,512 GB,Wi-Fi + Cellular
+"iPad Air 13"" (M4)",1299,1499,12 GB,1 TB,Wi-Fi
+"iPad Air 13"" (M4)",1449,1669,12 GB,1 TB,Wi-Fi + Cellular
+"iPad Pro 11"" (M5)",999,1119,12 GB,256 GB,Wi-Fi
+"iPad Pro 11"" (M5)",1199,1369,12 GB,256 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (M5)",1199,1369,12 GB,512 GB,Wi-Fi
+"iPad Pro 11"" (M5)",1399,1619,12 GB,512 GB,Wi-Fi + Cellular
+"iPad Pro 11"" (M5)",1599,1849,16 GB,1 TB,Wi-Fi
+"iPad Pro 11"" (M5)",1799,2099,16 GB,1 TB,Wi-Fi + Cellular
+"iPad Pro 11"" (M5)",1999,2329,16 GB,2 TB,Wi-Fi
+"iPad Pro 11"" (M5)",2199,2579,16 GB,2 TB,Wi-Fi + Cellular
+"iPad Pro 13"" (M5)",1299,1469,12 GB,256 GB,Wi-Fi
+"iPad Pro 13"" (M5)",1499,1719,12 GB,256 GB,Wi-Fi + Cellular
+"iPad Pro 13"" (M5)",1499,1719,12 GB,512 GB,Wi-Fi
+"iPad Pro 13"" (M5)",1699,1969,12 GB,512 GB,Wi-Fi + Cellular
+"iPad Pro 13"" (M5)",1899,2199,16 GB,1 TB,Wi-Fi
+"iPad Pro 13"" (M5)",2099,2449,16 GB,1 TB,Wi-Fi + Cellular
+"iPad Pro 13"" (M5)",2299,2679,16 GB,2 TB,Wi-Fi
+"iPad Pro 13"" (M5)",2499,2929,16 GB,2 TB,Wi-Fi + Cellular

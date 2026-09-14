@@ -1,7 +1,7 @@
-slug,nome,file,attiva
-iphone,iPhone,iphone.csv,si
-ipad,iPad,ipad.csv,si
-apple-watch,Apple Watch,apple-watch.csv,si
-apple-tv,Apple TV,apple-tv.csv,si
-cuffie,Cuffie / AirPods,cuffie.csv,si
-mac,Mac,mac.csv,no
+slug,nome,attiva
+iphone,iPhone,si
+ipad,iPad,si
+apple-watch,Apple Watch,si
+apple-tv,Apple TV,si
+cuffie,Cuffie / AirPods,si
+mac,Mac,no

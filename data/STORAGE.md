@@ -60,17 +60,27 @@ la prima causa di attrito per chi contribuisce dall'editor web di GitHub.
 
 ## Raccomandazione: separare le due entità, un formato per ciascuna
 
+> **Stato attuale**: questa sezione era una proposta; lo split `modelli.json` /
+> `varianti.csv` **è stato implementato** per tutte le categorie attive. L'implementazione
+> reale è però più pragmatica della proposta originale su tre punti, spiegati dove
+> rilevante più sotto: (1) specifiche **piatte**, non annidate — `modelli.json` oggi ha
+> solo i ~14-27 campi già popolati per categoria, senza gerarchia; l'annidamento profondo
+> mostrato come esempio qui sotto resta un obiettivo per quando i campi di
+> [`TAXONOMY.md`](TAXONOMY.md) verranno effettivamente popolati, non un requisito da subito.
+> (2) La chiave di join fra i due file è il nome `modello` esistente, non un nuovo slug
+> `id`. (3) La validazione non usa JSON Schema separati in `data/schema/`: è stata
+> integrata nel validatore Python esistente ([`tools/validate.py`](../tools/validate.py)),
+> che copre sia la struttura sia le regole di business (prezzi crescenti col taglio, cambi
+> plausibili...) che JSON Schema da solo non potrebbe esprimere — mantenere due sistemi di
+> validazione paralleli sarebbe stata complessità senza beneficio.
+
 ```
 data/
-├── categories.csv              manifest (invariato)
+├── categories.csv              manifest (senza più la colonna "file": lo slug è la cartella)
 ├── SCHEMA.md · TAXONOMY.md · STORAGE.md
-├── schema/
-│   ├── modello.schema.json     schema comune
-│   ├── iphone.schema.json      estensioni della categoria
-│   └── cuffie.schema.json
 └── iphone/
-    ├── modelli.json            1 oggetto per modello, specifiche annidate
-    └── varianti.csv            1 riga per SKU acquistabile: taglio, colore, prezzi
+    ├── modelli.json            1 oggetto per modello, oggi piatto (vedi nota sopra)
+    └── varianti.csv            1 riga per SKU acquistabile: taglio, connettività, prezzi
 ```
 
 ### 1 · `modelli.json` — le specifiche profonde
@@ -155,13 +165,31 @@ un `index.json` leggero — ma non prima che serva davvero.
 
 ---
 
-## Migrazione senza rotture
+## Migrazione: cosa è stato fatto davvero
 
-1. Aggiungere il caricatore JSON accanto a quello CSV: `data.js` prova `modelli.json`, se non
-   c'è ricade sul CSV attuale. Le due forme convivono.
-2. Migrare **una categoria alla volta**, partendo dalle due nuove (Apple TV e Cuffie), che non
-   hanno dati storici da convertire e quindi nascono già nel formato definitivo.
-3. Convertire iPhone, iPad e Apple Watch con uno script una tantum, verificando che i numeri in
-   home (modelli / configurazioni) non cambino.
-4. Quando l'ultima categoria è migrata, rimuovere il ramo CSV per i modelli — e con esso
-   PapaParse, che resterà necessario solo per `varianti.csv` e `categories.csv`.
+Il piano originale qui sotto prevedeva una migrazione graduale, categoria per categoria, con
+convivenza temporanea CSV/JSON. In pratica si è rivelato più semplice e altrettanto sicuro fare
+un taglio netto in un'unica sessione, per un motivo concreto: `tools/validate.py` dava già
+copertura completa (struttura + regole di business) su tutte le categorie, quindi non serviva
+un periodo di transizione per scoprire eventuali rotture — bastava eseguire lo script di
+migrazione e poi far girare il validatore.
+
+Passaggi effettivi:
+1. Script una tantum: per ogni colonna del CSV piatto, controlla se il valore varia fra le
+   righe di uno stesso modello in almeno un modello della categoria. Se sì → `varianti.csv`,
+   altrimenti → `modelli.json`. Nessuna regola scritta a mano per categoria (questo ha anche
+   fatto emergere correttamente casi non ovvi, es. Apple TV 1ª gen dove *data di uscita* e
+   *periodo di vendita* sono per-variante perché il modello da 160 GB uscì un anno dopo quello
+   da 40 GB).
+2. Tutte e cinque le categorie attive convertite nello stesso passaggio.
+3. `js/data.js` riscritto per caricare ed unire i due file per categoria, producendo righe
+   "piatte" nella stessa forma di prima — così `derived.js`, `columns.js` e le viste non hanno
+   dovuto cambiare.
+4. `tools/validate.py` riscritto per leggere il nuovo formato mantenendo le stesse regole.
+5. I CSV piatti originali sono stati rimossi dal repository — restano recuperabili dalla
+   cronologia Git se mai servisse un rollback.
+6. Aggiunto il campo `fonti` (vuoto) a ogni voce di `modelli.json`, da popolare
+   progressivamente via contributi e verifiche mirate.
+
+PapaParse resta necessario: `varianti.csv` e `categories.csv` sono ancora CSV, per le ragioni
+già esposte sopra (sono vere tabelle dense, non specifiche annidate).

@@ -1,0 +1,15 @@
+modello,prezzo_lancio_usd,prezzo_reale_eur,batteria,autonomia_anc_on_h,autonomia_anc_off_h,autonomia_totale_custodia_h,custodia
+AirPods (1ª gen),159,?,5 ore · 24 ore con custodia,n.d.,5,24,Lightning
+AirPods (2ª gen),159,?,5 ore · 24 ore con custodia,n.d.,5,24,Lightning
+AirPods (2ª gen),199,?,5 ore · 24 ore con custodia,n.d.,5,24,Lightning + Qi wireless
+AirPods (3ª gen),179,199,6 ore · 30 ore con custodia,n.d.,6,30,Lightning + MagSafe
+AirPods 4,129,149,5 ore · 30 ore con custodia,n.d.,5,30,USB-C
+AirPods 4 (ANC),179,199,4 ore con ANC · 20 ore con custodia,4,5,20,USB-C + wireless + altoparlante
+AirPods Pro (1ª gen),249,279,4.5 ore con ANC · 24 ore con custodia,4.5,5,24,Lightning + Qi wireless
+AirPods Pro 2,249,299,6 ore con ANC · 30 ore con custodia,6,6,30,Lightning + MagSafe + altoparlante
+AirPods Pro 2 (USB-C),249,279,6 ore con ANC · 30 ore con custodia,6,6,30,USB-C + MagSafe + altoparlante
+AirPods Pro 3,249,249,8 ore con ANC · 24 ore con custodia,8,10,24,USB-C + MagSafe + altoparlante
+AirPods Max,549,629,20 ore con ANC,20,20,n.d.,Lightning
+AirPods Max (USB-C),549,579,20 ore con ANC,20,20,n.d.,USB-C
+AirPods 5,129,149,4 ore con ANC · 20 ore con custodia,4,6,20,USB-C
+AirPods 5,149,169,5 ore con ANC · 22 ore con custodia,5,7,22,USB-C + wireless (Qi / caricabatterie Apple Watch)

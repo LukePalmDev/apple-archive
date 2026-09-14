@@ -9,7 +9,7 @@ import { loader, errorBox } from '../ui.js';
 const NON_SPEC = new Set([
   'oggetto', 'modello', 'data_presentazione', 'data_commercializzazione',
   'prezzo_lancio_usd', 'cambio_usd_eur', 'prezzo_reale_eur',
-  'archiviazione', 'periodo_vendita', 'software'
+  'archiviazione', 'periodo_vendita', 'software', 'fonti'
 ]);
 
 export function viewModel(slug, modello) {
@@ -39,6 +39,11 @@ export function viewModel(slug, modello) {
       </div>`;
     }).join('');
 
+    const fonti = Array.isArray(r0.fonti) ? r0.fonti.filter(Boolean) : [];
+    const fontiHTML = fonti.length ? `
+      <h2>Fonti</h2>
+      <ul class="fonti-list">${fonti.map(u => `<li><a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(u)}</a></li>`).join('')}</ul>` : '';
+
     app().innerHTML = `
       <a class="back-link" href="#/cat/${encodeURIComponent(slug)}">← ${esc(cat.nome)}</a>
       <div class="detail-head">
@@ -48,7 +53,8 @@ export function viewModel(slug, modello) {
       <h2>Specifiche</h2>
       <div class="spec-grid">${specCards}</div>
       <h2>Prezzi di lancio per taglio</h2>
-      <div class="price-strip">${prices}</div>`;
+      <div class="price-strip">${prices}</div>
+      ${fontiHTML}`;
 
     $('#detail-cmp').addEventListener('click', e => {
       toggleCompare(slug, modello);

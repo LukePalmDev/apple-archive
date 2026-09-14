@@ -1,5 +1,10 @@
 /* ============================================================
-   Caricamento dati: manifest categorie + un CSV per categoria.
+   Caricamento dati: manifest categorie + due file per categoria.
+   - data/<slug>/modelli.json  specifiche annidate, un oggetto per modello
+   - data/<slug>/varianti.csv  una riga per configurazione acquistabile
+   Il loader unisce i due file per modello e produce righe "piatte"
+   identiche (stessa forma) a quelle usate da derived.js/columns.js/viste,
+   così il resto del sito non deve sapere come i dati sono archiviati.
    Le promise sono memoizzate per evitare fetch concorrenti duplicati.
    ============================================================ */
 
@@ -11,6 +16,13 @@ function fetchText(url) {
   return fetch(url).then(r => {
     if (!r.ok) throw new Error(r.status + ' ' + url);
     return r.text();
+  });
+}
+
+function fetchJSON(url) {
+  return fetch(url).then(r => {
+    if (!r.ok) throw new Error(r.status + ' ' + url);
+    return r.json();
   });
 }
 
@@ -39,9 +51,21 @@ export function ensureCategory(slug) {
   _catPromise[slug] = ensureCats().then(() => {
     const cat = catBySlug(slug);
     if (!cat) throw new Error('Categoria sconosciuta: ' + slug);
-    return fetchText('data/' + cat.file).then(t => {
-      const rows = parseCSV(t).filter(r => r.modello);
-      rows.forEach(r => { r.__slug = slug; r.__cat = cat.nome; });
+    const base = 'data/' + slug + '/';
+    return Promise.all([
+      fetchJSON(base + 'modelli.json'),
+      fetchText(base + 'varianti.csv')
+    ]).then(([modelli, variantiText]) => {
+      const modelliByName = new Map(modelli.map(m => [m.modello, m]));
+      const varianti = parseCSV(variantiText).filter(r => r.modello);
+      const rows = varianti.map(v => {
+        const m = modelliByName.get(v.modello);
+        if (!m) throw new Error(`${slug}: variante senza specifiche di modello (${v.modello})`);
+        const r = Object.assign({}, m, v);
+        r.__slug = slug;
+        r.__cat = cat.nome;
+        return r;
+      });
       DATA[slug] = rows;
       return rows;
     });

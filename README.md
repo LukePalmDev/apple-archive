@@ -1,8 +1,8 @@
 # Archivio Apple
 
 Archivio aperto e indipendente dei prodotti commercializzati da Apple, con confronto rapido di
-informazioni e specifiche tecniche. Sito statico, nessun backend: i dati vivono in semplici file
-**CSV** (uno per categoria) facilmente leggibili e modificabili direttamente su GitHub.
+informazioni e specifiche tecniche. Sito statico, nessun backend: i dati vivono in file **JSON +
+CSV** (due per categoria) facilmente leggibili e modificabili direttamente su GitHub.
 
 > Progetto editoriale indipendente, non affiliato ad Apple. Tutti i marchi appartengono ai
 > rispettivi proprietari.
@@ -12,24 +12,28 @@ informazioni e specifiche tecniche. Sito statico, nessun backend: i dati vivono 
 - ⏳ Mac (predisposta, da popolare)
 
 ## Come sono organizzati i dati
-- Ogni categoria ha un CSV in [`data/`](data/).
+- Ogni categoria ha una cartella in [`data/`](data/) con due file:
+  `modelli.json` (specifiche, un oggetto per modello) e `varianti.csv`
+  (prezzi, un rigo per configurazione acquistabile). Il motivo dello split
+  è spiegato in [`data/STORAGE.md`](data/STORAGE.md).
 - L'elenco delle categorie attive è in [`data/categories.csv`](data/categories.csv).
-- Lo standard delle colonne è documentato in [`data/SCHEMA.md`](data/SCHEMA.md).
+- Lo standard dei campi è documentato in [`data/SCHEMA.md`](data/SCHEMA.md).
 - L'elenco completo delle caratteristiche archiviabili è in [`data/TAXONOMY.md`](data/TAXONOMY.md).
-- Le scelte sul formato d'archivio sono motivate in [`data/STORAGE.md`](data/STORAGE.md).
-- Regola: **una riga = un taglio di archiviazione** (così ogni prezzo è quello del taglio).
+- Regola: **una riga di `varianti.csv` = un taglio di archiviazione acquistabile.**
 
 ### Aggiungere un prodotto
-Apri il CSV della categoria (es. `data/iphone.csv`) e aggiungi una riga per ogni taglio,
-rispettando l'ordine delle colonne dell'intestazione. Campi non noti: scrivi `?`.
+Aggiungi un oggetto in `data/<categoria>/modelli.json` con le specifiche del modello (incluso
+un array `fonti` con gli URL usati per verificarle), e una riga in `data/<categoria>/varianti.csv`
+per ogni taglio di archiviazione, con lo stesso `modello` come chiave. Campi non noti: scrivi `?`.
 
 ### Aggiungere una categoria
-1. Crea `data/nuova-categoria.csv` con la stessa riga di intestazione.
+1. Crea `data/nuova-categoria/modelli.json` (array vuoto) e `data/nuova-categoria/varianti.csv`
+   con l'intestazione standard.
 2. Aggiungi una riga in `data/categories.csv` con `attiva = si`.
 Fatto: nav e pagine compaiono da sole.
 
 ## Anteprima in locale
-Il sito legge i CSV via `fetch`, quindi serve un piccolo server locale (con `file://` non funziona):
+Il sito legge i dati via `fetch`, quindi serve un piccolo server locale (con `file://` non funziona):
 
 ```bash
 cd apple-archive
@@ -51,7 +55,7 @@ apple-archive/
 │   ├── main.js          # punto di ingresso
 │   ├── router.js        # routing su hash
 │   ├── state.js         # stato condiviso, etichette, mappe OS
-│   ├── data.js          # caricamento CSV
+│   ├── data.js          # caricamento + unione modelli.json/varianti.csv
 │   ├── derived.js       # prezzi teorici, anni di vendita e supporto
 │   ├── columns.js       # colonne della tabella
 │   ├── compare.js       # lista di confronto
@@ -60,13 +64,18 @@ apple-archive/
 │   ├── utils.js · ui.js
 │   └── views/           # una vista per file
 ├── README.md
+├── LICENSE               # codice, MIT
+├── CONTRIBUTING.md
+├── tools/validate.py     # validatore dati (gira anche in CI)
 └── data/
-    ├── categories.csv   # elenco categorie (manifest)
-    ├── SCHEMA.md        # documentazione colonne
-    ├── TAXONOMY.md      # tutte le caratteristiche archiviabili
-    ├── STORAGE.md       # analisi del formato d'archivio
-    ├── iphone.csv · ipad.csv · apple-watch.csv
-    └── apple-tv.csv · cuffie.csv
+    ├── categories.csv    # elenco categorie (manifest)
+    ├── LICENSE            # dati, CC BY 4.0
+    ├── SCHEMA.md          # documentazione dei campi
+    ├── TAXONOMY.md        # tutte le caratteristiche archiviabili
+    ├── STORAGE.md         # analisi del formato d'archivio
+    └── iphone/ · ipad/ · apple-watch/ · apple-tv/ · cuffie/
+        ├── modelli.json      # specifiche, un oggetto per modello
+        └── varianti.csv      # prezzi, un rigo per configurazione
 ```
 
 ## Stack
@@ -75,3 +84,9 @@ HTML/CSS/JS vanilla a **moduli ES**, nessun build step. Parsing CSV con
 
 > I moduli ES e `fetch` richiedono HTTP: con `file://` (doppio clic) il sito non parte.
 > Serve il server locale descritto sopra.
+
+## Licenza
+- **Codice** (`index.html`, `styles.css`, `js/`, `tools/`): [MIT](LICENSE).
+- **Dati** (`data/*.csv`, `data/*.json`): [CC BY 4.0](data/LICENSE) — riuso libero anche commerciale, con obbligo di attribuzione.
+
+Archivio indipendente, non affiliato ad Apple Inc. I marchi citati appartengono ai rispettivi proprietari.

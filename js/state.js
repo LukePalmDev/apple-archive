@@ -27,7 +27,7 @@ export const LABELS = {
   autonomia_anc_off_h: 'Autonomia ANC off (h)', autonomia_totale_custodia_h: 'Totale con custodia (h)',
   ricarica_rapida: 'Ricarica rapida', custodia: 'Custodia',
   certificazione_ip: 'Certificazione IP', peso_auricolare_g: 'Peso auricolare (g)',
-  funzioni_salute: 'Funzioni salute'
+  funzioni_salute: 'Funzioni salute', fonti: 'Fonti'
 };
 export const KNOWN = Object.keys(LABELS);
 
