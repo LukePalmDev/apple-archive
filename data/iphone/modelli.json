@@ -11,7 +11,10 @@
     "batteria": "1400 mAh",
     "periodo_vendita": "06/2007 - 07/2008",
     "software": "iOS 1–3",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_(1st_generation)",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-specs.html"
+    ]
   },
   {
     "modello": "3G",
@@ -25,7 +28,10 @@
     "batteria": "1150 mAh",
     "periodo_vendita": "07/2008 - 06/2009",
     "software": "iOS 2–4",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_3G",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-3g-specs.html"
+    ]
   },
   {
     "modello": "3GS",
@@ -39,7 +45,10 @@
     "batteria": "1219 mAh",
     "periodo_vendita": "06/2009 - 09/2012",
     "software": "iOS 3–6",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_3GS",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-3g-s-specs.html"
+    ]
   },
   {
     "modello": "4",
@@ -53,7 +62,10 @@
     "batteria": "1420 mAh",
     "periodo_vendita": "06/2010 - 09/2013",
     "software": "iOS 4–7",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_4",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-4-specs.html"
+    ]
   },
   {
     "modello": "4S",
@@ -67,7 +79,10 @@
     "batteria": "1432 mAh",
     "periodo_vendita": "10/2011 - 09/2014",
     "software": "iOS 5–9",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_4S",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-4s-specs.html"
+    ]
   },
   {
     "modello": "5",
@@ -81,7 +96,9 @@
     "batteria": "1440 mAh",
     "periodo_vendita": "09/2012 - 09/2013",
     "software": "iOS 6–10",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_5"
+    ]
   },
   {
     "modello": "5c",
@@ -95,7 +112,10 @@
     "batteria": "1510 mAh",
     "periodo_vendita": "09/2013 - 09/2015",
     "software": "iOS 7–10",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_5C",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-5c-a1532-gsm-north-america-specs.html"
+    ]
   },
   {
     "modello": "5s",
@@ -109,7 +129,9 @@
     "batteria": "1560 mAh",
     "periodo_vendita": "09/2013 - 03/2016",
     "software": "iOS 7–12",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_5S"
+    ]
   },
   {
     "modello": "6",
@@ -123,7 +145,9 @@
     "batteria": "1810 mAh",
     "periodo_vendita": "09/2014 - 09/2016",
     "software": "iOS 8–12",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_6"
+    ]
   },
   {
     "modello": "6 Plus",
@@ -137,7 +161,9 @@
     "batteria": "2915 mAh",
     "periodo_vendita": "09/2014 - 09/2016",
     "software": "iOS 8–12",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_6"
+    ]
   },
   {
     "modello": "6s",
@@ -151,7 +177,9 @@
     "batteria": "1715 mAh",
     "periodo_vendita": "09/2015 - 09/2018",
     "software": "iOS 9–15",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_6S"
+    ]
   },
   {
     "modello": "6s Plus",
@@ -165,7 +193,9 @@
     "batteria": "2750 mAh",
     "periodo_vendita": "09/2015 - 09/2018",
     "software": "iOS 9–15",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_6S"
+    ]
   },
   {
     "modello": "SE (1ª gen)",
@@ -179,7 +209,9 @@
     "batteria": "1624 mAh",
     "periodo_vendita": "03/2016 - 09/2018",
     "software": "iOS 9–15",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_SE_(1st_generation)"
+    ]
   },
   {
     "modello": "7",
@@ -193,7 +225,10 @@
     "batteria": "1960 mAh",
     "periodo_vendita": "09/2016 - 09/2019",
     "software": "iOS 10–15",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_7",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-7-verizon-sprint-hong-kong-china-a1660-specs.html"
+    ]
   },
   {
     "modello": "7 Plus",
@@ -207,7 +242,9 @@
     "batteria": "2900 mAh",
     "periodo_vendita": "09/2016 - 09/2019",
     "software": "iOS 10–15",
-    "fonti": []
+    "fonti": [
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-7-plus-verizon-sprint-hong-kong-china-a1661-specs.html"
+    ]
   },
   {
     "modello": "8",
@@ -221,7 +258,10 @@
     "batteria": "1821 mAh",
     "periodo_vendita": "09/2017 - 04/2020",
     "software": "iOS 11–16",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_8",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-8-verizon-sprint-australia-hong-kong-china-a1863-specs.html"
+    ]
   },
   {
     "modello": "8 Plus",
@@ -235,7 +275,9 @@
     "batteria": "2691 mAh",
     "periodo_vendita": "09/2017 - 04/2020",
     "software": "iOS 11–16",
-    "fonti": []
+    "fonti": [
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-8-plus-verizon-sprint-australia-hong-kong-china-a1864-specs.html"
+    ]
   },
   {
     "modello": "X",
@@ -249,7 +291,10 @@
     "batteria": "2716 mAh",
     "periodo_vendita": "11/2017 - 09/2018",
     "software": "iOS 11–16",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_X",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-x-verizon-sprint-australia-hong-kong-china-a1865-specs.html"
+    ]
   },
   {
     "modello": "XS",
@@ -263,7 +308,10 @@
     "batteria": "2658 mAh",
     "periodo_vendita": "09/2018 - 09/2019",
     "software": "iOS 12–18",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_XS",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-xs-united-states-canada-hong-kong-a1920-specs.html"
+    ]
   },
   {
     "modello": "XS Max",
@@ -277,7 +325,10 @@
     "batteria": "3174 mAh",
     "periodo_vendita": "09/2018 - 09/2019",
     "software": "iOS 12–18",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_XS",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-xs-united-states-canada-hong-kong-a1920-specs.html"
+    ]
   },
   {
     "modello": "XR",
@@ -291,7 +342,10 @@
     "batteria": "2942 mAh",
     "periodo_vendita": "10/2018 - 09/2021",
     "software": "iOS 12–18",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_XR",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-xr-united-states-canada-a1984-specs.html"
+    ]
   },
   {
     "modello": "11",
@@ -305,7 +359,10 @@
     "batteria": "3110 mAh",
     "periodo_vendita": "09/2019 - 09/2022",
     "software": "iOS 13–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_11",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-11-united-states-canada-a2111-specs.html"
+    ]
   },
   {
     "modello": "11 Pro",
@@ -319,7 +376,9 @@
     "batteria": "3046 mAh",
     "periodo_vendita": "09/2019 - 09/2020",
     "software": "iOS 13–26",
-    "fonti": []
+    "fonti": [
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-11-pro-united-states-canada-a2160-specs.html"
+    ]
   },
   {
     "modello": "11 Pro Max",
@@ -333,7 +392,9 @@
     "batteria": "3969 mAh",
     "periodo_vendita": "09/2019 - 09/2020",
     "software": "iOS 13–26",
-    "fonti": []
+    "fonti": [
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-11-pro-united-states-canada-a2160-specs.html"
+    ]
   },
   {
     "modello": "SE (2ª gen)",
@@ -347,7 +408,9 @@
     "batteria": "1821 mAh",
     "periodo_vendita": "04/2020 - 03/2022",
     "software": "iOS 13–26",
-    "fonti": []
+    "fonti": [
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-se-2-2nd-gen-2020-united-states-canada-a2275-specs.html"
+    ]
   },
   {
     "modello": "12 mini",
@@ -361,7 +424,10 @@
     "batteria": "2227 mAh",
     "periodo_vendita": "11/2020 - 09/2021",
     "software": "iOS 14–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_12",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-12-united-states-a2172-specs.html"
+    ]
   },
   {
     "modello": "12",
@@ -375,7 +441,10 @@
     "batteria": "2815 mAh",
     "periodo_vendita": "10/2020 - 09/2023",
     "software": "iOS 14–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_12",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-12-united-states-a2172-specs.html"
+    ]
   },
   {
     "modello": "12 Pro",
@@ -389,7 +458,10 @@
     "batteria": "2815 mAh",
     "periodo_vendita": "10/2020 - 09/2021",
     "software": "iOS 14–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_12",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-12-united-states-a2172-specs.html"
+    ]
   },
   {
     "modello": "12 Pro Max",
@@ -403,7 +475,10 @@
     "batteria": "3687 mAh",
     "periodo_vendita": "11/2020 - 09/2021",
     "software": "iOS 14–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_12",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-12-united-states-a2172-specs.html"
+    ]
   },
   {
     "modello": "13 mini",
@@ -414,10 +489,13 @@
     "processore": "Apple A15 Bionic",
     "ram": "4 GB",
     "schermo": "5.4\" OLED",
-    "batteria": "2438 mAh",
+    "batteria": "2406 mAh",
     "periodo_vendita": "09/2021 - 09/2022",
     "software": "iOS 15–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_13",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-13-united-states-a2482-specs.html"
+    ]
   },
   {
     "modello": "13",
@@ -428,10 +506,13 @@
     "processore": "Apple A15 Bionic",
     "ram": "4 GB",
     "schermo": "6.1\" OLED",
-    "batteria": "3240 mAh",
+    "batteria": "3227 mAh",
     "periodo_vendita": "09/2021 - 09/2023",
     "software": "iOS 15–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_13",
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-13-united-states-a2482-specs.html"
+    ]
   },
   {
     "modello": "13 Pro",
@@ -445,7 +526,9 @@
     "batteria": "3095 mAh",
     "periodo_vendita": "09/2021 - 09/2022",
     "software": "iOS 15–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_13_Pro"
+    ]
   },
   {
     "modello": "13 Pro Max",
@@ -459,7 +542,9 @@
     "batteria": "4352 mAh",
     "periodo_vendita": "09/2021 - 09/2022",
     "software": "iOS 15–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_13_Pro"
+    ]
   },
   {
     "modello": "SE (3ª gen)",
@@ -473,7 +558,9 @@
     "batteria": "2018 mAh",
     "periodo_vendita": "03/2022 - 02/2025",
     "software": "iOS 15–26",
-    "fonti": []
+    "fonti": [
+      "https://www.everymac.com/systems/apple/iphone/specs/apple-iphone-se-3-3rd-gen-2022-united-states-canada-a2595-specs.html"
+    ]
   },
   {
     "modello": "14",
@@ -485,9 +572,12 @@
     "ram": "6 GB",
     "schermo": "6.1\" OLED",
     "batteria": "3279 mAh",
-    "periodo_vendita": "09/2022 - 09/2024",
+    "periodo_vendita": "09/2022 - 02/2025",
     "software": "iOS 16–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_14",
+      "https://www.macrumors.com/roundup/iphone-14/"
+    ]
   },
   {
     "modello": "14 Plus",
@@ -499,9 +589,12 @@
     "ram": "6 GB",
     "schermo": "6.7\" OLED",
     "batteria": "4325 mAh",
-    "periodo_vendita": "10/2022 - 09/2024",
+    "periodo_vendita": "10/2022 - 02/2025",
     "software": "iOS 16–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_14",
+      "https://www.macrumors.com/roundup/iphone-14/"
+    ]
   },
   {
     "modello": "14 Pro",
@@ -515,7 +608,9 @@
     "batteria": "3200 mAh",
     "periodo_vendita": "09/2022 - 09/2023",
     "software": "iOS 16–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_14_Pro"
+    ]
   },
   {
     "modello": "14 Pro Max",
@@ -529,7 +624,9 @@
     "batteria": "4323 mAh",
     "periodo_vendita": "09/2022 - 09/2023",
     "software": "iOS 16–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_14_Pro"
+    ]
   },
   {
     "modello": "15",
@@ -541,9 +638,12 @@
     "ram": "6 GB",
     "schermo": "6.1\" OLED",
     "batteria": "3349 mAh",
-    "periodo_vendita": "09/2023 - 09/2024",
+    "periodo_vendita": "09/2023 - 09/2025",
     "software": "iOS 17–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_15",
+      "https://www.macrumors.com/roundup/iphone-15/"
+    ]
   },
   {
     "modello": "15 Plus",
@@ -555,9 +655,12 @@
     "ram": "6 GB",
     "schermo": "6.7\" OLED",
     "batteria": "4383 mAh",
-    "periodo_vendita": "09/2023 - 09/2024",
+    "periodo_vendita": "09/2023 - 09/2025",
     "software": "iOS 17–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_15",
+      "https://www.macrumors.com/roundup/iphone-15/"
+    ]
   },
   {
     "modello": "15 Pro",
@@ -571,7 +674,9 @@
     "batteria": "3274 mAh",
     "periodo_vendita": "09/2023 - 09/2024",
     "software": "iOS 17–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_15_Pro"
+    ]
   },
   {
     "modello": "15 Pro Max",
@@ -585,7 +690,9 @@
     "batteria": "4422 mAh",
     "periodo_vendita": "09/2023 - 09/2024",
     "software": "iOS 17–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_15_Pro"
+    ]
   },
   {
     "modello": "16",
@@ -599,7 +706,9 @@
     "batteria": "3561 mAh",
     "periodo_vendita": "09/2024 - presente",
     "software": "iOS 18–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_16"
+    ]
   },
   {
     "modello": "16 Plus",
@@ -611,9 +720,11 @@
     "ram": "8 GB",
     "schermo": "6.7\" OLED",
     "batteria": "4674 mAh",
-    "periodo_vendita": "09/2024 - presente",
+    "periodo_vendita": "09/2024 - 09/2026",
     "software": "iOS 18–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_16"
+    ]
   },
   {
     "modello": "16 Pro",
@@ -627,7 +738,9 @@
     "batteria": "3582 mAh",
     "periodo_vendita": "09/2024 - 09/2025",
     "software": "iOS 18–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_16_Pro"
+    ]
   },
   {
     "modello": "16 Pro Max",
@@ -641,7 +754,9 @@
     "batteria": "4685 mAh",
     "periodo_vendita": "09/2024 - 09/2025",
     "software": "iOS 18–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_16_Pro"
+    ]
   },
   {
     "modello": "16e",
@@ -655,7 +770,9 @@
     "batteria": "4005 mAh",
     "periodo_vendita": "02/2025 - 03/2026",
     "software": "iOS 18–26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_16e"
+    ]
   },
   {
     "modello": "17",
@@ -669,7 +786,9 @@
     "batteria": "3692 mAh",
     "periodo_vendita": "09/2025 - presente",
     "software": "iOS 26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_17"
+    ]
   },
   {
     "modello": "Air",
@@ -683,7 +802,9 @@
     "batteria": "3149 mAh",
     "periodo_vendita": "09/2025 - presente",
     "software": "iOS 26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_Air"
+    ]
   },
   {
     "modello": "17 Pro",
@@ -697,7 +818,9 @@
     "batteria": "4252 mAh",
     "periodo_vendita": "09/2025 - 09/2026",
     "software": "iOS 26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone"
+    ]
   },
   {
     "modello": "17 Pro Max",
@@ -711,7 +834,9 @@
     "batteria": "5088 mAh",
     "periodo_vendita": "09/2025 - 09/2026",
     "software": "iOS 26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone"
+    ]
   },
   {
     "modello": "17e",
@@ -725,7 +850,9 @@
     "batteria": "4005 mAh",
     "periodo_vendita": "03/2026 - presente",
     "software": "iOS 26",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_17e"
+    ]
   },
   {
     "modello": "18 Pro",
@@ -739,7 +866,10 @@
     "batteria": "4288 mAh",
     "periodo_vendita": "09/2026 - presente",
     "software": "iOS 27",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_18_Pro",
+      "https://www.macrumors.com/roundup/iphone-18-pro/"
+    ]
   },
   {
     "modello": "18 Pro Max",
@@ -753,7 +883,10 @@
     "batteria": "5425 mAh",
     "periodo_vendita": "09/2026 - presente",
     "software": "iOS 27",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_18_Pro",
+      "https://www.macrumors.com/roundup/iphone-18-pro/"
+    ]
   },
   {
     "modello": "Duo",
@@ -762,11 +895,14 @@
     "data_commercializzazione": "10/2026",
     "cambio_usd_eur": "0.86",
     "processore": "Apple A20 Pro",
-    "ram": "?",
+    "ram": "12 GB",
     "schermo": "7.6\" pieghevole + 5.4\" esterno",
     "batteria": "44 ore video (esterno)",
     "periodo_vendita": "10/2026 - presente",
     "software": "iOS 27",
-    "fonti": []
+    "fonti": [
+      "https://en.wikipedia.org/wiki/IPhone_Duo",
+      "https://www.macrumors.com/roundup/iphone-fold/"
+    ]
   }
 ]
