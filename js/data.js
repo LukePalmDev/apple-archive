@@ -27,6 +27,9 @@ function fetchJSON(url) {
 }
 
 function parseCSV(text) {
+  if (typeof Papa === 'undefined') {
+    throw new Error('Parser CSV non disponibile. Controlla che il CDN di PapaParse sia raggiungibile.');
+  }
   return Papa.parse(text.trim(), { header: true, skipEmptyLines: true }).data;
 }
 
@@ -39,6 +42,10 @@ export function ensureCats() {
   _catsPromise = fetchText('data/categories.csv').then(t => {
     parseCSV(t).forEach(r => CATS.push(r));
     return CATS;
+  }).catch(err => {
+    CATS.length = 0;
+    _catsPromise = null;
+    throw err;
   });
   return _catsPromise;
 }
@@ -69,6 +76,9 @@ export function ensureCategory(slug) {
       DATA[slug] = rows;
       return rows;
     });
+  }).catch(err => {
+    delete _catPromise[slug];
+    throw err;
   });
   return _catPromise[slug];
 }

@@ -44,7 +44,7 @@ python3 -m http.server 8000
 ## Pubblicazione (GitHub Pages)
 1. `git init` e push del contenuto di `apple-archive/` su un repo pubblico.
 2. Repo → **Settings → Pages** → Source: branch `main`, cartella `/ (root)`.
-3. (Opzionale) dominio personalizzato: crea un file `CNAME` con il dominio.
+3. Dominio personalizzato: il file `CNAME` nella root pubblicata contiene `apple.byluke.org` (il sito è servito dalla root del dominio, con percorsi relativi).
 
 ## Struttura
 ```

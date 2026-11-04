@@ -14,7 +14,7 @@ function renderPrezzi(rows) {
   let cur = 'eur';
 
   function draw() {
-    const { caps, models } = priceMatrix(rows, cur);
+    const { caps, models, ambiguous } = priceMatrix(rows, cur);
     const sym = cur === 'eur' ? '€' : '$';
     const head = `<tr><th class="sticky-col">Modello</th><th class="yr">Anno</th>` +
       caps.map(c => `<th class="col-num">${esc(capLabel(c))}</th>`).join('') + `</tr>`;
@@ -27,15 +27,15 @@ function renderPrezzi(rows) {
         <div><h2 class="chart-title">Prezzi per taglio di archiviazione</h2>
         <p class="chart-sub">Una riga per modello, una colonna per capacità. Valori in ${sym}; bande di colore per generazione. Celle vuote = taglio non offerto o prezzo non disponibile.</p></div>
         <div class="seg" id="prezzi-cur">
-          <button class="seg-item ${cur === 'eur' ? 'on' : ''}" data-cur="eur">EUR €</button>
-          <button class="seg-item ${cur === 'usd' ? 'on' : ''}" data-cur="usd">USD $</button>
+          <button type="button" class="seg-item ${cur === 'eur' ? 'on' : ''}" data-cur="eur">EUR €</button>
+          <button type="button" class="seg-item ${cur === 'usd' ? 'on' : ''}" data-cur="usd">USD $</button>
         </div>
       </div>
       ${caps.length
         ? `<div class="table-wrap"><table class="matrix"><thead>${head}</thead><tbody>${bodyRows}</tbody></table></div>`
-        : `<div class="stat-empty">Questa categoria non ha tagli di archiviazione, quindi la matrice
-             per capacità non si applica. Le varianti si distinguono per altre caratteristiche
-             (custodia, connettività, dimensione della cassa): i prezzi sono nella tabella della categoria.</div>`}
+        : `<div class="stat-empty">${ambiguous
+          ? 'Più configurazioni condividono la stessa capacità con prezzi diversi (cassa, connettività, rete cellulare). Una matrice con un solo prezzo per taglio le rappresenterebbe male: i prezzi sono nella tabella della categoria.'
+          : 'Questa categoria non ha tagli di archiviazione, quindi la matrice per capacità non si applica. Le varianti si distinguono per altre caratteristiche (custodia, connettività, dimensione della cassa): i prezzi sono nella tabella della categoria.'}</div>`}
     </div>`;
 
     $('#prezzi-cur').addEventListener('click', e => {
@@ -90,9 +90,9 @@ export function viewStat(slug, tab) {
 
       const activeCats = CATS.filter(isAttiva);
       const catSeg = activeCats.map(c =>
-        `<button class="seg-item ${c.slug === slug ? 'on' : ''}" data-slug="${esc(c.slug)}">${CAT_EMOJI[c.slug] || ''} ${esc(c.nome)}</button>`).join('');
+        `<button type="button" class="seg-item ${c.slug === slug ? 'on' : ''}" data-slug="${esc(c.slug)}">${CAT_EMOJI[c.slug] || ''} ${esc(c.nome)}</button>`).join('');
       const tabSeg = tabs.map(t =>
-        `<button class="seg-item ${t.k === tab ? 'on' : ''}" data-tab="${t.k}">${esc(t.n)}</button>`).join('');
+        `<button type="button" class="seg-item ${t.k === tab ? 'on' : ''}" data-tab="${t.k}">${esc(t.n)}</button>`).join('');
 
       app().innerHTML = `
         <div class="section-head"><div class="eyebrow">📊 Statistiche</div><h1>${esc(cat.nome)}</h1></div>

@@ -33,12 +33,12 @@ export function viewCategory(slug) {
       <div class="toolbar">
         <input type="text" class="filter" id="cat-filter" placeholder="Filtra (modello, chip, taglio…)" />
         <span class="grow"></span>
-        <button class="chip-btn" id="cat-compare">Vai al confronto →</button>
+        <button class="chip-btn" id="cat-compare" type="button">Vai al confronto →</button>
         <span class="result-count" id="cat-count"></span>
       </div>
       <div class="table-wrap">
         <table class="grid"><thead><tr>${cols.map(c =>
-          `<th data-key="${c.key}" class="${c.cls}${c.sortable ? '' : ' nosort'}"${c.sortable ? ' role="button" tabindex="0" aria-sort="none"' : ''}>${esc(c.label)}${c.sortable ? ' <span class="arrow" aria-hidden="true">↕</span>' : ''}</th>`).join('')}</tr></thead>
+          `<th data-key="${c.key}" class="${c.cls}${c.sortable ? '' : ' nosort'}"${c.sortable ? ' role="button" tabindex="0" aria-sort="none"' : ''}${c.key === '__cmp' ? ' aria-label="Confronto"' : ''}>${esc(c.label)}${c.sortable ? ' <span class="arrow" aria-hidden="true">↕</span>' : ''}</th>`).join('')}</tr></thead>
           <tbody id="cat-body"></tbody></table>
       </div>`;
 
@@ -101,9 +101,12 @@ export function viewCategory(slug) {
     body.addEventListener('click', e => {
       const cb = e.target.closest('.cmp-check');
       if (cb) {
-        toggleCompare(cb.dataset.slug, cb.dataset.modello);
-        cb.checked = isCompared(cb.dataset.slug, cb.dataset.modello);
         e.stopPropagation();
+        toggleCompare(cb.dataset.slug, cb.dataset.modello);
+        const on = isCompared(cb.dataset.slug, cb.dataset.modello);
+        body.querySelectorAll('.cmp-check').forEach(el => {
+          if (el.dataset.slug === cb.dataset.slug && el.dataset.modello === cb.dataset.modello) el.checked = on;
+        });
         return;
       }
       const tr = e.target.closest('tr');
@@ -113,6 +116,7 @@ export function viewCategory(slug) {
 
     body.addEventListener('keydown', e => {
       if (e.key !== 'Enter') return;
+      if (e.target.closest('input, button, a')) return;
       const tr = e.target.closest('tr[data-modello]');
       if (!tr) return;
       e.preventDefault();

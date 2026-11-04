@@ -5,6 +5,8 @@ import { loader, errorBox } from '../ui.js';
 
 export function viewSearch(q) {
   q = (q || '').trim();
+  const input = document.getElementById('search-input');
+  if (input && document.activeElement !== input) input.value = q;
   loader();
   ensureAllActive().then(() => {
     const ql = q.toLowerCase();
