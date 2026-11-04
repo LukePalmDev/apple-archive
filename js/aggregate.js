@@ -53,11 +53,14 @@ export function capLabel(gb) {
 
 export function statAnni(rows) {
   const m = uniqueModels(rows)
-    .map(u => ({
-      modello: u.modello, r0: u.r0,
-      anni: anniVendita(u.r0.periodo_vendita),
-      present: /presente|oggi|in vendita/i.test(u.r0.periodo_vendita || '')
-    }))
+    .map(u => {
+      const anniVals = u.rows.map(r => anniVendita(r.periodo_vendita)).filter(a => a != null);
+      return {
+        modello: u.modello, r0: u.r0,
+        anni: anniVals.length ? Math.max(...anniVals) : null,
+        present: u.rows.some(r => /presente|oggi|in vendita/i.test(r.periodo_vendita || ''))
+      };
+    })
     .filter(u => u.anni != null)
     .sort((a, b) => commKey(a.r0) - commKey(b.r0));
   if (!m.length) return [];
@@ -70,7 +73,14 @@ export function statAnni(rows) {
 
 export function statSoftware(rows) {
   const m = uniqueModels(rows)
-    .map(u => ({ modello: u.modello, r0: u.r0, anni: anniSupporto(u.r0) }))
+    .map(u => {
+      let best = null, bestAnni = -1;
+      u.rows.forEach(r => {
+        const a = anniSupporto(r);
+        if (a != null && a >= bestAnni) { bestAnni = a; best = r; }
+      });
+      return { modello: u.modello, r0: best || u.r0, anni: best ? bestAnni : null };
+    })
     .filter(u => u.anni != null)
     .sort((a, b) => commKey(a.r0) - commKey(b.r0));
   if (!m.length) return [];
@@ -97,20 +107,25 @@ function rowTint(model, year) {
 export function priceMatrix(rows, cur) {
   const field = cur === 'eur' ? 'prezzo_reale_eur' : 'prezzo_lancio_usd';
   const caps = new Set();
+  let ambiguous = false;
   const models = uniqueModels(rows).map(u => {
     const m = parseMese(u.r0.data_commercializzazione), year = m ? m.y : null;
     const byCap = {};
     u.rows.forEach(r => {
       const gb = capGB(r.archiviazione);
-      if (gb != null) {
-        caps.add(gb);
-        const v = num(r[field]);
-        if (v != null) byCap[gb] = v;
-      }
+      if (gb == null) return;
+      caps.add(gb);
+      const v = num(r[field]);
+      if (v == null) return;
+      /* Wi-Fi e Cellular, o due casse, possono condividere i GB con prezzi diversi:
+         un solo numero per cella sarebbe il prezzo dell'ultima riga, quindi falso. */
+      if (byCap[gb] != null && byCap[gb] !== v) ambiguous = true;
+      else byCap[gb] = v;
     });
     return { modello: u.modello, year, sortK: commKey(u.r0), byCap, tint: rowTint(u.modello, year) };
   }).sort((a, b) => a.sortK - b.sortK);
-  return { caps: [...caps].sort((a, b) => a - b), models };
+  if (ambiguous) return { caps: [], models: [], ambiguous: true };
+  return { caps: [...caps].sort((a, b) => a - b), models, ambiguous: false };
 }
 
 /* ---- Serie storiche dei prezzi iPhone ---- */

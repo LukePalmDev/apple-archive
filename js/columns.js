@@ -22,12 +22,14 @@ export function numCol(key, html, sortVal) {
 }
 
 export function columnsFor(rows) {
-  const headers = Object.keys(rows[0]).filter(h => !h.startsWith('__'));
+  /* Unione delle chiavi: un campo presente solo sui modelli più nuovi
+     deve comparire comunque, non solo se sta sulla prima riga. */
+  const headers = [...new Set(rows.flatMap(r => Object.keys(r)))].filter(h => !h.startsWith('__'));
   const cols = [];
 
   cols.push({
     key: '__cmp', label: '', sortable: false, cls: '',
-    html: r => `<input type="checkbox" class="cmp-check" data-modello="${esc(r.modello)}" data-slug="${esc(r.__slug)}" ${isCompared(r.__slug, r.modello) ? 'checked' : ''} aria-label="Aggiungi al confronto">`
+    html: r => `<input type="checkbox" class="cmp-check" data-modello="${esc(r.modello)}" data-slug="${esc(r.__slug)}" ${isCompared(r.__slug, r.modello) ? 'checked' : ''} aria-label="Aggiungi ${esc(r.modello)} al confronto">`
   });
 
   cols.push(textCol('modello', 'cell-model'));

@@ -22,25 +22,40 @@ function aggregateModel(slug, modello) {
   const aums = rows.map(aumento).filter(v => v != null);
   const range = (arr, fmt) => !arr.length ? '—'
     : (Math.min(...arr) === Math.max(...arr) ? fmt(arr[0]) : fmt(Math.min(...arr)) + ' – ' + fmt(Math.max(...arr)));
-  const annoV = anniVendita(r0.periodo_vendita), annoS = anniSupporto(r0);
+  /* Più configurazioni dello stesso modello: elenca i valori distinti,
+     non solo la prima riga (RAM, cassa, connettività, custodia…). */
+  const list = key => {
+    const vals = [];
+    rows.forEach(r => {
+      if (isNA(r[key])) return;
+      const s = String(r[key]);
+      if (!vals.includes(s)) vals.push(s);
+    });
+    return vals.join(' · ');
+  };
+  const periodo = list('periodo_vendita');
+  const annoV = periodo && !periodo.includes(' · ') ? anniVendita(periodo) : null;
+  const software = list('software');
+  const swRow = rows.find(r => !isNA(r.software) && String(r.software) === software);
+  const annoS = swRow ? anniSupporto(swRow) : null;
 
   return {
     slug, modello, cat: r0.__cat,
     fields: {
       'Categoria': r0.__cat,
-      'Processore': r0.processore,
-      'RAM': r0.ram,
-      'Schermo': r0.schermo,
-      'Batteria': r0.batteria,
-      'Cassa': r0.dimensione_cassa,
-      'Connettività': r0.connettivita,
-      'Archiviazione': rows.map(r => r.archiviazione).filter(Boolean).join(', '),
+      'Processore': list('processore'),
+      'RAM': list('ram'),
+      'Schermo': list('schermo'),
+      'Batteria': list('batteria'),
+      'Cassa': list('dimensione_cassa'),
+      'Connettività': list('connettivita'),
+      'Archiviazione': list('archiviazione'),
       'Presentazione': r0.data_presentazione,
       'Prezzo reale €': range(realPrices, fmtEur),
       'Prezzo $': range(usdPrices, fmtUsd),
       'Aumento medio %': aums.length ? fmtPct(aums.reduce((a, b) => a + b, 0) / aums.length) : '—',
-      'Periodo di vendita': r0.periodo_vendita + (annoV ? ` (~${annoV} ${annoV === 1 ? 'anno' : 'anni'})` : ''),
-      'Software': r0.software + (annoS != null ? ` (${annoS} ${annoS === 1 ? 'anno' : 'anni'} sw)` : '')
+      'Periodo di vendita': periodo + (annoV ? ` (~${annoV} ${annoV === 1 ? 'anno' : 'anni'})` : ''),
+      'Software': software + (annoS != null ? ` (${annoS} ${annoS === 1 ? 'anno' : 'anni'} sw)` : '')
     }
   };
 }
@@ -61,10 +76,10 @@ export function viewCompare() {
     const rowKeys = ROW_KEYS.filter(k => items.some(it => !isNA(it.fields[k])));
 
     app().innerHTML = `
-      <div class="section-head"><div class="eyebrow">⚖️ Confronto</div><h1>${items.length} modelli a confronto</h1></div>
+      <div class="section-head"><div class="eyebrow">⚖️ Confronto</div><h1>${items.length === 1 ? '1 modello a confronto' : items.length + ' modelli a confronto'}</h1></div>
       <div class="cmp-table-wrap"><table class="cmp">
         <thead><tr><th>Caratteristica</th>${items.map(it =>
-          `<th>${esc(it.modello)}<button class="cmp-remove" data-key="${esc(cmpKey(it.slug, it.modello))}" title="Rimuovi">✕</button><div class="muted" style="font-size:12px;font-weight:400">${esc(it.cat)}</div></th>`).join('')}</tr></thead>
+          `<th>${esc(it.modello)}<button class="cmp-remove" type="button" data-key="${esc(cmpKey(it.slug, it.modello))}" aria-label="Rimuovi ${esc(it.modello)}" title="Rimuovi">✕</button><div class="muted" style="font-size:12px;font-weight:400">${esc(it.cat)}</div></th>`).join('')}</tr></thead>
         <tbody>${rowKeys.map(k =>
           `<tr><th>${esc(k)}</th>${items.map(it => `<td>${isNA(it.fields[k]) ? '<span class="cell-na">—</span>' : esc(it.fields[k])}</td>`).join('')}</tr>`).join('')}</tbody>
       </table></div>`;
