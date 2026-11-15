@@ -4,7 +4,8 @@ import { ensureAllActive, isAttiva } from '../data.js';
 import { loader, errorBox } from '../ui.js';
 
 export function viewHome() {
-  loader();
+  // L'h1 è già nel markup: al primo avvio non sostituirlo con lo spinner.
+  if (!app().querySelector('.hero')) loader();
   ensureAllActive().then(() => {
     const totModelli = new Set();
     const totConfig = CATS.reduce((a, c) => a + (DATA[c.slug] ? DATA[c.slug].length : 0), 0);
