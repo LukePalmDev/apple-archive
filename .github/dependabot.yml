@@ -1,0 +1,9 @@
+# The site has no npm or pip manifests. PapaParse is pinned on the CDN
+# with subresource integrity, and tools/validate.py uses the Python stdlib.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
